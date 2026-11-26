@@ -1,0 +1,28 @@
+# 本地原始竞赛材料：未获上传许可
+/01_赛题与原始数据/本地数据/
+*.xlsb
+# 环境与缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.analysis_deps/
+.uv-cache/
+.mplconfig/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+/本地复现输出/
+/本地临时实验/
+Joint_Review_Handover/
+Joint_Review_Handover.zip
+# 凭据
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json

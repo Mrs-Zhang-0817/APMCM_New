@@ -1,0 +1,56 @@
+{
+  "old_path": "01_赛题与原始数据/本地数据/original/Attachment 1. Heat No. 6B03205.xlsb",
+  "old_sha256": "fdaee38eb1aa48b4525a61b15d06fbb33c18457fd7364e32febff4652e0b3fd6",
+  "new_path": "01_赛题与原始数据/本地数据/corrected/附件1.炉号-6B03205.xlsb",
+  "same_headers": false,
+  "old_shape": [
+    1479,
+    2051
+  ],
+  "new_shape": [
+    1479,
+    2051
+  ],
+  "columns": [
+    {
+      "column": 2050,
+      "header": "CO2浓度",
+      "changed_cells": 1479,
+      "first_excel_row": 2,
+      "last_excel_row": 1480,
+      "old_zero_count": 1479,
+      "new_zero_count": 0
+    },
+    {
+      "column": 2051,
+      "header": "CO浓度",
+      "changed_cells": 1384,
+      "first_excel_row": 97,
+      "last_excel_row": 1480,
+      "old_zero_count": 1479,
+      "new_zero_count": 95
+    }
+  ],
+  "header_changes": [
+    {
+      "excel_column": 1,
+      "old": "Sequence",
+      "new": "序列"
+    },
+    {
+      "excel_column": 2049,
+      "old": "Cumulative oxygen consumption",
+      "new": "累积耗氧量"
+    },
+    {
+      "excel_column": 2050,
+      "old": "CO₂ concentration",
+      "new": "CO2浓度"
+    },
+    {
+      "excel_column": 2051,
+      "old": "CO concentration",
+      "new": "CO浓度"
+    }
+  ]
+}

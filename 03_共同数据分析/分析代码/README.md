@@ -1,0 +1,5 @@
+# 历史分析程序复现
+
+Python 3.12，在仓库根目录安装requirements.txt。用pyxlsb读取，不修改源数据。APMCM_DATA_ROOT可指定原始资料根目录，默认01_赛题与原始数据/本地数据，需original和corrected子目录。
+历史执行顺序：python 03_共同数据分析/分析代码/takeover_audit.py，再运行同目录joint_quality_review.py。APMCM_OUTPUT_ROOT默认本地复现输出（Git忽略），禁止指定为已发布成果目录。首个程序生成历史清单、统计与图像；第二个以这些产物复核并生成历史J01-J05文档。历史生成器中的v1文案不是当前标准入口；当前只读02_统一研究规范/统一数据质量标准.md。
+本轮只迁移路径并通过Python语法检查，没有重新执行这些数据计算。部分旧代码保留历史标签/文件名，便于原始结果追溯。Windows绘图缓存可将MPLCONFIGDIR设为本地临时目录。复现须在获分配的任务及当前阶段许可内运行。

@@ -1,0 +1,5 @@
+# 已实际使用的直接依赖；Python 3.12
+numpy==2.5.5
+pyxlsb==1.0.10
+matplotlib==3.11.2
+pymupdf==2.2
