@@ -1,0 +1,139 @@
+{
+  "version": "v01",
+  "review_candidate_frozen": true,
+  "approval_status": "Pending",
+  "real_data_execution_allowed": false,
+  "approved_window_ids": [],
+  "approvals": [],
+  "configuration_change_requires_new_version": true,
+  "source_branch_commit": "7652b32ac0e0f474610d7beb278b9eb2af240354",
+  "simulation_result_sha256": "350589bee7f4b11196add4fd7c8c0000210df0f8aee6a250b1d431e85b498d80",
+  "time": {
+    "coordinate": "0.5*(Sequence-Sequence_first_of_heat)",
+    "step_s": 0.5,
+    "coordinates_changed": false
+  },
+  "source_manifest": "01_赛题与原始数据/数据结构清单.json",
+  "units": {
+    "time": "s",
+    "volume": "m³",
+    "rate": "m³/s"
+  },
+  "approved_action": "none until the two team members approve this version, exact window IDs and permitted action",
+  "task": "B-Q2-REAL-LAG-001",
+  "code_sha256": {
+    "q2_delay.py": "715cc6e6e8e070b062f28a69b7a11d8eef576748816e72d23533d7abf5dd57af"
+  },
+  "evidence": {
+    "path": "05_Q2供氧与烟气研究/研究成果/S01-S07",
+    "sha256": {
+      "局部原值.csv": "46886fcf3dc46347bf2297ba61eef80d64048d925f4dcd1a2aaa7a2f17a717ab",
+      "零值与常量段.csv": "38bbe88ac54a9797c2dba713d27d99820a4cb30be01def51a10bba87b3274673",
+      "描述关系.csv": "66de42e38808921f63843889be2a332baee0cbdb7fbebde380e8a134735e2eb1",
+      "探索滞后曲线.csv": "c1dd16782b2265e66b0be0cc1cdae782b8ac8c77a01c696bb7f24ff7276896bd",
+      "四段供氧.csv": "f11800d964c8dc82b14f2c5198e7120719c96657e6942f8ad0d0dcac4b5be986"
+    }
+  },
+  "windows": [
+    {
+      "id": "LAG-A5-01",
+      "attachment": 5,
+      "heat": "6C02057",
+      "sheet": "6C02057",
+      "source_sha256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "time_s": [
+        97,
+        194
+      ],
+      "sequence": [
+        195,
+        389
+      ],
+      "excel_rows": [
+        196,
+        390
+      ],
+      "points": 195,
+      "context_mean_oxygen_rate_m3_s": 10.896391752577317,
+      "purpose": "existing second oxygen interval; excludes 376 s event; keep both gases"
+    },
+    {
+      "id": "LAG-A8-01",
+      "attachment": 8,
+      "heat": "6C02060",
+      "sheet": "6C02060",
+      "source_sha256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "time_s": [
+        171.5,
+        343
+      ],
+      "sequence": [
+        344,
+        687
+      ],
+      "excel_rows": [
+        345,
+        688
+      ],
+      "points": 344,
+      "context_mean_oxygen_rate_m3_s": 5.12734693877551,
+      "purpose": "existing second interval; outside recorded internal zero windows; keep both gases"
+    }
+  ],
+  "context_only": {
+    "excluded_A5_event_time_s": [
+      375,
+      377
+    ],
+    "A8_zero_segment_time_s": {
+      "CO2": [
+        [
+          2,
+          13
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      "CO": [
+        [
+          2,
+          31.5
+        ],
+        [
+          33,
+          44.5
+        ]
+      ]
+    }
+  },
+  "alignment": {
+    "oxygen": "observed ΔO/0.5 in m³/s, timestamp at later original node; preserve original sequence and pair with gas at that node; reject negative increment or unresolved gaps",
+    "gas": "original rate at matching nodes; no physical clock alignment implied",
+    "sign": "positive k means Corr(q[i],g[i+k])",
+    "primary": "difference",
+    "sensitivity": [
+      "raw",
+      "linear_detrend"
+    ],
+    "historical_reference": "difference of cumulative O (m³ per interval) versus difference of gas rate, older positive-only lag scan with varying overlap; archive comparison only"
+  },
+  "estimator": {
+    "lag_min_s": -20,
+    "lag_max_s": 20,
+    "min_pairs": 40,
+    "min_std_oxygen": 0.08,
+    "min_std_gas": 0.08,
+    "min_effective_excitation": 6,
+    "min_correlation": 0.45,
+    "min_peak_margin": 0.06,
+    "peak_exclusion_s": 1
+  },
+  "reporting": {
+    "units_threshold": "same numerical thresholds for predeclared diagnostics; gas and oxygen feature standard deviation use m³/s for levels/detrended and m³/s change per original sampling step for difference",
+    "status": "report profile, provisional peak, support, score margin, effective excitation and exclusion reason for each diagnostic; if primary sign or lag is not reproduced within 1 s by both diagnostics, label sensitivity disagreement; no physical transport claim even if they agree",
+    "scope": "two windows in different heats; do not fit a delay-flow relation or claim causality",
+    "comparison": "do not choose a method from held-out profiles or integrate this scan with continuous reconstruction before separate approval"
+  }
+}

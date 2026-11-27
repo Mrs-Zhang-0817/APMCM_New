@@ -1,0 +1,120 @@
+{
+  "version": "v01",
+  "review_candidate_frozen": true,
+  "approval_status": "Pending",
+  "real_data_execution_allowed": false,
+  "approved_window_ids": [],
+  "approvals": [],
+  "configuration_change_requires_new_version": true,
+  "source_branch_commit": "7652b32ac0e0f474610d7beb278b9eb2af240354",
+  "simulation_result_sha256": "350589bee7f4b11196add4fd7c8c0000210df0f8aee6a250b1d431e85b498d80",
+  "time": {
+    "coordinate": "0.5*(Sequence-Sequence_first_of_heat)",
+    "step_s": 0.5,
+    "coordinates_changed": false
+  },
+  "source_manifest": "01_赛题与原始数据/数据结构清单.json",
+  "units": {
+    "time": "s",
+    "volume": "m³",
+    "rate": "m³/s"
+  },
+  "approved_action": "none until the two team members approve this version, exact window IDs and permitted action",
+  "task": "B-Q2-REAL-REC-001",
+  "code_sha256": {
+    "q2_continuous.py": "42b36a0508196e429a53263f0c5328313ba94bbed026ad4fdf8564102b39c6cd"
+  },
+  "evidence": {
+    "path": "05_Q2供氧与烟气研究/研究成果/S01-S07",
+    "sha256": {
+      "局部原值.csv": "46886fcf3dc46347bf2297ba61eef80d64048d925f4dcd1a2aaa7a2f17a717ab",
+      "零值与常量段.csv": "38bbe88ac54a9797c2dba713d27d99820a4cb30be01def51a10bba87b3274673",
+      "描述关系.csv": "66de42e38808921f63843889be2a332baee0cbdb7fbebde380e8a134735e2eb1",
+      "探索滞后曲线.csv": "c1dd16782b2265e66b0be0cc1cdae782b8ac8c77a01c696bb7f24ff7276896bd",
+      "四段供氧.csv": "f11800d964c8dc82b14f2c5198e7120719c96657e6942f8ad0d0dcac4b5be986"
+    }
+  },
+  "functions": {
+    "oxygen": "nonnegative C¹ piecewise cubic cumulative; derivative C⁰",
+    "gases": "piecewise linear C⁰ rates; integrated C¹ volumes; initial volume zero",
+    "max_training_node_gap_s": 1,
+    "outside_domain": "reject",
+    "invalid_input": "reject negative or decreasing oxygen, negative gas, missing/nonfinite or off-grid source nodes; no sorting or correction"
+  },
+  "windows": [
+    {
+      "id": "REC-A5-01",
+      "attachment": 5,
+      "heat": "6C02057",
+      "sheet": "6C02057",
+      "source_sha256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "time_s": [
+        372,
+        380
+      ],
+      "sequence": [
+        745,
+        761
+      ],
+      "excel_rows": [
+        746,
+        762
+      ],
+      "points": 17,
+      "purpose": "event pressure test; observed-value comparison only",
+      "candidate_mask_times_s": [
+        373.5,
+        375.5,
+        376,
+        377
+      ]
+    },
+    {
+      "id": "REC-A8-01",
+      "attachment": 8,
+      "heat": "6C02060",
+      "sheet": "6C02060",
+      "source_sha256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "time_s": [
+        0,
+        46
+      ],
+      "sequence": [
+        1,
+        93
+      ],
+      "excel_rows": [
+        2,
+        94
+      ],
+      "points": 93,
+      "purpose": "internal zero and boundary pressure test; observed-value comparison only",
+      "candidate_mask_times_s": [
+        1.5,
+        2,
+        10,
+        13.5,
+        19,
+        20.5,
+        31.5,
+        32,
+        44.5,
+        45
+      ]
+    }
+  ],
+  "evaluation": {
+    "reference_level": "none approved; holdout error is toward recorded samples only",
+    "mask_rule": "one predetermined interior point at a time in each variable, on an independent copy; endpoints stay in support; an observed zero can be masked only as a zero-reference stress case with separate reporting",
+    "outputs": [
+      "requested and evaluated points by window and variable",
+      "MAE/RMSE in recorded units",
+      "excluded or unsupported counts and reasons",
+      "conservation against observed cumulative endpoints and sum of local integrals",
+      "unmasked node agreement"
+    ],
+    "numerical_invariants_abs_tolerance": 1e-8,
+    "accuracy_threshold": "report exploratory errors only; no physical accuracy pass criterion approved",
+    "reuse": "compare gas cumulative over the selected window with same-window trapezoid; historical full-window values only for context"
+  }
+}
