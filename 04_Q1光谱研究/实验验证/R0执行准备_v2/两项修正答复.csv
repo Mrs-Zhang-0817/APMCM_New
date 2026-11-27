@@ -1,0 +1,3 @@
+编号,审核意见来源,待修正事项,实际实现,实际验证,当前状态,对方复验状态
+R0-DELTA-01,用户提供Q2实际入口复测截图；原始目录待同步,冻结采样与覆盖汇总入口并保留未恢复请求分母,code/r0_runner.py的sample_two及run_arrays和evaluate/summarize,复现嵌套采样及两序共掩码；部分/全部未恢复；请求加权覆盖测试通过,已实现且合成支持不宣称对方关闭,Pending
+R0-DELTA-02,用户提供Q2实际入口复测截图；原始目录待同步,两名队员批准绑定实际运行配置清单和代码,独立approval_blank.json引用parameters/references/code_manifest规范摘要；real入口先检查批准和代码再读取原值再验证窗口绑定最后采样,配置清单代码变化旧记录失效；缺批准及超范围拒绝；Pending入口不读源不采样,已实现且合成支持无真实批准,Pending

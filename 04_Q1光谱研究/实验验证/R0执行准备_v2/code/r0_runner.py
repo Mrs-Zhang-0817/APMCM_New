@@ -8,6 +8,13 @@ import r0_preparation as r0
 ACTION = 'R0_conditional_point_pilot'
 
 
+def runtime_fingerprint():
+    import pyxlsb
+    return dict(python=platform.python_version(), numpy=np.__version__, pyxlsb=pyxlsb.__version__,
+                direct_package_entry_sha256={
+                    'numpy':r0.sha256(np.__file__), 'pyxlsb':r0.sha256(pyxlsb.__file__)})
+
+
 def contract(config, references, codes):
     return dict(config_sha256=r0.digest(config), references_sha256=r0.digest(references),
                 code_manifest_sha256=r0.digest(codes))
@@ -47,7 +54,7 @@ def checked_code_manifest(codes):
         if r0.sha256(folder/name) != expected:
             raise PermissionError('code bytes changed: '+name)
     versions = codes['runtime']
-    if versions != dict(python=platform.python_version(), numpy=np.__version__):
+    if versions != runtime_fingerprint():
         raise PermissionError('runtime version differs from frozen manifest')
 
 
@@ -95,6 +102,7 @@ def evaluate(estimate, reference, requested, t, w, info):
                 p95=float(np.quantile(errors,.95)) if done else None,
                 max=float(errors.max()) if done else None,
                 estimated_support_count=sum(d['used_estimated_support'] is True for d in details),
+                estimated_support_fraction=sum(d['used_estimated_support'] is True for d in details)/done if done else None,
                 points=details)
 
 

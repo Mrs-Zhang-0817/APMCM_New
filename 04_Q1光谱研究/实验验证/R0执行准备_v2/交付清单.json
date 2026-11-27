@@ -1,0 +1,18 @@
+{
+  "task": "A-Q1-R0-REV-005",
+  "files": {
+    "approval_blank.json": "0f9ea0d796827b9050d8fb8f17247ea6ee1b143e24b897ab57cc936a100b164e",
+    "checks_and_contract.json": "184de155d7475b909b4a254ac72dd3b414264ebf29fac3b37c854b37585009a6",
+    "code/r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+    "code/r0_runner.py": "3cc1922845d327a63ba00b20ce34eccfc7c8d84fa00a17b3ececc1a65cb5d34e",
+    "code/test_runner.py": "bdcbd654aadee86f5a96df2edcca4aa7956ad754af4fd0d48144b88dc4817998",
+    "code_manifest.json": "d9b764ea916c3ecba41110762fe84bc5dbce9235ed7aa3d6b4e7178b3ec2b9e2",
+    "parameters.json": "381189aa3709f9667ffe899568d0d64316fbd33194087b16d101823732a08d57",
+    "references.json": "d2c57235f95436d7da5d6469777b6b93a049fb6f4828871d126eab0146fdd2fe",
+    "synthetic_checks.txt": "7d0c87ef3d1307fd72d4a85896b08e5df5a7f0ee13149eeb3e8313c5e140dac7",
+    "两项修正答复.csv": "3fefb7c2b46ff5674239768bc379f8c00a8f974d5efd258d119953c6ff56061c",
+    "执行包说明与差异答复.txt": "189c0222c8b5f14f2f3ce4802e75fd61bbf9495f3bc232262d8f1fbb8e818da1"
+  },
+  "excludes_self": true,
+  "status": "Pending"
+}

@@ -1,0 +1,17 @@
+{
+  "task": "A-Q1-R0-REV-005",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "contract": {
+    "config_sha256": "4987eab046a9185355cf83c7d57d62be4bfcc5894b46a183e7264c1b0d613232",
+    "references_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_manifest_sha256": "ff0c17156f5149f9d64ee3c89cfd4fd8dcb275e1a46b97a0c100b0cfd2b144d0"
+  },
+  "real_inputs_loaded": false,
+  "real_masks_generated": false,
+  "real_reconstruction_executed": false,
+  "raw_workbooks_read": false,
+  "approval_status": "Pending",
+  "test_code_sha256": "bdcbd654aadee86f5a96df2edcca4aa7956ad754af4fd0d48144b88dc4817998"
+}

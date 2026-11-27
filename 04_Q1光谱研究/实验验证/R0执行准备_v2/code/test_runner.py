@@ -97,7 +97,7 @@ class DeltaTests(unittest.TestCase):
         import platform
         folder=Path(runner.__file__).parent
         codes=dict(files={n:r0.sha256(folder/n) for n in ('r0_runner.py','r0_preparation.py')},
-                   runtime=dict(python=platform.python_version(),numpy=np.__version__))
+                   runtime=runner.runtime_fingerprint())
         runner.checked_code_manifest(codes)
         codes['files']['r0_preparation.py']='CHANGED-FIXTURE-HASH'
         with self.assertRaises(PermissionError):runner.checked_code_manifest(codes)
