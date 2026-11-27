@@ -1,0 +1,23 @@
+﻿Stratum,Value,Regions,All_Region_Denominator,Percent,With_Saturation,With_Prior_Candidates,Status
+Class,A_稳定背景,10,70,14.285714285714286,0,9,Pending Review; overlapping regions not independent
+Class,B_持续尖锐候选峰,10,70,14.285714285714286,1,0,Pending Review; overlapping regions not independent
+Class,C_较宽高强度波段,10,70,14.285714285714286,2,0,Pending Review; overlapping regions not independent
+Class,D_快速变化,10,70,14.285714285714286,5,0,Pending Review; overlapping regions not independent
+Class,E_高值未达上限,10,70,14.285714285714286,8,0,Pending Review; overlapping regions not independent
+Class,F_时间较平缓,10,70,14.285714285714286,1,3,Pending Review; overlapping regions not independent
+Class,G_边缘区域,10,70,14.285714285714286,0,2,Pending Review; overlapping regions not independent
+Grid,A,28,70,40.0,2,6,Pending Review; overlapping regions not independent
+Grid,B,42,70,60.0,15,8,Pending Review; overlapping regions not independent
+Heat_ID,6B03205,7,70,10.0,0,1,Pending Review; overlapping regions not independent
+Heat_ID,6B03206,7,70,10.0,1,1,Pending Review; overlapping regions not independent
+Heat_ID,6B03270,7,70,10.0,0,3,Pending Review; overlapping regions not independent
+Heat_ID,6B03271,7,70,10.0,1,1,Pending Review; overlapping regions not independent
+Heat_ID,6C02057,7,70,10.0,2,2,Pending Review; overlapping regions not independent
+Heat_ID,6C02058,7,70,10.0,2,1,Pending Review; overlapping regions not independent
+Heat_ID,6C02059,7,70,10.0,2,2,Pending Review; overlapping regions not independent
+Heat_ID,6C02060,7,70,10.0,3,2,Pending Review; overlapping regions not independent
+Heat_ID,6C02107,7,70,10.0,3,0,Pending Review; overlapping regions not independent
+Heat_ID,6C02108,7,70,10.0,3,1,Pending Review; overlapping regions not independent
+Stage,early,16,70,22.857142857142858,2,11,Pending Review; overlapping regions not independent
+Stage,late,27,70,38.57142857142857,9,1,Pending Review; overlapping regions not independent
+Stage,middle,27,70,38.57142857142857,6,2,Pending Review; overlapping regions not independent

@@ -1,0 +1,11 @@
+﻿Method,Principle,Difficulty,Cost,Applicable,Peak_Preservation,Risk,Metrics,Priority,Implementation,Status
+D0,全局median/MAD,低,O(N),孤立极值弱基准,低,全局背景差异误报,P/R/F1/FPR及峰区触发,P1,已实现，仅模拟,Pending
+D1,分方向稳健OR,中,O(Nw),孤立及方向异常,中,窄峰误判、块内部漏检,同上+方向分数,P1,已实现，仅模拟,Pending
+D2,分方向AND同号,中,O(Nw),双方向局部孤立,中,连续块漏检、瞬时真峰误判,同上+块召回,P1,已实现，仅模拟,Pending
+D3,低秩稀疏,高,多次SVD,稀疏异常,待证,窄谱线/工况近低秩假设不成立,峰形+跨炉,P3,未实现,Pending
+R0,原坐标双线性连续面,低,补点O(N),普通缺失对照,有限,峰高压低、边界无支持,MAE/RMSE、峰位/面积,P1,已实现，仅模拟,Pending
+R1,分轴组合PCHIP,中,约O(N)预构造；查询依轴长,小范围普通缺失,待证,组合顺序、二维光滑性,峰保真和边界,P2,未实现,Pending
+R2,张量样条,高,依稀疏求解；密集O(K³),较连续面,待证,过冲/平滑,遮蔽与峰反例,P3,未实现,Pending
+C0,保留受限观测,低,O(N),截断,不估峰顶,信息不完整,标签一致性,P1,已保留策略,Pending
+C1,普通插值对照,低,O(N),模拟削顶对照,低,违反下界,截断区误差/违反率,P1,已实现，仅模拟,Pending
+C2,曲率正则与下界投影,中,O(iter*N),候选截断,依先验,不可辨识、正则偏差,峰高、肩部、下界,P2,已实现原型，仅模拟,Pending

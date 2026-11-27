@@ -1,0 +1,12 @@
+{
+  "real_raw_audit_records": 137,
+  "candidate_reference_regions": 70,
+  "reference_status": "Pending Review",
+  "functional_tests": 61,
+  "all_tests_pass": true,
+  "formal_real_validation": false,
+  "original_S_round_files_preserved": true,
+  "main_and_q2_unchanged": true,
+  "public_push": false,
+  "selected_review_images": 12
+}

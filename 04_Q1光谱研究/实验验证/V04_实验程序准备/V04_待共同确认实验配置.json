@@ -1,0 +1,112 @@
+{
+  "status": "Pending",
+  "frozen": false,
+  "reference_file": "../V02_可信参考区/V02_候选参考区域登记表.csv",
+  "reference_status_required": "both teammates approved; currently none",
+  "seed": 20261127,
+  "injection": {
+    "types": [
+      "high",
+      "low",
+      "time",
+      "wavelength",
+      "block"
+    ],
+    "fractions": [
+      0.0001,
+      0.0005,
+      0.001
+    ],
+    "amplitudes_local_scale": [
+      5,
+      10,
+      20
+    ],
+    "sizes": [
+      [
+        3,
+        3
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        21,
+        15
+      ]
+    ],
+    "nonoverlap": true
+  },
+  "masking": {
+    "types": [
+      "points",
+      "time",
+      "wavelength",
+      "block",
+      "peak"
+    ],
+    "same_fractions": true,
+    "boundary_stratum": true
+  },
+  "clipping": {
+    "severity_quantiles": [
+      0.8,
+      0.9,
+      0.95
+    ],
+    "shapes": [
+      "single",
+      "narrow",
+      "wide",
+      "platform"
+    ]
+  },
+  "candidate_models": [
+    "D0",
+    "D1",
+    "D2",
+    "R0",
+    "R1_pending_implementation",
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "search": {
+    "threshold": [
+      6,
+      12,
+      20
+    ],
+    "epsilon_original_units": [
+      1,
+      5
+    ],
+    "time_radius_nodes": [
+      2,
+      4
+    ],
+    "wave_radius_nodes": [
+      2,
+      4
+    ],
+    "alpha": [
+      0.01,
+      0.1,
+      1
+    ],
+    "beta": [
+      0.01,
+      0.1,
+      1
+    ],
+    "C2_iterations": [
+      200,
+      1000
+    ]
+  },
+  "split": "proposed LOHO with inner validation heat; not approved",
+  "selection": "train/internal validation only; prioritize peak preservation and coverage with accuracy; no single F1 ranking",
+  "failure": "report NaN/unsupported coverage/nonconvergence; no silent removal or test retuning",
+  "real_validation_allowed": false
+}

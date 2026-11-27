@@ -1,0 +1,3146 @@
+{
+  "seed": 20261127,
+  "shape": [
+    48,
+    96
+  ],
+  "scope": "独立人工二维谱；功能验证，非真实数据性能",
+  "checks": [
+    {
+      "Check": "injection_high",
+      "Passed": true
+    },
+    {
+      "Check": "seed_high",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_high_D0",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_high_D1",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_high_D2",
+      "Passed": true
+    },
+    {
+      "Check": "immutable_high",
+      "Passed": true
+    },
+    {
+      "Check": "injection_low",
+      "Passed": true
+    },
+    {
+      "Check": "seed_low",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_low_D0",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_low_D1",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_low_D2",
+      "Passed": true
+    },
+    {
+      "Check": "immutable_low",
+      "Passed": true
+    },
+    {
+      "Check": "injection_time",
+      "Passed": true
+    },
+    {
+      "Check": "seed_time",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_time_D0",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_time_D1",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_time_D2",
+      "Passed": true
+    },
+    {
+      "Check": "immutable_time",
+      "Passed": true
+    },
+    {
+      "Check": "injection_wavelength",
+      "Passed": true
+    },
+    {
+      "Check": "seed_wavelength",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_wavelength_D0",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_wavelength_D1",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_wavelength_D2",
+      "Passed": true
+    },
+    {
+      "Check": "immutable_wavelength",
+      "Passed": true
+    },
+    {
+      "Check": "injection_block",
+      "Passed": true
+    },
+    {
+      "Check": "seed_block",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_block_D0",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_block_D1",
+      "Passed": true
+    },
+    {
+      "Check": "dimension_block_D2",
+      "Passed": true
+    },
+    {
+      "Check": "immutable_block",
+      "Passed": true
+    },
+    {
+      "Check": "known_confusion",
+      "Passed": true
+    },
+    {
+      "Check": "undefined_precision",
+      "Passed": true
+    },
+    {
+      "Check": "protected_peak_denominator",
+      "Passed": true
+    },
+    {
+      "Check": "hidden_points",
+      "Passed": true
+    },
+    {
+      "Check": "preserved_points",
+      "Passed": true
+    },
+    {
+      "Check": "hidden_time",
+      "Passed": true
+    },
+    {
+      "Check": "preserved_time",
+      "Passed": true
+    },
+    {
+      "Check": "hidden_wavelength",
+      "Passed": true
+    },
+    {
+      "Check": "preserved_wavelength",
+      "Passed": true
+    },
+    {
+      "Check": "hidden_block",
+      "Passed": true
+    },
+    {
+      "Check": "preserved_block",
+      "Passed": true
+    },
+    {
+      "Check": "hidden_peak",
+      "Passed": true
+    },
+    {
+      "Check": "preserved_peak",
+      "Passed": true
+    },
+    {
+      "Check": "off_grid_plane_exact",
+      "Passed": true
+    },
+    {
+      "Check": "nodes_exact",
+      "Passed": true
+    },
+    {
+      "Check": "no_extrapolation",
+      "Passed": true
+    },
+    {
+      "Check": "known_reconstruction_metric",
+      "Passed": true
+    },
+    {
+      "Check": "unsupported_gap_reported",
+      "Passed": true
+    },
+    {
+      "Check": "clipping_0.6",
+      "Passed": true
+    },
+    {
+      "Check": "lower_bound_0.6",
+      "Passed": true
+    },
+    {
+      "Check": "clipping_0.8",
+      "Passed": true
+    },
+    {
+      "Check": "lower_bound_0.8",
+      "Passed": true
+    },
+    {
+      "Check": "clipping_0.95",
+      "Passed": true
+    },
+    {
+      "Check": "lower_bound_0.95",
+      "Passed": true
+    },
+    {
+      "Check": "clipping_severity",
+      "Passed": true
+    },
+    {
+      "Check": "clip_shape_narrow",
+      "Passed": true
+    },
+    {
+      "Check": "clip_shape_wide",
+      "Passed": true
+    },
+    {
+      "Check": "single_point_clipping",
+      "Passed": true
+    },
+    {
+      "Check": "loho_isolation",
+      "Passed": true
+    },
+    {
+      "Check": "reference_never_changed",
+      "Passed": true
+    },
+    {
+      "Check": "pending_real_data_blocked",
+      "Passed": true
+    }
+  ],
+  "synthetic_metrics": [
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "high",
+      "Model": "D0",
+      "Input_SHA256": "28e1b72b273e7f813c16874b93cc5b7de44de8a7049fe70fa3c5f43c4bc55e94",
+      "Metrics": {
+        "TP": 10,
+        "FP": 0,
+        "FN": 36,
+        "TN": 4562,
+        "Precision": 1.0,
+        "Recall": 0.21739130434782608,
+        "F1": 0.35714285714285715,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "high",
+      "Model": "D1",
+      "Input_SHA256": "28e1b72b273e7f813c16874b93cc5b7de44de8a7049fe70fa3c5f43c4bc55e94",
+      "Metrics": {
+        "TP": 46,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4562,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "high",
+      "Model": "D2",
+      "Input_SHA256": "28e1b72b273e7f813c16874b93cc5b7de44de8a7049fe70fa3c5f43c4bc55e94",
+      "Metrics": {
+        "TP": 45,
+        "FP": 0,
+        "FN": 1,
+        "TN": 4562,
+        "Precision": 1.0,
+        "Recall": 0.9782608695652174,
+        "F1": 0.989010989010989,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "low",
+      "Model": "D0",
+      "Input_SHA256": "8ec88209b1612428ad9bef817d7964252dcc41fb46be750aedcc4ccc81a0a379",
+      "Metrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 46,
+        "TN": 4562,
+        "Precision": null,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "low",
+      "Model": "D1",
+      "Input_SHA256": "8ec88209b1612428ad9bef817d7964252dcc41fb46be750aedcc4ccc81a0a379",
+      "Metrics": {
+        "TP": 46,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4562,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "low",
+      "Model": "D2",
+      "Input_SHA256": "8ec88209b1612428ad9bef817d7964252dcc41fb46be750aedcc4ccc81a0a379",
+      "Metrics": {
+        "TP": 45,
+        "FP": 0,
+        "FN": 1,
+        "TN": 4562,
+        "Precision": 1.0,
+        "Recall": 0.9782608695652174,
+        "F1": 0.989010989010989,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "time",
+      "Model": "D0",
+      "Input_SHA256": "a02272e9187abb75da4fc7212948fa8240dcf7702942b7c274d26ee48973fa0b",
+      "Metrics": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4605,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "time",
+      "Model": "D1",
+      "Input_SHA256": "a02272e9187abb75da4fc7212948fa8240dcf7702942b7c274d26ee48973fa0b",
+      "Metrics": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4605,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "time",
+      "Model": "D2",
+      "Input_SHA256": "a02272e9187abb75da4fc7212948fa8240dcf7702942b7c274d26ee48973fa0b",
+      "Metrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 3,
+        "TN": 4605,
+        "Precision": null,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "wavelength",
+      "Model": "D0",
+      "Input_SHA256": "78e6a6b5fad2eb7a2bf891c2bdb18d8b0014c4a6a0006d54598069fcbce99e0f",
+      "Metrics": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 3,
+        "TN": 4603,
+        "Precision": 1.0,
+        "Recall": 0.4,
+        "F1": 0.5714285714285714,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "wavelength",
+      "Model": "D1",
+      "Input_SHA256": "78e6a6b5fad2eb7a2bf891c2bdb18d8b0014c4a6a0006d54598069fcbce99e0f",
+      "Metrics": {
+        "TP": 5,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4603,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "wavelength",
+      "Model": "D2",
+      "Input_SHA256": "78e6a6b5fad2eb7a2bf891c2bdb18d8b0014c4a6a0006d54598069fcbce99e0f",
+      "Metrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 5,
+        "TN": 4603,
+        "Precision": null,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "block",
+      "Model": "D0",
+      "Input_SHA256": "12ab8666218d3336ddc17fc55238cf3c0b5808f596bf3b8014e02a418c1d575a",
+      "Metrics": {
+        "TP": 6,
+        "FP": 0,
+        "FN": 9,
+        "TN": 4593,
+        "Precision": 1.0,
+        "Recall": 0.4,
+        "F1": 0.5714285714285714,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "block",
+      "Model": "D1",
+      "Input_SHA256": "12ab8666218d3336ddc17fc55238cf3c0b5808f596bf3b8014e02a418c1d575a",
+      "Metrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 15,
+        "TN": 4593,
+        "Precision": null,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "detection",
+      "Scenario": "block",
+      "Model": "D2",
+      "Input_SHA256": "12ab8666218d3336ddc17fc55238cf3c0b5808f596bf3b8014e02a418c1d575a",
+      "Metrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 15,
+        "TN": 4593,
+        "Precision": null,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "FPR": 0.0,
+        "Protected_Peak_Flag_Rate": null
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "reconstruction",
+      "Scenario": "points",
+      "Model": "R0",
+      "Metrics": {
+        "Requested_Points": 46,
+        "Evaluated_Points": 46,
+        "Coverage": 1.0,
+        "MAE": 0.0015525270247661546,
+        "RMSE": 0.003161911662156785,
+        "Peak_Height_MAE": 0.0,
+        "Peak_Position_MAE_nm": 0.0,
+        "Peak_Area_MAE": 0.001088731662739357,
+        "Shape_Gradient_RMSE_lambda": 0.007379348322751534
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "reconstruction",
+      "Scenario": "time",
+      "Model": "R0",
+      "Metrics": {
+        "Requested_Points": 3,
+        "Evaluated_Points": 3,
+        "Coverage": 1.0,
+        "MAE": 0.0656145611903393,
+        "RMSE": 0.06628925668905268,
+        "Peak_Height_MAE": 0.0,
+        "Peak_Position_MAE_nm": 0.0,
+        "Peak_Area_MAE": 0.027616106749822695,
+        "Shape_Gradient_RMSE_lambda": 0.15750017652244983
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "reconstruction",
+      "Scenario": "wavelength",
+      "Model": "R0",
+      "Metrics": {
+        "Requested_Points": 5,
+        "Evaluated_Points": 5,
+        "Coverage": 1.0,
+        "MAE": 0.012780766018896373,
+        "RMSE": 0.01573575112912408,
+        "Peak_Height_MAE": 0.028063528894733736,
+        "Peak_Position_MAE_nm": 0.0,
+        "Peak_Area_MAE": 0.0268829228245977,
+        "Shape_Gradient_RMSE_lambda": 0.025744623688365924
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "reconstruction",
+      "Scenario": "block",
+      "Model": "R0",
+      "Metrics": {
+        "Requested_Points": 15,
+        "Evaluated_Points": 15,
+        "Coverage": 1.0,
+        "MAE": 0.04673860611577822,
+        "RMSE": 0.05813655202143281,
+        "Peak_Height_MAE": 0.10262688647069969,
+        "Peak_Position_MAE_nm": 0.0,
+        "Peak_Area_MAE": 0.09830947059659441,
+        "Shape_Gradient_RMSE_lambda": 0.09511485292627102
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "reconstruction",
+      "Scenario": "peak",
+      "Model": "R0",
+      "Metrics": {
+        "Requested_Points": 5,
+        "Evaluated_Points": 5,
+        "Coverage": 1.0,
+        "MAE": 0.012981034986149354,
+        "RMSE": 0.015776138898821193,
+        "Peak_Height_MAE": 0.028063528894733736,
+        "Peak_Position_MAE_nm": 0.0,
+        "Peak_Area_MAE": 0.027298335057821532,
+        "Shape_Gradient_RMSE_lambda": 0.025303809737854562
+      }
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.6",
+      "Model": "C2",
+      "Metrics": {
+        "Requested_Points": 1843,
+        "Evaluated_Points": 1843,
+        "Coverage": 1.0,
+        "MAE": 4.237131880587196,
+        "RMSE": 5.5837154334745,
+        "Peak_Height_MAE": 15.149944346347167,
+        "Peak_Position_MAE_nm": 2.7605828966610737,
+        "Peak_Area_MAE": 68.48293283623748,
+        "Shape_Gradient_RMSE_lambda": 6.1433722643813296
+      },
+      "Shoulder_MAE": 0.06446556810572814,
+      "Lower_Bound_Violations": 0
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.8",
+      "Model": "C2",
+      "Metrics": {
+        "Requested_Points": 922,
+        "Evaluated_Points": 922,
+        "Coverage": 1.0,
+        "MAE": 3.751484527539267,
+        "RMSE": 4.716673922615704,
+        "Peak_Height_MAE": 11.683944186902819,
+        "Peak_Position_MAE_nm": 5.914295706511126,
+        "Peak_Area_MAE": 28.531316521467517,
+        "Shape_Gradient_RMSE_lambda": 7.71210760818345
+      },
+      "Shoulder_MAE": 0.11930828325856695,
+      "Lower_Bound_Violations": 0
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.95",
+      "Model": "C2",
+      "Metrics": {
+        "Requested_Points": 231,
+        "Evaluated_Points": 231,
+        "Coverage": 1.0,
+        "MAE": 2.1325864261959357,
+        "RMSE": 3.3567931582123247,
+        "Peak_Height_MAE": 6.509234935254251,
+        "Peak_Position_MAE_nm": 7.814056250022939,
+        "Peak_Area_MAE": 2.0831277192013595,
+        "Shape_Gradient_RMSE_lambda": 11.260516523627539
+      },
+      "Shoulder_MAE": 0.22810456699426032,
+      "Lower_Bound_Violations": 0
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.6",
+      "Model": "C1_interpolation_control",
+      "Metrics": {
+        "Requested_Points": 1843,
+        "Evaluated_Points": 991,
+        "Coverage": 0.5377102550189907,
+        "MAE": 5.925524867708412,
+        "RMSE": 7.102881824626042,
+        "Peak_Height_MAE": 16.808468525618647,
+        "Peak_Position_MAE_nm": 12.202196852091951,
+        "Peak_Area_MAE": 74.65512341930273,
+        "Shape_Gradient_RMSE_lambda": 8.341716210601485
+      },
+      "Lower_Bound_Violations": 991
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.8",
+      "Model": "C1_interpolation_control",
+      "Metrics": {
+        "Requested_Points": 922,
+        "Evaluated_Points": 922,
+        "Coverage": 1.0,
+        "MAE": 4.207653234184851,
+        "RMSE": 5.190480957984,
+        "Peak_Height_MAE": 12.172700215188192,
+        "Peak_Position_MAE_nm": 10.175147966363012,
+        "Peak_Area_MAE": 34.45278229710638,
+        "Shape_Gradient_RMSE_lambda": 8.36931360547442
+      },
+      "Lower_Bound_Violations": 922
+    },
+    {
+      "Synthetic_Only": true,
+      "Task": "clipping",
+      "Scenario": "0.95",
+      "Model": "C1_interpolation_control",
+      "Metrics": {
+        "Requested_Points": 231,
+        "Evaluated_Points": 231,
+        "Coverage": 1.0,
+        "MAE": 3.5348312075819597,
+        "RMSE": 5.103344975286738,
+        "Peak_Height_MAE": 6.958473345827258,
+        "Peak_Position_MAE_nm": 7.735122727518554,
+        "Peak_Area_MAE": 7.194688257293568,
+        "Shape_Gradient_RMSE_lambda": 12.81235944588684
+      },
+      "Lower_Bound_Violations": 231
+    }
+  ],
+  "timings": [
+    {
+      "Operation": "D0",
+      "Shape": "(48, 96)",
+      "Seconds": 0.014596499997423962
+    },
+    {
+      "Operation": "D1",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06406560000323225
+    },
+    {
+      "Operation": "D2",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06661899999016896
+    },
+    {
+      "Operation": "D0",
+      "Shape": "(48, 96)",
+      "Seconds": 0.00022980000358074903
+    },
+    {
+      "Operation": "D1",
+      "Shape": "(48, 96)",
+      "Seconds": 0.05594389999168925
+    },
+    {
+      "Operation": "D2",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06597100000362843
+    },
+    {
+      "Operation": "D0",
+      "Shape": "(48, 96)",
+      "Seconds": 0.00034130000858567655
+    },
+    {
+      "Operation": "D1",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06305860000429675
+    },
+    {
+      "Operation": "D2",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06587770000624005
+    },
+    {
+      "Operation": "D0",
+      "Shape": "(48, 96)",
+      "Seconds": 0.00025460000324528664
+    },
+    {
+      "Operation": "D1",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06854229999589734
+    },
+    {
+      "Operation": "D2",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06487889999698382
+    },
+    {
+      "Operation": "D0",
+      "Shape": "(48, 96)",
+      "Seconds": 0.0003003000019816682
+    },
+    {
+      "Operation": "D1",
+      "Shape": "(48, 96)",
+      "Seconds": 0.0622906999924453
+    },
+    {
+      "Operation": "D2",
+      "Shape": "(48, 96)",
+      "Seconds": 0.060993200007942505
+    },
+    {
+      "Operation": "R0_points",
+      "Shape": "(48, 96)",
+      "Seconds": 0.001947999990079552
+    },
+    {
+      "Operation": "R0_time",
+      "Shape": "(48, 96)",
+      "Seconds": 0.0018341999966651201
+    },
+    {
+      "Operation": "R0_wavelength",
+      "Shape": "(48, 96)",
+      "Seconds": 0.0015922000020509586
+    },
+    {
+      "Operation": "R0_block",
+      "Shape": "(48, 96)",
+      "Seconds": 0.001614799999515526
+    },
+    {
+      "Operation": "R0_peak",
+      "Shape": "(48, 96)",
+      "Seconds": 0.001668299999437295
+    },
+    {
+      "Operation": "C2_200_iterations",
+      "Shape": "(48, 96)",
+      "Seconds": 0.022848299995530397
+    },
+    {
+      "Operation": "C2_200_iterations",
+      "Shape": "(48, 96)",
+      "Seconds": 0.025789799998165108
+    },
+    {
+      "Operation": "C2_200_iterations",
+      "Shape": "(48, 96)",
+      "Seconds": 0.021246499993139878
+    },
+    {
+      "Operation": "D2_benchmark",
+      "Shape": "(48, 96)",
+      "Seconds": 0.06020900000294205
+    },
+    {
+      "Operation": "R0_benchmark",
+      "Shape": "(48, 96)",
+      "Seconds": 0.0015595000004395843
+    },
+    {
+      "Operation": "C2_benchmark",
+      "Shape": "(48, 96)",
+      "Seconds": 0.021948900001007132
+    },
+    {
+      "Operation": "D2_benchmark",
+      "Shape": "(96, 192)",
+      "Seconds": 0.1252027000009548
+    },
+    {
+      "Operation": "R0_benchmark",
+      "Shape": "(96, 192)",
+      "Seconds": 0.0042310999997425824
+    },
+    {
+      "Operation": "C2_benchmark",
+      "Shape": "(96, 192)",
+      "Seconds": 0.06603809999069199
+    }
+  ],
+  "folds": [
+    {
+      "test": [
+        "sim0"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim1"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim2"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim3"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim4"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim5",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim5"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim6",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim6"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim7",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim7",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim7"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim8"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim8"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim8"
+      ],
+      "validation": [
+        "sim9"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7"
+      ],
+      "parameter_select_allowed": [
+        "sim9"
+      ],
+      "test_labels_for_selection": false
+    },
+    {
+      "test": [
+        "sim9"
+      ],
+      "validation": [
+        "sim8"
+      ],
+      "train": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7"
+      ],
+      "train_grid_groups": [
+        "A",
+        "B"
+      ],
+      "parameter_fit_allowed": [
+        "sim0",
+        "sim1",
+        "sim2",
+        "sim3",
+        "sim4",
+        "sim5",
+        "sim6",
+        "sim7"
+      ],
+      "parameter_select_allowed": [
+        "sim8"
+      ],
+      "test_labels_for_selection": false
+    }
+  ],
+  "injection_records": [
+    {
+      "Row": 4,
+      "Column": 11,
+      "Reference": 10.803622703043587,
+      "Observed": 30.803622703043587,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 5,
+      "Column": 66,
+      "Reference": 24.26957625946263,
+      "Observed": 44.26957625946263,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 5,
+      "Column": 74,
+      "Reference": 16.166648985385727,
+      "Observed": 36.16664898538573,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 6,
+      "Column": 26,
+      "Reference": 11.795349235547883,
+      "Observed": 31.79534923554788,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 6,
+      "Column": 86,
+      "Reference": 14.126662918858454,
+      "Observed": 34.12666291885846,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 7,
+      "Column": 30,
+      "Reference": 12.668698984029287,
+      "Observed": 32.66869898402929,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 7,
+      "Column": 59,
+      "Reference": 23.908041441938064,
+      "Observed": 43.90804144193807,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 8,
+      "Column": 13,
+      "Reference": 11.23346378796835,
+      "Observed": 31.23346378796835,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 9,
+      "Column": 65,
+      "Reference": 25.152386827397265,
+      "Observed": 45.152386827397265,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 2,
+      "Reference": 11.36790962111684,
+      "Observed": 31.36790962111684,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 21,
+      "Reference": 12.214358341216274,
+      "Observed": 32.214358341216276,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 28,
+      "Reference": 12.818795886912294,
+      "Observed": 32.8187958869123,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 16,
+      "Column": 5,
+      "Reference": 11.57379704381283,
+      "Observed": 31.57379704381283,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 52,
+      "Reference": 16.744103399862666,
+      "Observed": 36.74410339986267,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 59,
+      "Reference": 23.177860487693202,
+      "Observed": 43.1778604876932,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 91,
+      "Reference": 15.278160602567386,
+      "Observed": 35.27816060256738,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 18,
+      "Column": 48,
+      "Reference": 13.59259507962242,
+      "Observed": 33.59259507962242,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 19,
+      "Column": 59,
+      "Reference": 22.965680296998485,
+      "Observed": 42.965680296998485,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 20,
+      "Column": 19,
+      "Reference": 12.528087008150203,
+      "Observed": 32.5280870081502,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 20,
+      "Column": 73,
+      "Reference": 17.67280747508743,
+      "Observed": 37.67280747508743,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 23,
+      "Column": 10,
+      "Reference": 12.374576768578793,
+      "Observed": 32.37457676857879,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 24,
+      "Column": 82,
+      "Reference": 15.485569846748744,
+      "Observed": 35.485569846748746,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 25,
+      "Column": 28,
+      "Reference": 13.583681501099905,
+      "Observed": 33.5836815010999,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 26,
+      "Column": 83,
+      "Reference": 15.698443997831356,
+      "Observed": 35.698443997831355,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 26,
+      "Column": 92,
+      "Reference": 16.08632086611893,
+      "Observed": 36.086320866118925,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 27,
+      "Column": 1,
+      "Reference": 12.346101426686896,
+      "Observed": 32.3461014266869,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 30,
+      "Column": 71,
+      "Reference": 19.27169408090711,
+      "Observed": 39.27169408090711,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 32,
+      "Column": 7,
+      "Reference": 13.011422444846556,
+      "Observed": 33.01142244484656,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 10,
+      "Reference": 13.391756880907339,
+      "Observed": 33.39175688090734,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 82,
+      "Reference": 16.420903717980895,
+      "Observed": 36.42090371798089,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 92,
+      "Reference": 16.851917909876615,
+      "Observed": 36.85191790987662,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 65,
+      "Reference": 23.278840933481202,
+      "Observed": 43.278840933481206,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 77,
+      "Reference": 16.376784031424343,
+      "Observed": 36.37678403142434,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 86,
+      "Reference": 16.763344501671426,
+      "Observed": 36.763344501671426,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 39,
+      "Column": 69,
+      "Reference": 21.06882079738606,
+      "Observed": 41.06882079738606,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 41,
+      "Column": 93,
+      "Reference": 17.406180760559508,
+      "Observed": 37.40618076055951,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 42,
+      "Column": 26,
+      "Reference": 14.815994790755768,
+      "Observed": 34.81599479075577,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 42,
+      "Column": 64,
+      "Reference": 24.554587502968747,
+      "Observed": 44.554587502968744,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 43,
+      "Column": 42,
+      "Reference": 15.605262927632195,
+      "Observed": 35.6052629276322,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 44,
+      "Column": 26,
+      "Reference": 14.997405357149896,
+      "Observed": 34.997405357149894,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 44,
+      "Column": 63,
+      "Reference": 25.590412228401746,
+      "Observed": 45.590412228401746,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 41,
+      "Reference": 15.819705059273534,
+      "Observed": 35.81970505927353,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 54,
+      "Reference": 19.901138912711794,
+      "Observed": 39.901138912711794,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 56,
+      "Reference": 21.357153869719614,
+      "Observed": 41.35715386971961,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 47,
+      "Column": 88,
+      "Reference": 17.701755706239688,
+      "Observed": 37.70175570623969,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 47,
+      "Column": 93,
+      "Reference": 17.917458819192248,
+      "Observed": 37.91745881919225,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "high",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 4,
+      "Column": 11,
+      "Reference": 10.803622703043587,
+      "Observed": -9.196377296956413,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 5,
+      "Column": 66,
+      "Reference": 24.26957625946263,
+      "Observed": 4.269576259462632,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 5,
+      "Column": 74,
+      "Reference": 16.166648985385727,
+      "Observed": -3.833351014614273,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 6,
+      "Column": 26,
+      "Reference": 11.795349235547883,
+      "Observed": -8.204650764452117,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 6,
+      "Column": 86,
+      "Reference": 14.126662918858454,
+      "Observed": -5.873337081141546,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 7,
+      "Column": 30,
+      "Reference": 12.668698984029287,
+      "Observed": -7.331301015970713,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 7,
+      "Column": 59,
+      "Reference": 23.908041441938064,
+      "Observed": 3.908041441938064,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 8,
+      "Column": 13,
+      "Reference": 11.23346378796835,
+      "Observed": -8.76653621203165,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 9,
+      "Column": 65,
+      "Reference": 25.152386827397265,
+      "Observed": 5.152386827397265,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 2,
+      "Reference": 11.36790962111684,
+      "Observed": -8.63209037888316,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 21,
+      "Reference": 12.214358341216274,
+      "Observed": -7.785641658783726,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 15,
+      "Column": 28,
+      "Reference": 12.818795886912294,
+      "Observed": -7.181204113087706,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 16,
+      "Column": 5,
+      "Reference": 11.57379704381283,
+      "Observed": -8.42620295618717,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 52,
+      "Reference": 16.744103399862666,
+      "Observed": -3.2558966001373335,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 59,
+      "Reference": 23.177860487693202,
+      "Observed": 3.177860487693202,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 17,
+      "Column": 91,
+      "Reference": 15.278160602567386,
+      "Observed": -4.721839397432614,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 18,
+      "Column": 48,
+      "Reference": 13.59259507962242,
+      "Observed": -6.40740492037758,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 19,
+      "Column": 59,
+      "Reference": 22.965680296998485,
+      "Observed": 2.9656802969984852,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 20,
+      "Column": 19,
+      "Reference": 12.528087008150203,
+      "Observed": -7.471912991849797,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 20,
+      "Column": 73,
+      "Reference": 17.67280747508743,
+      "Observed": -2.3271925249125687,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 23,
+      "Column": 10,
+      "Reference": 12.374576768578793,
+      "Observed": -7.625423231421207,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 24,
+      "Column": 82,
+      "Reference": 15.485569846748744,
+      "Observed": -4.514430153251256,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 25,
+      "Column": 28,
+      "Reference": 13.583681501099905,
+      "Observed": -6.416318498900095,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 26,
+      "Column": 83,
+      "Reference": 15.698443997831356,
+      "Observed": -4.301556002168644,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 26,
+      "Column": 92,
+      "Reference": 16.08632086611893,
+      "Observed": -3.9136791338810717,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 27,
+      "Column": 1,
+      "Reference": 12.346101426686896,
+      "Observed": -7.6538985733131035,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 30,
+      "Column": 71,
+      "Reference": 19.27169408090711,
+      "Observed": -0.7283059190928896,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 32,
+      "Column": 7,
+      "Reference": 13.011422444846556,
+      "Observed": -6.988577555153444,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 10,
+      "Reference": 13.391756880907339,
+      "Observed": -6.608243119092661,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 82,
+      "Reference": 16.420903717980895,
+      "Observed": -3.579096282019105,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 35,
+      "Column": 92,
+      "Reference": 16.851917909876615,
+      "Observed": -3.148082090123385,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 65,
+      "Reference": 23.278840933481202,
+      "Observed": 3.2788409334812023,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 77,
+      "Reference": 16.376784031424343,
+      "Observed": -3.623215968575657,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 86,
+      "Reference": 16.763344501671426,
+      "Observed": -3.236655498328574,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 39,
+      "Column": 69,
+      "Reference": 21.06882079738606,
+      "Observed": 1.06882079738606,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 41,
+      "Column": 93,
+      "Reference": 17.406180760559508,
+      "Observed": -2.593819239440492,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 42,
+      "Column": 26,
+      "Reference": 14.815994790755768,
+      "Observed": -5.184005209244232,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 42,
+      "Column": 64,
+      "Reference": 24.554587502968747,
+      "Observed": 4.554587502968747,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 43,
+      "Column": 42,
+      "Reference": 15.605262927632195,
+      "Observed": -4.394737072367805,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 44,
+      "Column": 26,
+      "Reference": 14.997405357149896,
+      "Observed": -5.002594642850104,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 44,
+      "Column": 63,
+      "Reference": 25.590412228401746,
+      "Observed": 5.590412228401746,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 41,
+      "Reference": 15.819705059273534,
+      "Observed": -4.180294940726466,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 54,
+      "Reference": 19.901138912711794,
+      "Observed": -0.0988610872882063,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 45,
+      "Column": 56,
+      "Reference": 21.357153869719614,
+      "Observed": 1.357153869719614,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 47,
+      "Column": 88,
+      "Reference": 17.701755706239688,
+      "Observed": -2.2982442937603125,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 47,
+      "Column": 93,
+      "Reference": 17.917458819192248,
+      "Observed": -2.082541180807752,
+      "Delta": -20.0,
+      "Seed": 20261127,
+      "Kind": "low",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.009982638888888888,
+      "Injected_Count": 46,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 35,
+      "Reference": 23.843010478823103,
+      "Observed": 43.8430104788231,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "time",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0006510416666666666,
+      "Injected_Count": 3,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 35,
+      "Reference": 24.07383928229111,
+      "Observed": 44.07383928229111,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "time",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0006510416666666666,
+      "Injected_Count": 3,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 35,
+      "Reference": 24.3442754887783,
+      "Observed": 44.3442754887783,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "time",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0006510416666666666,
+      "Injected_Count": 3,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 33,
+      "Reference": 19.58647847042078,
+      "Observed": 39.58647847042078,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "wavelength",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0010850694444444445,
+      "Injected_Count": 5,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 34,
+      "Reference": 29.762590255022012,
+      "Observed": 49.76259025502201,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "wavelength",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0010850694444444445,
+      "Injected_Count": 5,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 35,
+      "Reference": 24.3442754887783,
+      "Observed": 44.3442754887783,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "wavelength",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0010850694444444445,
+      "Injected_Count": 5,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 36,
+      "Reference": 17.911848241768812,
+      "Observed": 37.91184824176881,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "wavelength",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0010850694444444445,
+      "Injected_Count": 5,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 37,
+      "Reference": 16.19262744982199,
+      "Observed": 36.19262744982199,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "wavelength",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0010850694444444445,
+      "Injected_Count": 5,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 33,
+      "Reference": 19.24505130970311,
+      "Observed": 39.245051309703115,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 34,
+      "Reference": 29.074582956200572,
+      "Observed": 49.07458295620057,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 35,
+      "Reference": 23.843010478823103,
+      "Observed": 43.8430104788231,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 36,
+      "Reference": 17.63200886624535,
+      "Observed": 37.63200886624535,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 36,
+      "Column": 37,
+      "Reference": 15.973025736102807,
+      "Observed": 35.973025736102805,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 33,
+      "Reference": 19.40552276414541,
+      "Observed": 39.40552276414541,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 34,
+      "Reference": 29.387611892229778,
+      "Observed": 49.38761189222978,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 35,
+      "Reference": 24.07383928229111,
+      "Observed": 44.07383928229111,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 36,
+      "Reference": 17.765370638473456,
+      "Observed": 37.765370638473456,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 37,
+      "Column": 37,
+      "Reference": 16.079872122793173,
+      "Observed": 36.07987212279318,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 33,
+      "Reference": 19.58647847042078,
+      "Observed": 39.58647847042078,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 34,
+      "Reference": 29.762590255022012,
+      "Observed": 49.76259025502201,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 35,
+      "Reference": 24.3442754887783,
+      "Observed": 44.3442754887783,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 36,
+      "Reference": 17.911848241768812,
+      "Observed": 37.91184824176881,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    },
+    {
+      "Row": 38,
+      "Column": 37,
+      "Reference": 16.19262744982199,
+      "Observed": 36.19262744982199,
+      "Delta": 20.0,
+      "Seed": 20261127,
+      "Kind": "block",
+      "Requested_Fraction": 0.01,
+      "Actual_Fraction": 0.0032552083333333335,
+      "Injected_Count": 15,
+      "Denominator": 4608
+    }
+  ],
+  "mask_records": [
+    {
+      "Kind": "points",
+      "Seed": 20261127,
+      "Positions": [
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          66
+        ],
+        [
+          5,
+          74
+        ],
+        [
+          6,
+          26
+        ],
+        [
+          6,
+          86
+        ],
+        [
+          7,
+          30
+        ],
+        [
+          7,
+          59
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          65
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          28
+        ],
+        [
+          16,
+          5
+        ],
+        [
+          17,
+          52
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          17,
+          91
+        ],
+        [
+          18,
+          48
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          20,
+          73
+        ],
+        [
+          23,
+          10
+        ],
+        [
+          24,
+          82
+        ],
+        [
+          25,
+          28
+        ],
+        [
+          26,
+          83
+        ],
+        [
+          26,
+          92
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          30,
+          71
+        ],
+        [
+          32,
+          7
+        ],
+        [
+          35,
+          10
+        ],
+        [
+          35,
+          82
+        ],
+        [
+          35,
+          92
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          37,
+          77
+        ],
+        [
+          37,
+          86
+        ],
+        [
+          39,
+          69
+        ],
+        [
+          41,
+          93
+        ],
+        [
+          42,
+          26
+        ],
+        [
+          42,
+          64
+        ],
+        [
+          43,
+          42
+        ],
+        [
+          44,
+          26
+        ],
+        [
+          44,
+          63
+        ],
+        [
+          45,
+          41
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          45,
+          56
+        ],
+        [
+          47,
+          88
+        ],
+        [
+          47,
+          93
+        ]
+      ],
+      "Reference_Only_For_Evaluation": [
+        10.803622703043587,
+        24.26957625946263,
+        16.166648985385727,
+        11.795349235547883,
+        14.126662918858454,
+        12.668698984029287,
+        23.908041441938064,
+        11.23346378796835,
+        25.152386827397265,
+        11.36790962111684,
+        12.214358341216274,
+        12.818795886912294,
+        11.57379704381283,
+        16.744103399862666,
+        23.177860487693202,
+        15.278160602567386,
+        13.59259507962242,
+        22.965680296998485,
+        12.528087008150203,
+        17.67280747508743,
+        12.374576768578793,
+        15.485569846748744,
+        13.583681501099905,
+        15.698443997831356,
+        16.08632086611893,
+        12.346101426686896,
+        19.27169408090711,
+        13.011422444846556,
+        13.391756880907339,
+        16.420903717980895,
+        16.851917909876615,
+        23.278840933481202,
+        16.376784031424343,
+        16.763344501671426,
+        21.06882079738606,
+        17.406180760559508,
+        14.815994790755768,
+        24.554587502968747,
+        15.605262927632195,
+        14.997405357149896,
+        25.590412228401746,
+        15.819705059273534,
+        19.901138912711794,
+        21.357153869719614,
+        17.701755706239688,
+        17.917458819192248
+      ],
+      "Model_Input_Hidden": true
+    },
+    {
+      "Kind": "time",
+      "Seed": 20261127,
+      "Positions": [
+        [
+          36,
+          35
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          38,
+          35
+        ]
+      ],
+      "Reference_Only_For_Evaluation": [
+        23.843010478823103,
+        24.07383928229111,
+        24.3442754887783
+      ],
+      "Model_Input_Hidden": true
+    },
+    {
+      "Kind": "wavelength",
+      "Seed": 20261127,
+      "Positions": [
+        [
+          38,
+          33
+        ],
+        [
+          38,
+          34
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          38,
+          36
+        ],
+        [
+          38,
+          37
+        ]
+      ],
+      "Reference_Only_For_Evaluation": [
+        19.58647847042078,
+        29.762590255022012,
+        24.3442754887783,
+        17.911848241768812,
+        16.19262744982199
+      ],
+      "Model_Input_Hidden": true
+    },
+    {
+      "Kind": "block",
+      "Seed": 20261127,
+      "Positions": [
+        [
+          36,
+          33
+        ],
+        [
+          36,
+          34
+        ],
+        [
+          36,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          37,
+          33
+        ],
+        [
+          37,
+          34
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          37,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          33
+        ],
+        [
+          38,
+          34
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          38,
+          36
+        ],
+        [
+          38,
+          37
+        ]
+      ],
+      "Reference_Only_For_Evaluation": [
+        19.24505130970311,
+        29.074582956200572,
+        23.843010478823103,
+        17.63200886624535,
+        15.973025736102807,
+        19.40552276414541,
+        29.387611892229778,
+        24.07383928229111,
+        17.765370638473456,
+        16.079872122793173,
+        19.58647847042078,
+        29.762590255022012,
+        24.3442754887783,
+        17.911848241768812,
+        16.19262744982199
+      ],
+      "Model_Input_Hidden": true
+    },
+    {
+      "Kind": "peak",
+      "Seed": 20261127,
+      "Positions": [
+        [
+          38,
+          32
+        ],
+        [
+          38,
+          33
+        ],
+        [
+          38,
+          34
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          38,
+          36
+        ]
+      ],
+      "Reference_Only_For_Evaluation": [
+        16.522511816255395,
+        19.58647847042078,
+        29.762590255022012,
+        24.3442754887783,
+        17.911848241768812
+      ],
+      "Model_Input_Hidden": true
+    }
+  ],
+  "real_workbooks_read": false
+}

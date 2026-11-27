@@ -1,0 +1,168 @@
+{
+  "sources": [
+    {
+      "Heat_ID": "6B03205",
+      "File": "附件1.炉号-6B03205.xlsb",
+      "SHA256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6B03206",
+      "File": "Attachment 2. Heat No. 6B03206.xlsb",
+      "SHA256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6B03270",
+      "File": "Attachment 3. Heat No. 6B03270.xlsb",
+      "SHA256": "f8e48e3dfa90b6b4031746781913e85cfe07c7ad5c69c049f027163a141b9a54",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6B03271",
+      "File": "Attachment 4. Heat No. 6B03271.xlsb",
+      "SHA256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02057",
+      "File": "Attachment 5. Heat No. 6C02057.xlsb",
+      "SHA256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02058",
+      "File": "Attachment 6. Heat No. 6C02058.xlsb",
+      "SHA256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02059",
+      "File": "Attachment 7. Heat No. 6C02059.xlsb",
+      "SHA256": "c86b2a668c62e3089249e4e1b9ffd284351919c2a244c11ef86ed89ed5febba5",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02060",
+      "File": "Attachment 8. Heat No. 6C02060.xlsb",
+      "SHA256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02107",
+      "File": "Attachment 9. Heat No. 6C02107.xlsb",
+      "SHA256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+      "Before_After_Unchanged": true
+    },
+    {
+      "Heat_ID": "6C02108",
+      "File": "Attachment 10. Heat No. 6C02108.xlsb",
+      "SHA256": "06d915ba1c186da76b60a110bddf51b9a52944f623ad9e55eef02bc40cd4d90e",
+      "Before_After_Unchanged": true
+    }
+  ],
+  "document_inputs": [
+    {
+      "File": "04_Q1光谱研究/Q1专项调查总报告.md",
+      "SHA256": "bf843f1ce3d7d6b23eb1ec0fe6e0f683da33427897afdf1c64b7a77538c210fb",
+      "Characters": 3292
+    },
+    {
+      "File": "04_Q1光谱研究/Q1交叉审核交接说明.md",
+      "SHA256": "9473886cacb502074eaf80dc511a7cb0dd53aaf9ce9096677250480fc7b87c46",
+      "Characters": 944
+    },
+    {
+      "File": "04_Q1光谱研究/Q1共同登记变更提案.md",
+      "SHA256": "cffa04e02ca0e94ed2cc8b16f16f1394e93b620f1a7e09e0fc4a118b5af7efb6",
+      "Characters": 280
+    },
+    {
+      "File": "04_Q1光谱研究/Q1当前研究进度.md",
+      "SHA256": "d5c964473635871c7ac3f23fb5b583d161565c165a10d2daa024a5e4bbfdfb58",
+      "Characters": 532
+    },
+    {
+      "File": "04_Q1光谱研究/README.md",
+      "SHA256": "d7e77d73b9b51cda4d304bed8246855e723594fc0d18cac769b038e8ac813e69",
+      "Characters": 370
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S01_光谱基线核验/S01_光谱基线核验.md",
+      "SHA256": "7560c879f9a724c22c47ec98fbd06d59cb3d2b8065eb282e41971080cb7e9609",
+      "Characters": 1660
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S02_波长网格调查/S02_波长网格调查.md",
+      "SHA256": "edc699182628fb66c0da687148a524ceb0655f0f5b9f23288c9cf7991608ff09",
+      "Characters": 2101
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S03_光谱结构调查/S03_光谱结构调查.md",
+      "SHA256": "0050598341f61d630d1eb220a8afc62b4b4e9f8766d83b6c0e38c0654eb53bec",
+      "Characters": 2238
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S04_65535候选饱和调查/S04_65535候选饱和调查.md",
+      "SHA256": "c30b28083fdabd0e22dd509eea97ec0df35919df766075e95bb64090cf29378a",
+      "Characters": 2488
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S05_其他候选异常调查/S05_其他候选异常调查.md",
+      "SHA256": "c81a24f73c02ade644869115e2da64947f048f6e676c9526b71e3c7522125daa",
+      "Characters": 4847
+    },
+    {
+      "File": "04_Q1光谱研究/专项分析/S06_谱峰与异常反例研究/S06_谱峰与异常反例研究.md",
+      "SHA256": "dce9d638e2462b94f60efa071ff3989fdc317795338f0f4a4b07b282809fb8bd",
+      "Characters": 2379
+    },
+    {
+      "File": "04_Q1光谱研究/实验验证/S07_候选方法与验证设计/S07_Q3信息边界说明.md",
+      "SHA256": "42164f599d155d3c7b7f92c6cdc7fdce0a3bc5c05d0a6228353264c7e77e2f8b",
+      "Characters": 1254
+    },
+    {
+      "File": "04_Q1光谱研究/实验验证/S07_候选方法与验证设计/S07_候选数学方法比较.md",
+      "SHA256": "fde24572a1814ea413a4da7043632f499104a19384f5ec8b9fc54648e36de8a6",
+      "Characters": 2133
+    },
+    {
+      "File": "04_Q1光谱研究/实验验证/S07_候选方法与验证设计/S07_削顶模拟验证方案.md",
+      "SHA256": "94ff7903cfba405f1f69058ab271b6e5b3c4fa074bf516c49dc40746d6a27064",
+      "Characters": 898
+    },
+    {
+      "File": "04_Q1光谱研究/实验验证/S07_候选方法与验证设计/S07_异常检测验证方案.md",
+      "SHA256": "acfd573d85542d5893c9b12fb2aec5f414f64f2b76f0c073db74a0b334503431",
+      "Characters": 1171
+    },
+    {
+      "File": "04_Q1光谱研究/实验验证/S07_候选方法与验证设计/S07_连续重构验证方案.md",
+      "SHA256": "d34b43793bbfd418d629b5ee2606788397c25f357b2e947e42f0c8503d7ec340",
+      "Characters": 1073
+    },
+    {
+      "File": "02_统一研究规范/统一数据质量标准.md",
+      "SHA256": "0af76b8be4e813dc4c98715a813bf694141e2daba6a5223f3b1a352c0f31d9bb",
+      "Characters": 4193
+    },
+    {
+      "File": "02_统一研究规范/双Agent协作规范.md",
+      "SHA256": "424c1d4c703ac3aee41e7757b3eaed3ad33389601d77e7200dddfc7c00845f77",
+      "Characters": 4321
+    },
+    {
+      "File": "00_项目管理/共同决策日志.md",
+      "SHA256": "a98da8f8fcbca3206e073e88318191dfe6853bf443558f7729e38742e2701d34",
+      "Characters": 1387
+    },
+    {
+      "File": "04_Q1光谱研究/代码/运行说明.md",
+      "SHA256": "754f31e4e13ce9f7775a80cfd4464b3e7b5c458c56be81c9e9a378e0e0590a78",
+      "Characters": 1254
+    }
+  ],
+  "real_reference_validation_executed": false,
+  "independent_recomputation": "union-find components; sorted-neighbor vector scores; scalar statistics.median representative scores"
+}

@@ -1,0 +1,8 @@
+﻿Issue_ID,Old_Statement,New_Evidence,Suggestion,Conclusion_Status,Approval_Status,Original_Artifacts_Modified
+V01-01,评分只排除中心65535,四邻域仍包含65535；可能改变median和MAD,保留旧结果，后续加入“邻域受上限污染”标签并比较排除/不排除策略,Observed Fact,Pending,False
+V01-02,1.4826MAD4+1被用于评分,四邻域样本小；MAD=0时分母=1，单位随原强度；缩放强度会改变分数,不将系数视为噪声校准；验证floor/窗口敏感性,Observed Fact,Pending,False
+V01-03,案例Evidence_Class统一讨论削顶,部分非65535案例也被填入“无明显平台不能否定削顶”，语义不适用于普通点,只对真实上限E/F使用削顶证据分类；普通A/B/C/D/H逐项说明形态,Observed Fact,Pending,False
+V01-04,各案例标注Observed Fact或Hypothesis,几何事实与削顶解释有时放在同一状态字段,拆分形态事实、解释假设、审批Pending，不静默回写原CSV,Observed Fact,Pending,False
+V01-05,候选峰宽使用局部最小值,±20列可能截断宽峰或仍含上限；不是仪器校正FWHM,维持离散候选宽度名称；可信参考区另审核背景和两侧边界,Observed Fact,Pending,False
+V01-06,代表案例由极值选取,不能用极端案例或候选低分区估计总体误判率,分层参考候选，纳入困难/边缘/快速变化，记录偏差,Observed Fact,Pending,False
+V01-07,4/8邻域均332组件,数值一致，不能泛化为任意数据的两种邻接等价,保留两种定义与独立核验，不虚构差异,Observed Fact,Pending,False
