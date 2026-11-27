@@ -1,0 +1,103 @@
+{
+  "task": "A-Q1-PUBLISH-007",
+  "date": "2026-11-28",
+  "content_commit": "d3fbd992dbc53ede7fcbe549de37b88e3edd036b",
+  "zip_sha256": "7c77929386bd8c3c898c58cf1b4199867336f2e5774e0a5e832c533712bda12b",
+  "files": [
+    {
+      "path": "approval_blank.json",
+      "git_sha256": "e708a6cd80ecf802bf7b9de7db955ed4d91094e8ff685c553ff94bf0c9f3c98f",
+      "zip_entry_sha256": "e07a773f9b2439cdd40ebcdc38bd3757fca4640a5b7570f903bd99fb749de3ea",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "checks_and_contract.json",
+      "git_sha256": "bf379b076456b6fe5020a6979b79391252b4732512b1ed11069ed1ff910d6842",
+      "zip_entry_sha256": "7f45536104c413db180f112ebc6586f179eca87894770e2153e450ed25dab2f4",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "code/r0_preparation.py",
+      "git_sha256": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "zip_entry_sha256": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "code/r0_runner.py",
+      "git_sha256": "550df047b945bc75dfb07076c9b1b16da2c12dfe74a9cb63a60764a7260b8226",
+      "zip_entry_sha256": "550df047b945bc75dfb07076c9b1b16da2c12dfe74a9cb63a60764a7260b8226",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "code/test_runner.py",
+      "git_sha256": "8e276b10499a0baee2614208a5c4a6d11de1ed4ba6e6ba34fba339255ed97c43",
+      "zip_entry_sha256": "8e276b10499a0baee2614208a5c4a6d11de1ed4ba6e6ba34fba339255ed97c43",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "code_manifest.json",
+      "git_sha256": "ec3307b8b5db4a5c2454824acc7a03b8c6cf14f2d022ca4b70c8a4ab8c7a85af",
+      "zip_entry_sha256": "d1e49fc57ab3bbe19fac8cf20f4d7472481fc9d58e7a97e9a1a6dd9c867d8c35",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "parameters.json",
+      "git_sha256": "8bad4c44824761416c807597bc43e1b89b54fd73001ed3426f3a998b001a0aa8",
+      "zip_entry_sha256": "a96e25dc0a2822e1447d8eae7df2b4a6115380a1c0d20a1017694c705beba4c3",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "references.json",
+      "git_sha256": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+      "zip_entry_sha256": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "synthetic_checks.txt",
+      "git_sha256": "7ade35bd477290f6600647ae46f7be370a13f6a1ad86f52a097d26b61b01f393",
+      "zip_entry_sha256": "2a66208ce1aebbf9fc1994e01cd1cd75433216c57343c278ecf437abe8450ea9",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "原始审核接收与修正报告.txt",
+      "git_sha256": "8c8a0accc57a168ad0f10d00158348f83a7dc0fa05d6b3c5a8ed7e241584d0b6",
+      "zip_entry_sha256": "8c8a0accc57a168ad0f10d00158348f83a7dc0fa05d6b3c5a8ed7e241584d0b6",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "原始审核逐条答复.csv",
+      "git_sha256": "c06409f1adca4f51f1235c6f489ece5196e9116fdf9ce38486f91d7401a0cbdb",
+      "zip_entry_sha256": "c06409f1adca4f51f1235c6f489ece5196e9116fdf9ce38486f91d7401a0cbdb",
+      "exact_bytes_equal": true,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "审核来源.json",
+      "git_sha256": "409b0e5577122106bd8a411e6381faefafc333d73469f8df86f66a06ebc11035",
+      "zip_entry_sha256": "a81861073cf66088b706e68edd51a3d353cbb3515c7a8f2de4cd7c39032f5d1c",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    },
+    {
+      "path": "交付清单.json",
+      "git_sha256": "86155b72060ae1ac5a4a3249ba4945dec154ad7f6c6849b67b6da4376ec99f9b",
+      "zip_entry_sha256": "1039b24ae4cde2045e4f31deec3df941d62919cbcac8143236eaa3a390d660c9",
+      "exact_bytes_equal": false,
+      "LF_normalized_equal": true
+    }
+  ],
+  "zip_manifest_all_valid": true,
+  "canonical_approval_contract_valid": true,
+  "approval_status": "Pending",
+  "raw_files_included": false
+}
