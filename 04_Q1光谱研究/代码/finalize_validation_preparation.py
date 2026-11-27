@@ -43,7 +43,7 @@ for path in files:
         raw=path.read_bytes()
         if b'\r\n' in raw:path.write_bytes(raw.replace(b'\r\n',b'\n'))
 result=dict(real_raw_audit_records=len(checks),candidate_reference_regions=70,reference_status='Pending Review',functional_tests=len(tests['checks']),all_tests_pass=True,formal_real_validation=False,original_S_round_files_preserved=True,main_and_q2_unchanged=True,public_push=False,selected_review_images=12)
-(V/'V01_V04最终验收.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+(V/'V01_V04最终验收.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 with (V/'V01_V04交付清单.csv').open('w',encoding='utf-8-sig',newline='') as f:
     out=csv.DictWriter(f,fieldnames=['File','Bytes','SHA256'],lineterminator='\n');out.writeheader()
     for p in sorted(set(files+[V/'V01_V04最终验收.json'])):
