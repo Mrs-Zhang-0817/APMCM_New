@@ -1,0 +1,82 @@
+{
+  "task": "A-Q1-HANDOFF-004",
+  "source_commit": "025b3307f4fa6f98412ae2080a0c3bc883bc3900",
+  "source_repo": "https://github.com/Mrs-Zhang-0817/APMCM_New",
+  "source_branch": "q1-spectral",
+  "archive": "Q1_R0_025b330_供独立复核.zip",
+  "archive_sha256": "ca851d06cc6cac9931a3661dcd2fff2592172ad1c848685de7b8e0f9617ab9fb",
+  "file_count": 24,
+  "config_sha256_canonical": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+  "manifest_sha256_canonical": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+  "checks": [
+    {
+      "id": "REF-6B03205-F",
+      "ids_match": true,
+      "window": true,
+      "config": true,
+      "manifest": true,
+      "codes": true
+    },
+    {
+      "id": "REF-6B03206-F",
+      "ids_match": true,
+      "window": true,
+      "config": true,
+      "manifest": true,
+      "codes": true
+    },
+    {
+      "id": "REF-6B03271-F",
+      "ids_match": true,
+      "window": true,
+      "config": true,
+      "manifest": true,
+      "codes": true
+    },
+    {
+      "id": "REF-6C02058-F",
+      "ids_match": true,
+      "window": true,
+      "config": true,
+      "manifest": true,
+      "codes": true
+    },
+    {
+      "id": "REF-6C02107-A",
+      "ids_match": true,
+      "window": true,
+      "config": true,
+      "manifest": true,
+      "codes": true
+    }
+  ],
+  "files": {
+    "04_Q1光谱研究/代码/detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+    "04_Q1光谱研究/代码/test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+    "04_Q1光谱研究/代码/r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+    "04_Q1光谱研究/代码/test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+    "04_Q1光谱研究/代码/prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+    "04_Q1光谱研究/代码/finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/R0首批点遮蔽审批报告.txt": "2c6d8cd945e8f0a5bc8b414f7bb78c258460284ff31176bf7bd2e726cd431bff",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03205-F.png": "35e5598bf65d688e3bdab61df80ba242bcc16433106762bbc56180f171f5d727",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03205-F_raw_support.csv": "4146b604aff5ec2595914e00ff337d10941e0adddb2473ff2b865830658854c1",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03206-F.png": "9beae0a5cd815e0cbcc79ab7f61463395021a546c46e06a44610fe38259c2415",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03206-F_raw_support.csv": "7600c4e5d302930734224ee44287f5ba09aa6f90a140fb706a9e355ffb20d676",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03271-F.png": "71eb538d93abbfdfe8c2c4e35e4ae919d98dd57aebd94fd3ecf1267482281927",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03271-F_raw_support.csv": "b8342cf5b7f024137249eca739441759dafb62070ff601bb25bd5357e7ebc6c5",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02058-F.png": "faf37c5a606f6e6e75d705d0c8c236400ab9f7d1a36845c57417397ad9df3d58",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02058-F_raw_support.csv": "c0cbc52dfce8f3eedbf8cb4dec3cc9a93f45a4ba7c0284e95748e661aae8d06b",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02107-A.png": "650d549150f87b368b1280ae78a237cb1009a2047f23eb12e6992268838679a9",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02107-A_raw_support.csv": "65661dcf919e776c9b2f16bee59605f455ac8a6eb43dc8e401954cfd4ecd2007",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/candidate_summary.csv": "4a7cd3cf9d578a285f01d8ca7394b3b51bba09d248f7b2bd6e325f78419ae75d",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/checks_and_hashes.json": "84f89941ee96dcfaf245464192ae608987938b4b196f6667873f7b731b34a459",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/config_pending.json": "0d55cedcb1d16908d0ee65ebbf83dc709cd0d970ae3fc1e6e2d3c256a5482062",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/frame_evidence.csv": "f91e1b0c91ac450b5c8371273168bb9d7f0d2928d37319dd710e9f28b48cfae6",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/input_bindings.json": "a9408cbcb3c576c6bb3e58470f858ab9f411a9a1437ccd0c4aa391c7b01fcdf5",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/reference_manifest_pending.json": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/synthetic_checks.txt": "2b4f2d9c5704d6451ec48e93e27fc3085208da66773f9aca4a6b8a66b59b3a26"
+  },
+  "approval_status": "Pending",
+  "real_experiment_executed": false,
+  "raw_workbooks_read": false
+}
