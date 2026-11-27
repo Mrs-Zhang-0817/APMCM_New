@@ -1,0 +1,15 @@
+test_approval_invalidated_by_every_changed_contract_component (test_runner.DeltaTests.test_approval_invalidated_by_every_changed_contract_component) ... ok
+test_exact_reviewer_two_one_one_and_repeated_requests (test_runner.DeltaTests.test_exact_reviewer_two_one_one_and_repeated_requests) ... ok
+test_kernel_shares_masks_across_orders_and_retains_inputs (test_runner.DeltaTests.test_kernel_shares_masks_across_orders_and_retains_inputs) ... ok
+test_missing_approval_scope_domain_and_uses_rejected (test_runner.DeltaTests.test_missing_approval_scope_domain_and_uses_rejected) ... ok
+test_modified_code_rejected_against_manifest (test_runner.DeltaTests.test_modified_code_rejected_against_manifest) ... ok
+test_partial_and_all_unresolved_denominators (test_runner.DeltaTests.test_partial_and_all_unresolved_denominators) ... ok
+test_pending_real_cli_never_loads_or_samples (test_runner.DeltaTests.test_pending_real_cli_never_loads_or_samples) ... ok
+test_sampling_is_reproducible_nested_and_without_replacement (test_runner.DeltaTests.test_sampling_is_reproducible_nested_and_without_replacement) ... ok
+test_short_and_long_row_ledgers_cannot_cancel (test_runner.DeltaTests.test_short_and_long_row_ledgers_cannot_cancel) ... ok
+test_weighted_summary_uses_requests (test_runner.DeltaTests.test_weighted_summary_uses_requests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.290s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "task": "A-Q1-R0-REV-008",
+  "files": {
+    "approval_blank.json": "db2bff42a56876e654c9291da36fc1f92bae47868e521cd5cdda16da4b50e125",
+    "checks_and_contract.json": "317766ee2708a8e5b685e0fa670807c0cd7906695c12a167c1a8b11d87e72698",
+    "code/r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+    "code/r0_runner.py": "a6f21d500db22be814d03b1e338ec5de8c9f11eacaf13b2370b1ae233b77db12",
+    "code/test_runner.py": "3ba67da52535c93aef28656f63d744b8f15d5eda32555ac3b7ec069b221476dd",
+    "code_manifest.json": "101ef87574aac912ed8bff0c263ab888472f4cec0e7e64059e1bb123c31034ce",
+    "parameters.json": "23a67015f308ebf6c928b84ce4ffd4810059f7af9a254c8759243d3b6e2165ad",
+    "references.json": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+    "synthetic_checks.txt": "984a78d7f04d105b23ecd83203f64d1fb68d6f139eed235e0e3ada35f343982d",
+    "单点修正说明.txt": "8273d415e8b4d61b26a3697030176115dded9f230035e01c6adaf2d10ec5d5e1"
+  },
+  "excludes_self": true,
+  "approval_status": "Pending"
+}

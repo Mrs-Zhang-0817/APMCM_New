@@ -1,0 +1,40 @@
+{
+  "status": "Pending",
+  "domain": "real",
+  "approval_id": null,
+  "approvers": [
+    {
+      "name": "",
+      "confirmed_at": ""
+    },
+    {
+      "name": "",
+      "confirmed_at": ""
+    }
+  ],
+  "permitted_action": "R0_conditional_point_pilot",
+  "reference_ids": [
+    "REF-6B03205-F",
+    "REF-6B03206-F",
+    "REF-6B03271-F",
+    "REF-6C02058-F",
+    "REF-6C02107-A"
+  ],
+  "permitted_uses": {
+    "background_candidate": [
+      "REF-6C02107-A"
+    ],
+    "dynamic_challenge": [
+      "REF-6B03205-F",
+      "REF-6B03206-F",
+      "REF-6B03271-F",
+      "REF-6C02058-F"
+    ]
+  },
+  "contract": {
+    "config_sha256": "3574018992ab565207ceb20b1b8a466deff6600ca42ce1a71deef882511c9e06",
+    "references_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_manifest_sha256": "76aefd563385db8aa29e15621367164f84c8333209b90676a81818a784f80c7f"
+  },
+  "identity_note": "Humans confirm identities and authorization; software checks structure and hashes only"
+}

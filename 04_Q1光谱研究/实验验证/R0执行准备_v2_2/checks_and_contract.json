@@ -1,0 +1,42 @@
+{
+  "task": "A-Q1-R0-REV-008",
+  "date": "2026-11-28",
+  "parent_content_commit": "28b8daafa616ee83a9b918698f4341b26a93ba76",
+  "review_source": "user supplied Q2 difference-review screenshot; not yet present in fetched Q2 0c2eb36",
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "counterexample": {
+    "declared_per_row": [
+      2,
+      2
+    ],
+    "actual_ledger_lengths": [
+      1,
+      3
+    ],
+    "parent_summarizer_accepted": true,
+    "parent_aggregate": {
+      "requested": 4,
+      "resolved": 2,
+      "unresolved": 2,
+      "coverage": 0.5,
+      "coverage_gate_passed": false,
+      "unique_requested_positions": 3,
+      "repeated_request_occurrences": 1,
+      "positions_requested_more_than_once": 1,
+      "repeat_definition": "key=(reference_id,loaded_row,loaded_column); includes nested k, seeds and orders within this grouping",
+      "interpretation": "repeated recovery requests, not independent original observations or heats"
+    },
+    "fixed_rejection": "per-record point ledger does not match requested denominator"
+  },
+  "contract": {
+    "config_sha256": "3574018992ab565207ceb20b1b8a466deff6600ca42ce1a71deef882511c9e06",
+    "references_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_manifest_sha256": "76aefd563385db8aa29e15621367164f84c8333209b90676a81818a784f80c7f"
+  },
+  "approval_status": "Pending",
+  "raw_workbooks_read": false,
+  "real_masks_generated": false,
+  "real_reconstruction_executed": false
+}

@@ -1,0 +1,17 @@
+{
+  "version": "v2.2",
+  "files": {
+    "r0_runner.py": "a6f21d500db22be814d03b1e338ec5de8c9f11eacaf13b2370b1ae233b77db12",
+    "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "pyxlsb": "1.0.10",
+    "direct_package_entry_sha256": {
+      "numpy": "a6958cb364663b7acce81ccfd58eeb65a2b34d5376157f924777b97211a73be4",
+      "pyxlsb": "639e62d96aeee5af137a8178fe72e67eef9c7ee8f7a0eff413833da215807363"
+    }
+  },
+  "third_party_scope": "Entry module bytes plus package versions; not a full transitive native-library attestation"
+}
