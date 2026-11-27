@@ -1,0 +1,93 @@
+{
+  "task_id": "A-Q1-PRE-001",
+  "version": "v1",
+  "date": "2026-11-27",
+  "conclusion_status": "Candidate Method",
+  "approval_status": "Pending",
+  "execution_status": "not_executed",
+  "purpose": "审核准备配置，供共同审阅后绑定真实算法和候选区域",
+  "missing_inputs": ["S01-S07", "V01-V04", "70区域清单", "D0/D1/D2实现", "R0/R1/C2实现", "原始文件或可追溯局部原值"],
+  "reference_review": {
+    "expected_count_from_user": 70,
+    "verified_identity_count": 0,
+    "reviewed_count": 0,
+    "manifest": null,
+    "manifest_sha256": null,
+    "allowed_statuses": ["Accept Candidate", "Reject Candidate", "Needs More Evidence", "Pending"],
+    "eligibility": "已冻结来源、支持和反对证据，经共同审核确认实验用途，记录测量噪声局限",
+    "excluded_for_reference": ["未解释65535及方法支撑邻域风险", "未决工艺突变", "缺少原值或来源"],
+    "audit_csv": "Q1参考区域审核表.csv"
+  },
+  "methods": {
+    "detectors": {"D0": null, "D1": null, "D2": null},
+    "reconstructors": {"R0": null, "R1": null, "C2": null},
+    "binding_required": ["code_sha256", "parameters", "window_support", "degenerate_scale_policy", "edge_policy", "input_available_time"]
+  },
+  "proposed_seeds": [20261127, 20261128, 20261129],
+  "input_rules": {
+    "read_only": true,
+    "source_sha256_required": true,
+    "attachment1_corrected_required": true,
+    "preserve_sequence_and_physical_wavelength": true,
+    "cross_grid_resampling": false,
+    "formal_real_data_preprocessing_enabled": false
+  },
+  "synthetic_cases": {
+    "noise": "分别构造无噪声、加性噪声、强度相关噪声和量化，参数待共同确认",
+    "shapes": ["constant", "narrow_peak", "double_peak", "moving_peak", "baseline_step", "isolated_spike", "persistent_block"],
+    "scale_multipliers": [0.1, 1, 10],
+    "mad_cases": ["zero", "near_zero", "empty_support", "partially_clipped_support"],
+    "truth": "独立生成并保存完整参考值和污染位置，避免用检测输出生成真值"
+  },
+  "injection": {
+    "types": ["positive_spike", "negative_spike", "time_offset_block", "wavelength_offset_block", "two_dimensional_patch"],
+    "proposed_amplitude_multipliers": [3, 6, 12],
+    "amplitude_basis": "训练炉参考尺度；MAD退化时等待已批准的噪声或分辨率尺度",
+    "block_width_relative_to_method_window": [0.5, 1, 2],
+    "record": ["positions", "sign", "absolute_amplitude", "original_values", "cell_fraction", "affected_row_fraction", "affected_column_fraction"],
+    "negative_controls": ["unmodified_narrow_peaks", "unmodified_process_steps", "unmodified_broad_peaks"]
+  },
+  "masking": {
+    "types": ["random_cells", "time_blocks", "wavelength_blocks", "two_dimensional_blocks"],
+    "proposed_random_fractions": [0.01, 0.05, 0.1],
+    "proposed_time_lengths_samples": [1, 3, 9],
+    "proposed_wavelength_lengths_channels": [1, 3, 9, 21],
+    "strata": ["low_intensity", "high_intensity", "narrow_peak", "peak_shoulder", "record_boundary"],
+    "physical_extent_required": true,
+    "forbidden_dependency": "隐藏参考值不得参与检测、局部尺度、支撑点选择或重构选参"
+  },
+  "clipping": {
+    "observation_equation": "y=min(x,c)",
+    "proposed_clipped_widths_channels": [1, 3, 9, 21],
+    "threshold_selection": "仅基于冻结参考峰设计c并记录实际达到的连续截断宽度；无法达到指定宽度记不可实现",
+    "record_actual_width_nm": true,
+    "proposed_time_lengths_samples": [1, 3, 9],
+    "reference_constraint": "仅限资格已批准、无既有截幅证据的参考峰；削顶标签与真实饱和标签分开",
+    "report_strata": ["clipped_cells", "unclipped_cells", "peak_shoulders", "boundaries"]
+  },
+  "validation": {
+    "design_status": "Pending",
+    "proposed_outer_split": "leave_one_heat_out",
+    "heat_ids": ["6B03205", "6B03206", "6B03270", "6B03271", "6C02057", "6C02058", "6C02059", "6C02060", "6C02107", "6C02108"],
+    "inner_selection": "外层剩余炉内按炉验证，阈值、尺度、窗口及模型选择仅在内层确定",
+    "grid_groups": {"A": ["6B03205", "6B03206", "6B03270", "6B03271"], "B": ["6C02057", "6C02058", "6C02059", "6C02060", "6C02107", "6C02108"]},
+    "freeze_before_test": ["reference_eligibility_rules", "seeds", "split_manifest", "methods", "parameters", "metrics", "peak_windows"],
+    "comparison_paths": ["unchanged_baseline", "oracle_mask_reconstruction", "detected_mask_reconstruction", "detector_only"],
+    "paired_corruptions": true,
+    "prior_exploration_disclosure": "十炉均已参与历史EDA，测试结果属于冻结协议下的留炉评估",
+    "real_time_claim": false
+  },
+  "metrics": {
+    "detection": ["TP", "FP", "FN", "precision", "recall", "F1", "block_IoU", "missed_block_fraction", "protected_peak_false_positive_fraction"],
+    "reconstruction": ["MAE", "RMSE", "error_quantiles", "peak_location_error_nm", "baseline_subtracted_peak_height_error", "FWHM_error_nm", "peak_area_error", "boundary_overshoot_fraction"],
+    "peak_definition": "固定实际波长窗及基线；匹配容差待共同批准；面积在实际非均匀波长坐标上梯形积分",
+    "undefined_policy": "分母为0、半高交点缺失、重叠峰或峰位非唯一时报告不可计算或区间及数量",
+    "aggregation": ["per_heat", "per_grid_group", "pooled_by_evaluable_cells", "equal_heat_mean"],
+    "real_candidate_detection_truth": "未知，使用局部证据与审核分歧"
+  },
+  "run_manifest_required": ["experiment_id", "input_sha256", "code_sha256", "environment", "seed", "parameters", "source_coordinates", "mask_sha256", "output_sha256", "failures", "evaluable_denominators"],
+  "output_policy": "独立实验编号新目录，保留失败记录和原值，历史成果只读",
+  "run_budget": null,
+  "unresolved_parameters": ["邻域物理范围", "MAD下限", "实际算法映射", "峰匹配容差", "基线和积分窗", "实验预算"],
+  "stop_condition": "草案交付后等待历史成果来源与共同审核"
+}
