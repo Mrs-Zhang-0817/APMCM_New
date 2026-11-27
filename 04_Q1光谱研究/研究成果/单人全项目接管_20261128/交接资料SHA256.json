@@ -1,0 +1,15 @@
+{
+  "task": "J-SINGLE-HANDOVER-009",
+  "files": {
+    "audit_handover.py": "5f4d9afbe3f015b89e943549487c1416eb8c32bf13fbfc0d3c970414b8767a0f",
+    "三分支文件来源索引.csv": "ec15789342e60bd74662daf7f693fbf21368a8f02fc0aff90e2abd72649f5d3a",
+    "同步核查.json": "d7afdf5b0f8c68089bdf329e5250ec70283b1163fbcfaf3f7efde568bf50d5ec",
+    "完整接管说明与单人SOP.txt": "55aa64fc53f058f0a92e0dc2473c377d1d1264cd1ccfdf7a5e1e90e298fc02c5",
+    "当前接管状态.json": "fc65e6d510ab7404acd12975cc9df33eefc0348f90e0ccfe611ac0ac58612073",
+    "旧副本受控资料核对.csv": "c3036a06f91676a58e5a4b9c6e4ee2db82dc174082ad3d247bc0bf77b42bd0f0",
+    "旧副本差异追溯.json": "cd01f530581e0ae17178a3e09db5394049b5c9642fb00cde200ccfc8f7d22cae",
+    "跨分支内容差异.csv": "2c8e0803b4d87593bb68305fbd8a1d792268d391e2c8e24625d4f10420a9b5e1"
+  },
+  "excludes_self": true,
+  "raw_official_files_not_included": true
+}

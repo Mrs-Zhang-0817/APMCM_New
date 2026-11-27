@@ -1,0 +1,25 @@
+{
+  "task": "J-SINGLE-HANDOVER-009",
+  "date": "2026-11-28",
+  "mode": "single_agent_whole_project_owner",
+  "current_repository_only": "https://github.com/Mrs-Zhang-0817/APMCM_New",
+  "scientific_approval_changed": false,
+  "handover_entry": "完整接管说明与单人SOP.txt",
+  "known_latest_q1_model_commit": "d15177e127c8d048a3529d38467e945b88ea0439",
+  "known_latest_q2_commit": "0c2eb3640f7512d0e0088737557302dfc3c1e1bb",
+  "Q1_R0": {
+    "version": "R0-point-pilot-v2.2-review",
+    "author_synthetic_tests_passed": 10,
+    "final_independent_delta_review_received": false,
+    "actual_human_approval_received": false,
+    "real_experiment_executed": false,
+    "remaining_delta": "per-record ledger length must be validated before aggregation; implemented, external final conclusion pending"
+  },
+  "Q2_continuous": {"independent_review_recommendation": "A_limited_recorded_observation_stress_test", "approval": "Pending", "real_experiment_executed": false},
+  "Q2_lag": {"independent_review_recommendation": "A_limited_statistical_response_shift_only", "approval": "Pending", "real_experiment_executed": false},
+  "Q3": {"formal_training_executed": false, "target_and_available_time_decision": "Pending"},
+  "next_action": "Audit new host sources and permissions; request only specific missing raw files/approvals/new review; then close the single R0 delta or prepare an independently approved Q2 pilot",
+  "not_a_prompt": true,
+  "do_not_repeat": ["ten_heat_EDA", "all_70_region_review", "all_historical_test_suites", "already_reproduced_attachment_5_and_8_events"],
+  "update_rule": "Record actual new evidence and fixed commit; do not mark approval or independent review complete from self-tests"
+}

@@ -1,0 +1,113 @@
+{
+  "task": "J-SINGLE-HANDOVER-009",
+  "date": "2026-11-28",
+  "repository": "https://github.com/Mrs-Zhang-0817/APMCM_New",
+  "frozen_heads": {
+    "main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+    "q1-spectral": "d15177e127c8d048a3529d38467e945b88ea0439",
+    "q2-gas-oxygen": "0c2eb3640f7512d0e0088737557302dfc3c1e1bb"
+  },
+  "branch_file_counts": {
+    "main": 68,
+    "q1-spectral": 471,
+    "q2-gas-oxygen": 175
+  },
+  "union_file_count": 576,
+  "selected_files_missing_from_main": 508,
+  "cross_branch_differences": 2,
+  "legacy_files_checked": 472,
+  "legacy_status_counts": {
+    "旧副本差异或未收录：不能自动当当前成果": 17,
+    "远程其他路径有同内容（历史快照等）": 27,
+    "远程同路径内容相同（LF规范比较）": 428
+  },
+  "ahead_behind": {
+    "main": "0\t0",
+    "q1-spectral": "0\t0",
+    "q2-gas-oxygen": "0\t0"
+  },
+  "status_during_audit": "?? \"04_Q1\\345\\205\\211\\350\\260\\261\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\346\\210\\220\\346\\236\\234/\\345\\215\\225\\344\\272\\272\\345\\205\\250\\351\\241\\271\\347\\233\\256\\346\\216\\245\\347\\256\\241_20261128/audit_handover.py\"\n?? \"04_Q1\\345\\205\\211\\350\\260\\261\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\346\\210\\220\\346\\236\\234/\\345\\215\\225\\344\\272\\272\\345\\205\\250\\351\\241\\271\\347\\233\\256\\346\\216\\245\\347\\256\\241_20261128/\\344\\270\\211\\345\\210\\206\\346\\224\\257\\346\\226\\207\\344\\273\\266\\346\\235\\245\\346\\272\\220\\347\\264\\242\\345\\274\\225.csv\"\n?? \"04_Q1\\345\\205\\211\\350\\260\\261\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\346\\210\\220\\346\\236\\234/\\345\\215\\225\\344\\272\\272\\345\\205\\250\\351\\241\\271\\347\\233\\256\\346\\216\\245\\347\\256\\241_20261128/\\346\\227\\247\\345\\211\\257\\346\\234\\254\\345\\217\\227\\346\\216\\247\\350\\265\\204\\346\\226\\231\\346\\240\\270\\345\\257\\271.csv\"\n?? \"04_Q1\\345\\205\\211\\350\\260\\261\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\346\\210\\220\\346\\236\\234/\\345\\215\\225\\344\\272\\272\\345\\205\\250\\351\\241\\271\\347\\233\\256\\346\\216\\245\\347\\256\\241_20261128/\\350\\267\\250\\345\\210\\206\\346\\224\\257\\345\\206\\205\\345\\256\\271\\345\\267\\256\\345\\274\\202.csv\"\n",
+  "raw_required": [
+    {
+      "attachment": 1,
+      "heat": "6B03205",
+      "filename": "附件1.炉号-6B03205.xlsb",
+      "sha256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+      "bytes": 12633846,
+      "in_git": false
+    },
+    {
+      "attachment": 2,
+      "heat": "6B03206",
+      "filename": "Attachment 2. Heat No. 6B03206.xlsb",
+      "sha256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+      "bytes": 11426829,
+      "in_git": false
+    },
+    {
+      "attachment": 3,
+      "heat": "6B03270",
+      "filename": "Attachment 3. Heat No. 6B03270.xlsb",
+      "sha256": "f8e48e3dfa90b6b4031746781913e85cfe07c7ad5c69c049f027163a141b9a54",
+      "bytes": 12203551,
+      "in_git": false
+    },
+    {
+      "attachment": 4,
+      "heat": "6B03271",
+      "filename": "Attachment 4. Heat No. 6B03271.xlsb",
+      "sha256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+      "bytes": 12282213,
+      "in_git": false
+    },
+    {
+      "attachment": 5,
+      "heat": "6C02057",
+      "filename": "Attachment 5. Heat No. 6C02057.xlsb",
+      "sha256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "bytes": 6916786,
+      "in_git": false
+    },
+    {
+      "attachment": 6,
+      "heat": "6C02058",
+      "filename": "Attachment 6. Heat No. 6C02058.xlsb",
+      "sha256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+      "bytes": 11683960,
+      "in_git": false
+    },
+    {
+      "attachment": 7,
+      "heat": "6C02059",
+      "filename": "Attachment 7. Heat No. 6C02059.xlsb",
+      "sha256": "c86b2a668c62e3089249e4e1b9ffd284351919c2a244c11ef86ed89ed5febba5",
+      "bytes": 13807095,
+      "in_git": false
+    },
+    {
+      "attachment": 8,
+      "heat": "6C02060",
+      "filename": "Attachment 8. Heat No. 6C02060.xlsb",
+      "sha256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "bytes": 12224247,
+      "in_git": false
+    },
+    {
+      "attachment": 9,
+      "heat": "6C02107",
+      "filename": "Attachment 9. Heat No. 6C02107.xlsb",
+      "sha256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+      "bytes": 12944390,
+      "in_git": false
+    },
+    {
+      "attachment": 10,
+      "heat": "6C02108",
+      "filename": "Attachment 10. Heat No. 6C02108.xlsb",
+      "sha256": "06d915ba1c186da76b60a110bddf51b9a52944f623ad9e55eef02bc40cd4d90e",
+      "bytes": 13021834,
+      "in_git": false
+    }
+  ],
+  "boundary": "Inventory is a read-only source map, not a branch merge, normal-data certification or scientific approval"
+}

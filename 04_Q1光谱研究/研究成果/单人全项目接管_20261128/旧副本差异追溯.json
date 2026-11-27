@@ -1,0 +1,125 @@
+{
+  "checked": 17,
+  "all_accounted_in_existing_history": true,
+  "files": [
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/Q2关键问题复算表.csv",
+      "raw_sha256": "5544386f3df25c20b498c26b79da215bfdd577c0b1d906e80a058176c2178a3c",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/Q2关键问题复算表.csv",
+      "published_sha256": "ef1de454d086d12919430ad1012bb0bd41f0f7226f5f41f0ab1fec879095673b",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/Test与正式Q2版本对照.csv",
+      "raw_sha256": "8ca0dc7a4334b7da042b822a337f6fe133147d829ac3d58595ba12f58230ff0f",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/Test与正式Q2版本对照.csv",
+      "published_sha256": "62a48ef8fa583e7e59e6121fdfa6a1c51be6532ebcef0d92c35744625251a751",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/固定输入来源及SHA256.csv",
+      "raw_sha256": "3f8dba6826caacb6a956f78cc8c0720c74551acdb31147aa8301be878e2b30e7",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/固定输入来源及SHA256.csv",
+      "published_sha256": "b39007ba223118992ce81bbdfa3844acc5056d5a1f860040e32f0478169a3d13",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/附件5事件前后窗口.csv",
+      "raw_sha256": "6fa6ba03bbfe89a52ce59849776ba8dfffa8b196dd528a95a1fcbbbcc19bfc93",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/附件5事件前后窗口.csv",
+      "published_sha256": "36a15ac749452c5fce12ef96205a102606edc2f838995ae80c24900f7781cdf4",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/附件5双向滞后配对明细.csv",
+      "raw_sha256": "ee19515f87258c13ef7aa0f07f16fbdfdf763175a46e8f1cce6d89cf6cbbb417",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/附件5双向滞后配对明细.csv",
+      "published_sha256": "5c9e2e30f1ae3c05a797706bd38c59ec162756bd0d33ff178cbb6c81ce436db3",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/附件5相关与滞后敏感性.csv",
+      "raw_sha256": "032fc5600b2cc63b1651b35f2335e1c6a19dd66fb061d2843a9278c91d9e0fab",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/附件5相关与滞后敏感性.csv",
+      "published_sha256": "b7aba142694d6fb050e390331e883020ab5e635ba58e219030e45d00f2a0bcce",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/实验验证/Q2独立交叉验收_v1/附件8内部零段复算.csv",
+      "raw_sha256": "a66e481f3c38465d6954f39227eaf00c658482ccecb19f17f225616ef5591dc3",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/Q2独立交叉验收_v1/附件8内部零段复算.csv",
+      "published_sha256": "92b978867b94e47d7a8f9d0342366d8a307f136d39f11e5abf51e7b50f0a8fd4",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/双线同步与验收准备_v1/三分支逐文件差异.csv",
+      "raw_sha256": "323cdc2e04fe3c83f15f798bf758f216c859e0b667aaabedb41b47c82b664d0d",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/双线同步与验收准备_v1/三分支逐文件差异.csv",
+      "published_sha256": "0b84dd6dff801bf94c614b75ad24fa416d499e7fdbbfaa01a8b27295e0f15213",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/双线同步与验收准备_v1/待共同审批事项.csv",
+      "raw_sha256": "d08626437424fc782c3df14e9952a12ff5da42828dc8e2a5844f3e3421b1e9ac",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/双线同步与验收准备_v1/待共同审批事项.csv",
+      "published_sha256": "863533afad26b1ae23d37f36465767d3bfbc5f87f0aa77b2027a1a73f2a6780f",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/双线同步与验收准备_v1/待推送27项文件及SHA256.csv",
+      "raw_sha256": "600e08287c62d9287c682bc59b6b20fc16c46a97c90212b27368510970ea846f",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/双线同步与验收准备_v1/待推送27项文件及SHA256.csv",
+      "published_sha256": "dc0858a16867875b212323c932a2ceaa21c237b256f34f52e511dae162d07e38",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/双线同步与验收准备_v1/推送前检查与Q2差异证据.json",
+      "raw_sha256": "d06efcd2a14730b91d8e750a72db3ab530e3ab71017abd2feac352a8c2420168",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/双线同步与验收准备_v1/推送前检查与Q2差异证据.json",
+      "published_sha256": "ee90c6668283a6cbe36b46e698e895c33683e3a97a75bf5cbd821ffaafcac0e9",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/Git仓库连接审计报告.md",
+      "raw_sha256": "d28f1010a03afad233fb4d66c5b1e11ba2cf444389a51c1bdae60d0fb02d8feb",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/Git仓库连接审计报告.md",
+      "published_sha256": "1323b683e7b7d13a6a0f3d5bdf3513ee8b3904ca75fa18af1eea9b5e6d770e12",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/Q1整改25项SHA256复核.csv",
+      "raw_sha256": "2987a4d527b19687a54df62e5a841167a4e1c2eea5c5dc16e2ec149771d42a0f",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/Q1整改25项SHA256复核.csv",
+      "published_sha256": "3274c71ee6dd8d13348c5e67713d2a55b89e4e3293ee68148da1a13dfae40cbe",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/审计原始证据.json",
+      "raw_sha256": "969a72a9faf7cfebc82afaf5d25d6ecab3093cf6854ab0b6097adb083f4c03de",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/审计原始证据.json",
+      "published_sha256": "1dac5a5fccabca025394cd884422ef4a0897e526039eb1f33df6d43710d3180b",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/已读关键材料来源.csv",
+      "raw_sha256": "9f82860b7a6b2110ced54d4bd367240a5bdf8ebd539ac11677cb4ad76991789a",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/已读关键材料来源.csv",
+      "published_sha256": "ec4ccc9e2063f032cc185471011baaaab48f1cb354096003f71b0ccbf4c5946e",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/当前研究文件完整清单.csv",
+      "raw_sha256": "b8df34bb58ab65493c1c582c0f5cedc1d2b8a100ec7b8eef6f940724813391ae",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/当前研究文件完整清单.csv",
+      "published_sha256": "9ae4d861f79ad81553eee9be62ae617f172e130e91bc732bc3b4651c7b9a5f09",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    },
+    {
+      "legacy_relative_path": "04_Q1光谱研究/研究成果/工作区连接审计_v1/本地与远程分支状态表.csv",
+      "raw_sha256": "4f947d244a807d7eacc7e8e9454d3c5b1e84afef896a36a17f196c12ec005789",
+      "published_snapshot": "04_Q1光谱研究/研究成果/新Agent接管交接_v1/历史本机交付快照/工作区连接审计_v1/本地与远程分支状态表.csv",
+      "published_sha256": "097b4740be5eada6442ab4f72992aa78a3352df4b4a1e9ea4565977a0cdfb6c1",
+      "status": "已登记旧原件与可核验远程历史快照；字节不同不冒充完全相同"
+    }
+  ]
+}
