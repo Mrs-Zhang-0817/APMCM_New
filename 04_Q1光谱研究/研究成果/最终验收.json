@@ -1,0 +1,19 @@
+{
+  "heats": 10,
+  "total_spectral_points": 27816683,
+  "saturation_points": 14805,
+  "candidate_points": 56269,
+  "base_cases": 68,
+  "low_point_cases": 10,
+  "components_each_adjacency": 332,
+  "repeated_adjacent_column_pairs": 26,
+  "all_conservation_checks_pass": true,
+  "threshold_counts_reproduced": true,
+  "main_q2_unchanged": true,
+  "markdown_links_valid": true,
+  "source_hashes_unchanged": true,
+  "no_preprocessing": true,
+  "no_push": true,
+  "images": 120,
+  "visual_QA": "抽查全平台双肩、持续峰、高分点、低点和低点放大图；补足统一色轴下弱信号可读性"
+}

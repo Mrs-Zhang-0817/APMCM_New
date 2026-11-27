@@ -1,0 +1,26 @@
+[
+  {
+    "Case_ID": "6B03205_H",
+    "SHA256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+    "Unchanged": true,
+    "Color_Min": 434.0,
+    "Color_Max": 658.0,
+    "Plot": "专项分析/S06_谱峰与异常反例研究/6B03205_H_低点局部放大.png"
+  },
+  {
+    "Case_ID": "6C02057_H",
+    "SHA256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+    "Unchanged": true,
+    "Color_Min": 1849.0,
+    "Color_Max": 3577.0,
+    "Plot": "专项分析/S06_谱峰与异常反例研究/6C02057_H_低点局部放大.png"
+  },
+  {
+    "Case_ID": "6C02058_H",
+    "SHA256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+    "Unchanged": true,
+    "Color_Min": 612.0,
+    "Color_Max": 1266.0,
+    "Plot": "专项分析/S06_谱峰与异常反例研究/6C02058_H_低点局部放大.png"
+  }
+]

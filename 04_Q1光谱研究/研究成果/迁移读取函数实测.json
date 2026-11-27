@@ -1,0 +1,12 @@
+{
+  "reader": "03_共同数据分析\\分析代码\\takeover_audit.py",
+  "source_hash": "b152ce14fa891ec8a87609be2f98d291b4b53699428bfc0c994c4c966c9253fa",
+  "method": "AST提取原迁移load函数并实际读取修正版完整工作簿，避免运行历史顶层生成器",
+  "shape": [
+    1479,
+    2051
+  ],
+  "nonnumeric": 0,
+  "source_unchanged": true,
+  "legacy_top_level_generator_executed": false
+}

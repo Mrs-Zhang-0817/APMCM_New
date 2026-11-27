@@ -1,0 +1,5 @@
+﻿Issue_ID,Task_ID,Heat_ID,Observation,Evidence_File,Decision_Status,Interpretation_Status,Approval_Status
+A-Q1-S1,S02,ALL,两组原始网格不同,专项分析/S02_波长网格调查/S02_波长网格差异证据.csv,Observed Fact,Hypothesis,Pending
+A-Q1-S2,S04,ALL,65535位置与连通性已统计，未确认无效,专项分析/S04_65535候选饱和调查/S04_65535完整位置.csv,Observed Fact,Hypothesis,Pending
+A-Q1-S3,S05,ALL,全部局部分数候选位置,专项分析/S05_其他候选异常调查/S05_候选异常登记表.csv,Observed Fact,Hypothesis,Pending
+A-Q1-S4,S06,ALL,代表案例与反例，非物理真值标签,专项分析/S06_谱峰与异常反例研究/S06_代表性案例登记表.csv,Observed Fact,Hypothesis,Pending
