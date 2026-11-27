@@ -1,0 +1,4 @@
+Branch,Local_SHA,Remote_SHA,Local_Only_Commits,Remote_Only_Commits,Relation,Checked_Out,Remote_Verification,Audit_UTC
+q1-spectral,346c64ebe864e7f09fa2de227e7b72709fbb8670,3172d088feb9da0fed3a784e5071fcb9905b6a9e,1,0,本地领先,True,fetch后ls-remote再次一致,2026-11-27T08:01:26.115329+00:00
+q2-gas-oxygen,d7a5db947a3692e379f48eda6592e877803e054e,7652b32ac0e0f474610d7beb278b9eb2af240354,0,2,本地落后,False,fetch后ls-remote再次一致,2026-11-27T08:01:26.115329+00:00
+main,d7a5db947a3692e379f48eda6592e877803e054e,f7b919233182bbeb14734cd1fe6a8a922db79c11,0,2,本地落后,False,fetch后ls-remote再次一致,2026-11-27T08:01:26.115329+00:00

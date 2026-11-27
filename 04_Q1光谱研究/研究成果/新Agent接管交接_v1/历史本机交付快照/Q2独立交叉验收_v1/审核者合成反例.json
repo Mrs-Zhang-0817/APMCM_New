@@ -1,0 +1,36 @@
+{
+  "seed": 20261127,
+  "tests": [
+    {
+      "Test": "Known_delay_sign_6",
+      "Passed": true,
+      "Known_Lag_s": 3.0,
+      "Recovered_Lag_s": 3.0,
+      "r": 1.0,
+      "Scope": "审核者合成索引检验，不是Q2延迟模型验收或物理运输验证"
+    },
+    {
+      "Test": "Known_delay_sign_-6",
+      "Passed": true,
+      "Known_Lag_s": -3.0,
+      "Recovered_Lag_s": -3.0,
+      "r": 1.0,
+      "Scope": "审核者合成索引检验，不是Q2延迟模型验收或物理运输验证"
+    },
+    {
+      "Test": "Constant_unidentifiable",
+      "Passed": true,
+      "Result": "None",
+      "Scope": "Q2纯函数实际调用；无激励相关不可计算"
+    },
+    {
+      "Test": "Piecewise_linear_O_derivative_jump",
+      "Passed": true,
+      "Left_Derivative": 1.0,
+      "Right_Derivative": 2.0,
+      "Scope": "解析反例：累计函数可C0，流率不连续；未对真实数据拟合"
+    }
+  ],
+  "peer_continuous_model_tested": false,
+  "physical_delay_tested": false
+}

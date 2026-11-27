@@ -1,0 +1,576 @@
+{
+  "task": "A-Q1-CR-Q2-002",
+  "review_id": "CR-Q2-b35ac738-v02",
+  "audit_utc": "2026-11-27T08:18:24.430064+00:00",
+  "reviewed_repository": "https://github.com/lf21szgmail-sys/Test",
+  "reviewed_branch": "q2-gas-oxygen",
+  "reviewed_commit": "b35ac738d01642efe11b6e1a759572cace8b0885",
+  "Q1_fixed": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+  "previous_review_same_Test_commit": true,
+  "raw_sources": [
+    {
+      "Attachment": 5,
+      "Heat_ID": "6C02057",
+      "File": "Attachment 5. Heat No. 6C02057.xlsb",
+      "Bytes": 6916786,
+      "SHA256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "Hash_After": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "Unchanged": true,
+      "Rows": 775,
+      "Headers": [
+        "序列Sequence",
+        "Cumulative oxygen consumption",
+        "CO₂ concentration",
+        "CO concentration"
+      ],
+      "Finite": true,
+      "Independent_Readers_Exact": true
+    },
+    {
+      "Attachment": 8,
+      "Heat_ID": "6C02060",
+      "File": "Attachment 8. Heat No. 6C02060.xlsb",
+      "Bytes": 12224247,
+      "SHA256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "Hash_After": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "Unchanged": true,
+      "Rows": 1373,
+      "Headers": [
+        "Sequence",
+        "Cumulative oxygen consumption",
+        "CO₂ concentration",
+        "CO concentration"
+      ],
+      "Finite": true,
+      "Independent_Readers_Exact": true
+    }
+  ],
+  "checks": 95,
+  "compared_checks": 90,
+  "additional_evidence": 5,
+  "all_compared_match": true,
+  "event": {
+    "Excel_Before": 753,
+    "Excel_After": 754,
+    "Sequence_Before": 752.0,
+    "Sequence_After": 753.0,
+    "Time_Before": 375.5,
+    "Time_After": 376.0,
+    "Oxygen_Delta": 54.909999999999854,
+    "CO2_Delta": -12.69,
+    "CO_Delta": -29.86,
+    "Spectrum_Mean_Before": 5219.668783585736,
+    "Spectrum_Mean_After": 7214.125549584758,
+    "Spectrum_Mean_Relative_Change_pct": 38.21040852766329,
+    "Spectrum_65535_Before": 0,
+    "Spectrum_65535_After": 0,
+    "Columns": 2047
+  },
+  "zeros": [
+    {
+      "Heat_ID": "6C02060",
+      "Gas": "CO2",
+      "Start_Sequence": 5,
+      "End_Sequence": 27,
+      "Start_Excel_Row": 6,
+      "End_Excel_Row": 28,
+      "Start_s": 2.0,
+      "End_s": 13.0,
+      "Points": 23,
+      "Point_Denominator": 1373,
+      "Observed_Span_s": 11.0,
+      "Physical_Duration": "未确定：未约定观测支持与实际仪器时钟",
+      "Before_Value": 0.01,
+      "After_Value": 0.01,
+      "Other_Gas_Zero_Count": 23,
+      "Blank_Nonfinite_Count": 0,
+      "Interpretation": "零为原始有限观测；数值保持不等于仪器停更，零编码机制未确认"
+    },
+    {
+      "Heat_ID": "6C02060",
+      "Gas": "CO2",
+      "Start_Sequence": 39,
+      "End_Sequence": 41,
+      "Start_Excel_Row": 40,
+      "End_Excel_Row": 42,
+      "Start_s": 19.0,
+      "End_s": 20.0,
+      "Points": 3,
+      "Point_Denominator": 1373,
+      "Observed_Span_s": 1.0,
+      "Physical_Duration": "未确定：未约定观测支持与实际仪器时钟",
+      "Before_Value": 0.01,
+      "After_Value": 0.01,
+      "Other_Gas_Zero_Count": 3,
+      "Blank_Nonfinite_Count": 0,
+      "Interpretation": "零为原始有限观测；数值保持不等于仪器停更，零编码机制未确认"
+    },
+    {
+      "Heat_ID": "6C02060",
+      "Gas": "CO",
+      "Start_Sequence": 5,
+      "End_Sequence": 64,
+      "Start_Excel_Row": 6,
+      "End_Excel_Row": 65,
+      "Start_s": 2.0,
+      "End_s": 31.5,
+      "Points": 60,
+      "Point_Denominator": 1373,
+      "Observed_Span_s": 29.5,
+      "Physical_Duration": "未确定：未约定观测支持与实际仪器时钟",
+      "Before_Value": 0.01,
+      "After_Value": 0.01,
+      "Other_Gas_Zero_Count": 26,
+      "Blank_Nonfinite_Count": 0,
+      "Interpretation": "零为原始有限观测；数值保持不等于仪器停更，零编码机制未确认"
+    },
+    {
+      "Heat_ID": "6C02060",
+      "Gas": "CO",
+      "Start_Sequence": 67,
+      "End_Sequence": 90,
+      "Start_Excel_Row": 68,
+      "End_Excel_Row": 91,
+      "Start_s": 33.0,
+      "End_s": 44.5,
+      "Points": 24,
+      "Point_Denominator": 1373,
+      "Observed_Span_s": 11.5,
+      "Physical_Duration": "未确定：未约定观测支持与实际仪器时钟",
+      "Before_Value": 0.01,
+      "After_Value": 0.01,
+      "Other_Gas_Zero_Count": 0,
+      "Blank_Nonfinite_Count": 0,
+      "Interpretation": "零为原始有限观测；数值保持不等于仪器停更，零编码机制未确认"
+    }
+  ],
+  "sensitivity": [
+    {
+      "Gas": "CO2",
+      "Scenario": "All",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.3232361725545336,
+      "Pairs": 774,
+      "Scope": "统计敏感性，非清洗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Transition",
+      "Metric": "Zero_lag_differences_r",
+      "Value": 0.12817646482727837,
+      "Pairs": 773,
+      "Scope": "统计敏感性，非清洗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Signed_r",
+      "Value": 0.043843038828274145,
+      "Pairs": 758,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 8.0,
+      "Pairs": 758,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": -0.3232361725545336,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Signed_r",
+      "Value": 0.043843038828274145,
+      "Pairs": 758,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 8.0,
+      "Pairs": 758,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": -0.3232361725545336,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Signed_r",
+      "Value": 0.12817646482727837,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": 0.12817646482727837,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Signed_r",
+      "Value": 0.12817646482727837,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": 0.12817646482727837,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_5s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.9803577093050831,
+      "Pairs": 21,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_5s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.16093658736208247,
+      "Pairs": 20,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_10s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.9401206220396385,
+      "Pairs": 41,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_10s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.04898382319788918,
+      "Pairs": 40,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_20s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.8978876235530046,
+      "Pairs": 63,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO2",
+      "Scenario": "Local_radius_20s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": 0.11098212084728912,
+      "Pairs": 62,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.33372169838165,
+      "Pairs": 774,
+      "Scope": "统计敏感性，非清洗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Transition",
+      "Metric": "Zero_lag_differences_r",
+      "Value": 0.157100744257761,
+      "Pairs": 773,
+      "Scope": "统计敏感性，非清洗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Signed_r",
+      "Value": 0.04376528254425232,
+      "Pairs": 748,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 13.0,
+      "Pairs": 748,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": -0.33372169838165,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Nonnegative",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Signed_r",
+      "Value": 0.06882226433135058,
+      "Pairs": 714,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": -30.0,
+      "Pairs": 714,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": -0.33372169838165,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "All_Both_Signs",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 774,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Signed_r",
+      "Value": 0.157100744257761,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": 0.157100744257761,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Nonnegative",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Signed_r",
+      "Value": 0.157100744257761,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Signed_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Absolute_Signed_r",
+      "Value": 0.157100744257761,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Exclude_Event_Endpoints_Both_Signs",
+      "Metric": "Max_Absolute_Lag_s",
+      "Value": 0.0,
+      "Pairs": 773,
+      "Scope": "相关极值不是物理延迟"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_5s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.9819228231081493,
+      "Pairs": 21,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_5s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.41618928170299757,
+      "Pairs": 20,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_10s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.9483916966670684,
+      "Pairs": 41,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_10s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.5465149300574383,
+      "Pairs": 40,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_20s_exclude_False",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.9214557653643514,
+      "Pairs": 63,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    },
+    {
+      "Gas": "CO",
+      "Scenario": "Local_radius_20s_exclude_True",
+      "Metric": "Zero_lag_differences_r",
+      "Value": -0.6336997075402736,
+      "Pairs": 62,
+      "Scope": "窗口在实际记录边界裁切，不重建记录窗"
+    }
+  ],
+  "synthetic": [
+    {
+      "Test": "Known_delay_sign_6",
+      "Passed": true,
+      "Known_Lag_s": 3.0,
+      "Recovered_Lag_s": 3.0,
+      "r": 1.0,
+      "Scope": "审核者合成索引检验，不是Q2延迟模型验收或物理运输验证"
+    },
+    {
+      "Test": "Known_delay_sign_-6",
+      "Passed": true,
+      "Known_Lag_s": -3.0,
+      "Recovered_Lag_s": -3.0,
+      "r": 1.0,
+      "Scope": "审核者合成索引检验，不是Q2延迟模型验收或物理运输验证"
+    },
+    {
+      "Test": "Constant_unidentifiable",
+      "Passed": true,
+      "Result": "None",
+      "Scope": "Q2纯函数实际调用；无激励相关不可计算"
+    },
+    {
+      "Test": "Piecewise_linear_O_derivative_jump",
+      "Passed": true,
+      "Left_Derivative": 1.0,
+      "Right_Derivative": 2.0,
+      "Scope": "解析反例：累计函数可C0，流率不连续；未对真实数据拟合"
+    }
+  ],
+  "sources_count": 18,
+  "Q2_continuous_model_implemented": false,
+  "Q2_delay_model_truth_validation": false,
+  "tracked_files_unchanged": 338,
+  "originals_unchanged": true,
+  "real_data_cleaning": false,
+  "real_masking": false,
+  "model_training": false,
+  "plots_generated": false,
+  "joint_approval": "Pending",
+  "ready_for_first_real_validation": false,
+  "scope": "仅两炉目标四变量及附件5局部光谱；其他炉仅已发表表格/历史证据"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "J-HANDOVER-001",
+  "base_q1": "025b3307f4fa6f98412ae2080a0c3bc883bc3900",
+  "fixed_q2": "059075dc9678d2aac73bd3b5be1888d3f7b06e78",
+  "fixed_main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+  "single_active_repository": "Mrs-Zhang-0817/APMCM_New",
+  "historical_local_files_archived": 44,
+  "original_local_files_unchanged": true,
+  "existing_tracked_files_unchanged": 371,
+  "all_config_code_saved_window_checks_pass": true,
+  "original_XLSB_included": false,
+  "original_PDF_included": false,
+  "study_or_test_rerun": false,
+  "real_masking_executed": false,
+  "approvals": "Pending",
+  "repository_file_inventory_rows": 607,
+  "snapshots_do_not_rewrite_history": true
+}

@@ -1,0 +1,152 @@
+{
+  "task": "A-Q1-GIT-AUDIT-001",
+  "audit_utc": "2026-11-27T08:01:26.115329+00:00",
+  "root": "<本机项目目录>",
+  "git_directory_is_real": true,
+  "origin": "origin\thttps://github.com/Mrs-Zhang-0817/APMCM_New.git (fetch)\norigin\thttps://github.com/Mrs-Zhang-0817/APMCM_New.git (push)",
+  "initial_branch": "q1-spectral",
+  "status_at_audit": "## q1-spectral...origin/q1-spectral [ahead 1]\n?? 04_Q1光谱研究/研究成果/工作区连接审计_v1/",
+  "heads": {
+    "main": "d7a5db947a3692e379f48eda6592e877803e054e",
+    "q1-spectral": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+    "q2-gas-oxygen": "d7a5db947a3692e379f48eda6592e877803e054e",
+    "origin/main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+    "origin/q1-spectral": "3172d088feb9da0fed3a784e5071fcb9905b6a9e",
+    "origin/q2-gas-oxygen": "7652b32ac0e0f474610d7beb278b9eb2af240354"
+  },
+  "remote_ls_remote": {
+    "main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+    "q1-spectral": "3172d088feb9da0fed3a784e5071fcb9905b6a9e",
+    "q2-gas-oxygen": "7652b32ac0e0f474610d7beb278b9eb2af240354"
+  },
+  "branch_relations": [
+    {
+      "Branch": "q1-spectral",
+      "Local_SHA": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+      "Remote_SHA": "3172d088feb9da0fed3a784e5071fcb9905b6a9e",
+      "Local_Only_Commits": 1,
+      "Remote_Only_Commits": 0,
+      "Relation": "本地领先",
+      "Checked_Out": true,
+      "Remote_Verification": "fetch后ls-remote再次一致",
+      "Audit_UTC": "2026-11-27T08:01:26.115329+00:00"
+    },
+    {
+      "Branch": "q2-gas-oxygen",
+      "Local_SHA": "d7a5db947a3692e379f48eda6592e877803e054e",
+      "Remote_SHA": "7652b32ac0e0f474610d7beb278b9eb2af240354",
+      "Local_Only_Commits": 0,
+      "Remote_Only_Commits": 2,
+      "Relation": "本地落后",
+      "Checked_Out": false,
+      "Remote_Verification": "fetch后ls-remote再次一致",
+      "Audit_UTC": "2026-11-27T08:01:26.115329+00:00"
+    },
+    {
+      "Branch": "main",
+      "Local_SHA": "d7a5db947a3692e379f48eda6592e877803e054e",
+      "Remote_SHA": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+      "Local_Only_Commits": 0,
+      "Remote_Only_Commits": 2,
+      "Relation": "本地落后",
+      "Checked_Out": false,
+      "Remote_Verification": "fetch后ls-remote再次一致",
+      "Audit_UTC": "2026-11-27T08:01:26.115329+00:00"
+    }
+  ],
+  "cross_relations": [
+    {
+      "Left": "q1-spectral",
+      "Right": "origin/main",
+      "Left_Only": 7,
+      "Right_Only": 2,
+      "Merge_Base": "d7a5db947a3692e379f48eda6592e877803e054e"
+    },
+    {
+      "Left": "q1-spectral",
+      "Right": "origin/q2-gas-oxygen",
+      "Left_Only": 7,
+      "Right_Only": 2,
+      "Merge_Base": "d7a5db947a3692e379f48eda6592e877803e054e"
+    },
+    {
+      "Left": "origin/q1-spectral",
+      "Right": "origin/main",
+      "Left_Only": 6,
+      "Right_Only": 2,
+      "Merge_Base": "d7a5db947a3692e379f48eda6592e877803e054e"
+    },
+    {
+      "Left": "origin/q2-gas-oxygen",
+      "Right": "origin/main",
+      "Left_Only": 2,
+      "Right_Only": 2,
+      "Merge_Base": "d7a5db947a3692e379f48eda6592e877803e054e"
+    }
+  ],
+  "last_five": [
+    "346c64ebe864e7f09fa2de227e7b72709fbb8670 fix(q1): 整改十三项交叉审核并完善验证基准v2",
+    "3172d088feb9da0fed3a784e5071fcb9905b6a9e docs(q1): 发布完整交叉审核成果与70区权威导航",
+    "abc0bd963b989db101af8406c7986a24d101c611 Merge remote-tracking branch 'origin/q1-spectral' into q1-spectral",
+    "fb21f9541320198818eab6f4554decc617160885 Q1 update",
+    "f24b1292629bf8a46d4e00e4a80a429327789094 fix(q1): 统一验收清单跨平台换行与哈希口径"
+  ],
+  "remediation_commit": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+  "commit_27_additions": [
+    "A\t04_Q1光谱研究/代码/build_crossreview_remediation_v2.py",
+    "A\t04_Q1光谱研究/代码/test_validation_v2.py",
+    "A\t04_Q1光谱研究/代码/validation_modules_v2.py",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/70区_方向邻域复算.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_13项交叉审核整改矩阵.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_70区修订审核表.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_D1_D2邻居不足修复报告.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_R1实现与验收报告.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_回归测试报告.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_待共同决策事项.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_整改总报告.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_正式验证配置v2草案.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/Q1_验证基准v2草案.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/S06_形态与解释分列补充表_v2.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/v2_模拟回归测试.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/历史12项_隔离重跑.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/历史61项_隔离重跑.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/历史文件保护核验.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/70区独立意见.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/关键复算结果.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/关键复算记录.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/复算.py",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/审核报告.md",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入快照/逐条问题清单.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/审核输入来源清单.csv",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/本轮验收.json",
+    "A\t04_Q1光谱研究/实验验证/交叉审核整改_v2/版本变更与SHA256清单.csv"
+  ],
+  "manifest_count": 25,
+  "manifest_hash_match": true,
+  "historical_count": 245,
+  "historical_changes": [],
+  "refs70": {
+    "Needs More Evidence": 45,
+    "Reject Candidate": 25
+  },
+  "ordinary_truth_approved": 0,
+  "issue_responses": {
+    "Accepted": 10,
+    "Partially Accepted": 3
+  },
+  "test_results_read_only": "旧61、旧12、新62测试记录已读取；本轮未重跑",
+  "tree_counts": {
+    "main": 67,
+    "q1-spectral": 338,
+    "q2-gas-oxygen": 67,
+    "origin/main": 68,
+    "origin/q1-spectral": 311,
+    "origin/q2-gas-oxygen": 141
+  },
+  "inventory_rows": 992,
+  "unique_git_blobs": 398,
+  "fetched": true,
+  "pushed": false,
+  "merged": false,
+  "research_executed": false
+}

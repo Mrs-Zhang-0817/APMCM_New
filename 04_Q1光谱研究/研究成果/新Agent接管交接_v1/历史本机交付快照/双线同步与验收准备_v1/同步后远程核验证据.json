@@ -1,0 +1,34 @@
+{
+  "task": "A-Q1-SYNC-001",
+  "utc": "2026-11-27T08:08:02.934402+00:00",
+  "remote_heads": {
+    "q1-spectral": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+    "q2-gas-oxygen": "7652b32ac0e0f474610d7beb278b9eb2af240354",
+    "main": "f7b919233182bbeb14734cd1fe6a8a922db79c11"
+  },
+  "ls_remote": {
+    "main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+    "q1-spectral": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+    "q2-gas-oxygen": "7652b32ac0e0f474610d7beb278b9eb2af240354"
+  },
+  "Q1_relation": [
+    0,
+    0
+  ],
+  "Q2_relation": [
+    0,
+    2
+  ],
+  "main_relation": [
+    0,
+    2
+  ],
+  "only_Q1_remote_changed": true,
+  "local_heads_unchanged": true,
+  "tracked_changes": "",
+  "untracked_status": "?? 04_Q1光谱研究/研究成果/双线同步与验收准备_v1/\n?? 04_Q1光谱研究/研究成果/工作区连接审计_v1/",
+  "raw_data_read": false,
+  "research_tests_run": false,
+  "branch_merge": false,
+  "pending_decisions": 9
+}

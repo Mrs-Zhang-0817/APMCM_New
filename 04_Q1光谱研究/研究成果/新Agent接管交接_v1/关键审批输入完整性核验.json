@@ -1,0 +1,102 @@
+{
+  "task": "J-HANDOVER-001",
+  "utc": "2026-11-27T09:37:56.785109+00:00",
+  "Q1": "025b3307f4fa6f98412ae2080a0c3bc883bc3900",
+  "Q2": "059075dc9678d2aac73bd3b5be1888d3f7b06e78",
+  "main": "f7b919233182bbeb14734cd1fe6a8a922db79c11",
+  "R0_config_canonical": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+  "R0_manifest_canonical": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+  "R0_code_checks": [
+    {
+      "Path": "r0_preparation.py",
+      "Expected": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "Actual": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "Match": true
+    },
+    {
+      "Path": "prepare_r0_evidence.py",
+      "Expected": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "Actual": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "Match": true
+    },
+    {
+      "Path": "test_r0_preparation.py",
+      "Expected": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "Actual": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "Match": true
+    },
+    {
+      "Path": "detection_metrics_v3.py",
+      "Expected": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "Actual": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "Match": true
+    },
+    {
+      "Path": "test_detection_metrics_v3.py",
+      "Expected": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "Actual": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "Match": true
+    },
+    {
+      "Path": "finalize_r0_preparation.py",
+      "Expected": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99",
+      "Actual": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99",
+      "Match": true
+    }
+  ],
+  "R0_saved_window_checks": [
+    {
+      "Reference_ID": "REF-6B03205-F",
+      "Saved_Window_SHA256": "b47ea4a6ba679f6e12278a97d3978a9c4f34a810437679b4e6e3beaf96fdc68e",
+      "Match": true,
+      "Scope": "保存支持窗与绑定一致，不代表本轮原始附件核验或真实遮蔽"
+    },
+    {
+      "Reference_ID": "REF-6B03206-F",
+      "Saved_Window_SHA256": "bf4434d6444b80ae741511af51a99469e4fecb11b422f43c442cbe73b94aa393",
+      "Match": true,
+      "Scope": "保存支持窗与绑定一致，不代表本轮原始附件核验或真实遮蔽"
+    },
+    {
+      "Reference_ID": "REF-6B03271-F",
+      "Saved_Window_SHA256": "b833a323132bd2e4c9f6fe8ef4ca4ce569ee0ea1f567f0e5c60826b20e97c935",
+      "Match": true,
+      "Scope": "保存支持窗与绑定一致，不代表本轮原始附件核验或真实遮蔽"
+    },
+    {
+      "Reference_ID": "REF-6C02058-F",
+      "Saved_Window_SHA256": "f89760aff9c2e5f379a092400a024360fd61013dcf58fc2fcc73075ee072e7cc",
+      "Match": true,
+      "Scope": "保存支持窗与绑定一致，不代表本轮原始附件核验或真实遮蔽"
+    },
+    {
+      "Reference_ID": "REF-6C02107-A",
+      "Saved_Window_SHA256": "a8814804b8724bf545912bc593b3a5ecea8f5148e4ddba55da095cbe880830e9",
+      "Match": true,
+      "Scope": "保存支持窗与绑定一致，不代表本轮原始附件核验或真实遮蔽"
+    }
+  ],
+  "Q2_code_checks": [
+    {
+      "Path": "q2_continuous.py",
+      "Expected": "42b36a0508196e429a53263f0c5328313ba94bbed026ad4fdf8564102b39c6cd",
+      "Actual": "42b36a0508196e429a53263f0c5328313ba94bbed026ad4fdf8564102b39c6cd",
+      "Match": true
+    },
+    {
+      "Path": "q2_delay.py",
+      "Expected": "715cc6e6e8e070b062f28a69b7a11d8eef576748816e72d23533d7abf5dd57af",
+      "Actual": "715cc6e6e8e070b062f28a69b7a11d8eef576748816e72d23533d7abf5dd57af",
+      "Match": true
+    }
+  ],
+  "Q2_configuration_raw_hashes": {
+    "连续重构_冻结审批配置.json": "6233af9b8ce8cbeb6150ce4c874eeabf78e35ab05dee4895023fd805d70dc171",
+    "延迟识别_冻结审批配置.json": "eceed639a1dc82a716c30995c77bc856ae67909844a1473b9291af71b80521bd"
+  },
+  "R0_status": "Pending",
+  "Q2_status": "Pending",
+  "real_experiments_run": false,
+  "synthetic_tests_rerun": false,
+  "original_workbooks_read": false
+}

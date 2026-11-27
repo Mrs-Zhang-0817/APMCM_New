@@ -1,0 +1,33 @@
+{
+  "task": "A-Q1-CR-Q2-002",
+  "review_id": "CR-Q2-b35ac738-v02",
+  "reviewed_commit": "b35ac738d01642efe11b6e1a759572cace8b0885",
+  "Q1_fixed": "346c64ebe864e7f09fa2de227e7b72709fbb8670",
+  "required_deliverables": [
+    "Q2独立交叉验收报告.md",
+    "Q2关键问题复算表.csv",
+    "Q2数学模型风险清单.md",
+    "Q2连续函数候选方法评价.md",
+    "Q3信息边界审核.md",
+    "Q2待双方共同确认事项.md"
+  ],
+  "check_rows": 95,
+  "matched": 90,
+  "new_evidence": 5,
+  "raw_heats_read": [
+    5,
+    8
+  ],
+  "independent_reader_exact": true,
+  "originals_unchanged": true,
+  "peer_files_modified": false,
+  "continuous_model_acceptance": false,
+  "physical_delay_acceptance": false,
+  "first_real_validation_ready": false,
+  "approval": "Pending",
+  "new_plots": false,
+  "real_cleaning": false,
+  "real_masking": false,
+  "model_training": false,
+  "pushed": false
+}
