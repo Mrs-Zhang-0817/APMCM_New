@@ -1,0 +1,1661 @@
+{
+  "Commit": "3172d088feb9da0fed3a784e5071fcb9905b6a9e",
+  "Hash_Manifest_Entries": 244,
+  "Hash_Manifest_Differences": [],
+  "Reference_SHA256": "816118c60920aaa250371de489fa28d45b5a12451da2cb300291aece219ccb4d",
+  "Reference_Config_Hash_Match": true,
+  "Original_Recommendations": {
+    "Needs More Evidence": 38,
+    "Accept Candidate": 7,
+    "Reject Candidate": 25
+  },
+  "Independent_Opinions": {
+    "补证，保留对应难例层": 43,
+    "拒作普通参考，保留为困难案例": 25,
+    "补证，半径4存在上限邻居": 2
+  },
+  "Cases": [
+    {
+      "Case_ID": "6B03205_A",
+      "Excel_Row": 1431,
+      "Excel_Column": 1208,
+      "Sequence": 1430.0,
+      "Time_s": 714.5,
+      "Wavelength_nm": 768.93,
+      "Original_Value": 59709.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.5929682217714672,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03205_B",
+      "Excel_Row": 1458,
+      "Excel_Column": 1200,
+      "Sequence": 1457.0,
+      "Time_s": 728.0,
+      "Wavelength_nm": 766.288,
+      "Original_Value": 14596.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.23597025016903314,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03205_C",
+      "Excel_Row": 1431,
+      "Excel_Column": 1206,
+      "Sequence": 1430.0,
+      "Time_s": 714.5,
+      "Wavelength_nm": 768.27,
+      "Original_Value": 62398.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.17038539553752535,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03205_D",
+      "Excel_Row": 287,
+      "Excel_Column": 1657,
+      "Sequence": 286.0,
+      "Time_s": 142.5,
+      "Wavelength_nm": 912.105,
+      "Original_Value": 4488.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.7004732927653821,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03205_G",
+      "Excel_Row": 521,
+      "Excel_Column": 1198,
+      "Sequence": 520.0,
+      "Time_s": 259.5,
+      "Wavelength_nm": 765.628,
+      "Original_Value": 9805.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.4482758620689655,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03205_F",
+      "Excel_Row": 1431,
+      "Excel_Column": 1206,
+      "Sequence": 1430.0,
+      "Time_s": 714.5,
+      "Wavelength_nm": 768.27,
+      "Original_Value": 62398.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.17038539553752535,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_A",
+      "Excel_Row": 1213,
+      "Excel_Column": 1208,
+      "Sequence": 1212.0,
+      "Time_s": 605.5,
+      "Wavelength_nm": 768.93,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 6,
+      "Repeated_Local_Peak_Fraction": 0.6636155606407322,
+      "Left_Shoulder": 64918.0,
+      "Right_Shoulder": 64735.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_B",
+      "Excel_Row": 1075,
+      "Excel_Column": 1200,
+      "Sequence": 1074.0,
+      "Time_s": 536.5,
+      "Wavelength_nm": 766.288,
+      "Original_Value": 63540.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.2578184591914569,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_C",
+      "Excel_Row": 1213,
+      "Excel_Column": 1197,
+      "Sequence": 1212.0,
+      "Time_s": 605.5,
+      "Wavelength_nm": 765.297,
+      "Original_Value": 65081.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.15179252479023647,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_D",
+      "Excel_Row": 613,
+      "Excel_Column": 1858,
+      "Sequence": 612.0,
+      "Time_s": 305.5,
+      "Wavelength_nm": 972.749,
+      "Original_Value": 4269.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.7559115179252479,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_G",
+      "Excel_Row": 1214,
+      "Excel_Column": 1100,
+      "Sequence": 1213.0,
+      "Time_s": 606.0,
+      "Wavelength_nm": 733.013,
+      "Original_Value": 17941.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.6445461479786423,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_E",
+      "Excel_Row": 1213,
+      "Excel_Column": 1209,
+      "Sequence": 1212.0,
+      "Time_s": 605.5,
+      "Wavelength_nm": 769.26,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 6,
+      "Repeated_Local_Peak_Fraction": 0.2745995423340961,
+      "Left_Shoulder": 64918.0,
+      "Right_Shoulder": 64735.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03206_F",
+      "Excel_Row": 1213,
+      "Excel_Column": 1196,
+      "Sequence": 1212.0,
+      "Time_s": 605.5,
+      "Wavelength_nm": 764.966,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.28527841342486654,
+      "Left_Shoulder": 63662.0,
+      "Right_Shoulder": 65081.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_A",
+      "Excel_Row": 1399,
+      "Excel_Column": 1208,
+      "Sequence": 1398.0,
+      "Time_s": 698.5,
+      "Wavelength_nm": 768.93,
+      "Original_Value": 60740.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.8131634819532909,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_B",
+      "Excel_Row": 1385,
+      "Excel_Column": 1201,
+      "Sequence": 1384.0,
+      "Time_s": 691.5,
+      "Wavelength_nm": 766.619,
+      "Original_Value": 18368.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.03184713375796178,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_C",
+      "Excel_Row": 1399,
+      "Excel_Column": 1199,
+      "Sequence": 1398.0,
+      "Time_s": 698.5,
+      "Wavelength_nm": 765.958,
+      "Original_Value": 61485.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.2689313517338995,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_D",
+      "Excel_Row": 165,
+      "Excel_Column": 1657,
+      "Sequence": 164.0,
+      "Time_s": 81.5,
+      "Wavelength_nm": 912.105,
+      "Original_Value": 8965.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.6694975230007078,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_G",
+      "Excel_Row": 1385,
+      "Excel_Column": 1201,
+      "Sequence": 1384.0,
+      "Time_s": 691.5,
+      "Wavelength_nm": 766.619,
+      "Original_Value": 18368.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.03184713375796178,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03270_F",
+      "Excel_Row": 1399,
+      "Excel_Column": 1199,
+      "Sequence": 1398.0,
+      "Time_s": 698.5,
+      "Wavelength_nm": 765.958,
+      "Original_Value": 61485.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.2689313517338995,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_A",
+      "Excel_Row": 1393,
+      "Excel_Column": 1208,
+      "Sequence": 1392.0,
+      "Time_s": 695.5,
+      "Wavelength_nm": 768.93,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 5,
+      "Repeated_Local_Peak_Fraction": 0.7767605633802817,
+      "Left_Shoulder": 65323.0,
+      "Right_Shoulder": 63912.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_B",
+      "Excel_Row": 1392,
+      "Excel_Column": 1200,
+      "Sequence": 1391.0,
+      "Time_s": 695.0,
+      "Wavelength_nm": 766.288,
+      "Original_Value": 63338.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.126056338028169,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_C",
+      "Excel_Row": 1393,
+      "Excel_Column": 1206,
+      "Sequence": 1392.0,
+      "Time_s": 695.5,
+      "Wavelength_nm": 768.27,
+      "Original_Value": 65323.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.03873239436619718,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_D",
+      "Excel_Row": 393,
+      "Excel_Column": 1246,
+      "Sequence": 392.0,
+      "Time_s": 195.5,
+      "Wavelength_nm": 781.437,
+      "Original_Value": 8755.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.5598591549295775,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_G",
+      "Excel_Row": 1414,
+      "Excel_Column": 1200,
+      "Sequence": 1413.0,
+      "Time_s": 706.0,
+      "Wavelength_nm": 766.288,
+      "Original_Value": 20399.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.126056338028169,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_E",
+      "Excel_Row": 1393,
+      "Excel_Column": 1209,
+      "Sequence": 1392.0,
+      "Time_s": 695.5,
+      "Wavelength_nm": 769.26,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 5,
+      "Repeated_Local_Peak_Fraction": 0.19295774647887323,
+      "Left_Shoulder": 65323.0,
+      "Right_Shoulder": 63912.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6B03271_F",
+      "Excel_Row": 1393,
+      "Excel_Column": 1198,
+      "Sequence": 1392.0,
+      "Time_s": 695.5,
+      "Wavelength_nm": 765.628,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 5,
+      "Repeated_Local_Peak_Fraction": 0.5429577464788733,
+      "Left_Shoulder": 64335.0,
+      "Right_Shoulder": 65185.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_A",
+      "Excel_Row": 172,
+      "Excel_Column": 1223,
+      "Sequence": 171.0,
+      "Time_s": 85.0,
+      "Wavelength_nm": 769.693,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 23,
+      "Repeated_Local_Peak_Fraction": 0.6412903225806451,
+      "Left_Shoulder": 65440.0,
+      "Right_Shoulder": 64846.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_B",
+      "Excel_Row": 614,
+      "Excel_Column": 954,
+      "Sequence": 613.0,
+      "Time_s": 306.0,
+      "Wavelength_nm": 679.916,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 649,
+      "Repeated_Local_Peak_Fraction": 0.11096774193548387,
+      "Left_Shoulder": 65528.0,
+      "Right_Shoulder": 65458.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_C",
+      "Excel_Row": 236,
+      "Excel_Column": 909,
+      "Sequence": 235.0,
+      "Time_s": 117.0,
+      "Wavelength_nm": 664.593,
+      "Original_Value": 65533.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.05290322580645161,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_D",
+      "Excel_Row": 667,
+      "Excel_Column": 1281,
+      "Sequence": 666.0,
+      "Time_s": 332.5,
+      "Wavelength_nm": 788.625,
+      "Original_Value": 21724.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.36129032258064514,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_G",
+      "Excel_Row": 614,
+      "Excel_Column": 954,
+      "Sequence": 613.0,
+      "Time_s": 306.0,
+      "Wavelength_nm": 679.916,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 649,
+      "Repeated_Local_Peak_Fraction": 0.11096774193548387,
+      "Left_Shoulder": 65528.0,
+      "Right_Shoulder": 65458.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_E",
+      "Excel_Row": 615,
+      "Excel_Column": 1125,
+      "Sequence": 614.0,
+      "Time_s": 306.5,
+      "Wavelength_nm": 737.356,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 915,
+      "Repeated_Local_Peak_Fraction": 0.11096774193548387,
+      "Left_Shoulder": 65144.0,
+      "Right_Shoulder": 65379.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02057_F",
+      "Excel_Row": 172,
+      "Excel_Column": 1058,
+      "Sequence": 171.0,
+      "Time_s": 85.0,
+      "Wavelength_nm": 715.002,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.7470967741935484,
+      "Left_Shoulder": 65187.0,
+      "Right_Shoulder": 65341.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_A",
+      "Excel_Row": 410,
+      "Excel_Column": 120,
+      "Sequence": 409.0,
+      "Time_s": 204.0,
+      "Wavelength_nm": 383.293,
+      "Original_Value": 2524.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.9977661950856291,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_B",
+      "Excel_Row": 892,
+      "Excel_Column": 1101,
+      "Sequence": 891.0,
+      "Time_s": 445.0,
+      "Wavelength_nm": 729.371,
+      "Original_Value": 741.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.13924050632911392,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_C",
+      "Excel_Row": 380,
+      "Excel_Column": 1017,
+      "Sequence": 379.0,
+      "Time_s": 189.0,
+      "Wavelength_nm": 701.225,
+      "Original_Value": 65533.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.49218168279970215,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_D",
+      "Excel_Row": 1231,
+      "Excel_Column": 1279,
+      "Sequence": 1230.0,
+      "Time_s": 614.5,
+      "Wavelength_nm": 787.975,
+      "Original_Value": 4567.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.3313477289650037,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_G",
+      "Excel_Row": 665,
+      "Excel_Column": 813,
+      "Sequence": 664.0,
+      "Time_s": 331.5,
+      "Wavelength_nm": 631.623,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 2,
+      "Repeated_Local_Peak_Fraction": 0.4780342516753537,
+      "Left_Shoulder": 65081.0,
+      "Right_Shoulder": 65372.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_E",
+      "Excel_Row": 665,
+      "Excel_Column": 1145,
+      "Sequence": 664.0,
+      "Time_s": 331.5,
+      "Wavelength_nm": 743.99,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 629,
+      "Repeated_Local_Peak_Fraction": 0.07222635889798958,
+      "Left_Shoulder": 65508.0,
+      "Right_Shoulder": 65327.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02058_F",
+      "Excel_Row": 380,
+      "Excel_Column": 1281,
+      "Sequence": 379.0,
+      "Time_s": 189.0,
+      "Wavelength_nm": 788.625,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.31794489947877885,
+      "Left_Shoulder": 65483.0,
+      "Right_Shoulder": 65402.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_A",
+      "Excel_Row": 688,
+      "Excel_Column": 1222,
+      "Sequence": 687.0,
+      "Time_s": 343.0,
+      "Wavelength_nm": 769.365,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 3,
+      "Repeated_Local_Peak_Fraction": 0.39228295819935693,
+      "Left_Shoulder": 64724.0,
+      "Right_Shoulder": 65271.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_B",
+      "Excel_Row": 699,
+      "Excel_Column": 1214,
+      "Sequence": 698.0,
+      "Time_s": 348.5,
+      "Wavelength_nm": 766.741,
+      "Original_Value": 13365.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.34662379421221867,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_C",
+      "Excel_Row": 1071,
+      "Excel_Column": 1218,
+      "Sequence": 1070.0,
+      "Time_s": 534.5,
+      "Wavelength_nm": 768.054,
+      "Original_Value": 65485.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.16270096463022507,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_D",
+      "Excel_Row": 361,
+      "Excel_Column": 1460,
+      "Sequence": 360.0,
+      "Time_s": 179.5,
+      "Wavelength_nm": 846.057,
+      "Original_Value": 26734.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.26366559485530544,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_G",
+      "Excel_Row": 1073,
+      "Excel_Column": 1124,
+      "Sequence": 1072.0,
+      "Time_s": 535.5,
+      "Wavelength_nm": 737.024,
+      "Original_Value": 19724.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.4418006430868167,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_E",
+      "Excel_Row": 1072,
+      "Excel_Column": 1219,
+      "Sequence": 1071.0,
+      "Time_s": 535.0,
+      "Wavelength_nm": 768.382,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 27,
+      "Repeated_Local_Peak_Fraction": 0.06688102893890675,
+      "Left_Shoulder": 65375.0,
+      "Right_Shoulder": 65393.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02059_F",
+      "Excel_Row": 602,
+      "Excel_Column": 1223,
+      "Sequence": 601.0,
+      "Time_s": 300.0,
+      "Wavelength_nm": 769.693,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.5704180064308682,
+      "Left_Shoulder": 65092.0,
+      "Right_Shoulder": 65320.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_A",
+      "Excel_Row": 667,
+      "Excel_Column": 1222,
+      "Sequence": 666.0,
+      "Time_s": 332.5,
+      "Wavelength_nm": 769.365,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 16,
+      "Repeated_Local_Peak_Fraction": 0.4304442825928623,
+      "Left_Shoulder": 65036.0,
+      "Right_Shoulder": 65264.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_B",
+      "Excel_Row": 848,
+      "Excel_Column": 1084,
+      "Sequence": 847.0,
+      "Time_s": 423.0,
+      "Wavelength_nm": 723.7,
+      "Original_Value": 4456.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.07501820830298617,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_C",
+      "Excel_Row": 788,
+      "Excel_Column": 1081,
+      "Sequence": 787.0,
+      "Time_s": 393.0,
+      "Wavelength_nm": 722.698,
+      "Original_Value": 65530.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.041514930808448654,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_D",
+      "Excel_Row": 64,
+      "Excel_Column": 973,
+      "Sequence": 63.0,
+      "Time_s": 31.0,
+      "Wavelength_nm": 686.361,
+      "Original_Value": 3688.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.1143481427530954,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_G",
+      "Excel_Row": 848,
+      "Excel_Column": 1084,
+      "Sequence": 847.0,
+      "Time_s": 423.0,
+      "Wavelength_nm": 723.7,
+      "Original_Value": 4456.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.07501820830298617,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_E",
+      "Excel_Row": 788,
+      "Excel_Column": 1149,
+      "Sequence": 787.0,
+      "Time_s": 393.0,
+      "Wavelength_nm": 745.315,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 93,
+      "Repeated_Local_Peak_Fraction": 0.15367807720320467,
+      "Left_Shoulder": 65467.0,
+      "Right_Shoulder": 65162.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02060_F",
+      "Excel_Row": 788,
+      "Excel_Column": 1054,
+      "Sequence": 787.0,
+      "Time_s": 393.0,
+      "Wavelength_nm": 713.661,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.7035688273852877,
+      "Left_Shoulder": 65424.0,
+      "Right_Shoulder": 65347.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_A",
+      "Excel_Row": 430,
+      "Excel_Column": 1222,
+      "Sequence": 429.0,
+      "Time_s": 214.0,
+      "Wavelength_nm": 769.365,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 4,
+      "Repeated_Local_Peak_Fraction": 0.32213845099383137,
+      "Left_Shoulder": 63329.0,
+      "Right_Shoulder": 63820.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_B",
+      "Excel_Row": 1100,
+      "Excel_Column": 689,
+      "Sequence": 1099.0,
+      "Time_s": 549.0,
+      "Wavelength_nm": 588.487,
+      "Original_Value": 2097.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.0205620287868403,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_C",
+      "Excel_Row": 1103,
+      "Excel_Column": 1125,
+      "Sequence": 1102.0,
+      "Time_s": 550.5,
+      "Wavelength_nm": 737.356,
+      "Original_Value": 65533.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.429061000685401,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_D",
+      "Excel_Row": 690,
+      "Excel_Column": 1365,
+      "Sequence": 689.0,
+      "Time_s": 344.0,
+      "Wavelength_nm": 815.766,
+      "Original_Value": 24756.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.7793008910212474,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_G",
+      "Excel_Row": 1100,
+      "Excel_Column": 689,
+      "Sequence": 1099.0,
+      "Time_s": 549.0,
+      "Wavelength_nm": 588.487,
+      "Original_Value": 2097.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.0205620287868403,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_E",
+      "Excel_Row": 1099,
+      "Excel_Column": 1146,
+      "Sequence": 1098.0,
+      "Time_s": 548.5,
+      "Wavelength_nm": 744.322,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 650,
+      "Repeated_Local_Peak_Fraction": 0.0822481151473612,
+      "Left_Shoulder": 65413.0,
+      "Right_Shoulder": 65060.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02107_F",
+      "Excel_Row": 936,
+      "Excel_Column": 1142,
+      "Sequence": 935.0,
+      "Time_s": 467.0,
+      "Wavelength_nm": 742.996,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.6771761480466073,
+      "Left_Shoulder": 64947.0,
+      "Right_Shoulder": 65368.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_A",
+      "Excel_Row": 491,
+      "Excel_Column": 1222,
+      "Sequence": 490.0,
+      "Time_s": 244.5,
+      "Wavelength_nm": 769.365,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 25,
+      "Repeated_Local_Peak_Fraction": 0.4791238877481177,
+      "Left_Shoulder": 65277.0,
+      "Right_Shoulder": 64862.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_B",
+      "Excel_Row": 979,
+      "Excel_Column": 1024,
+      "Sequence": 978.0,
+      "Time_s": 488.5,
+      "Wavelength_nm": 703.583,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 26,
+      "Repeated_Local_Peak_Fraction": 0.24503764544832307,
+      "Left_Shoulder": 64902.0,
+      "Right_Shoulder": 65232.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_C",
+      "Excel_Row": 491,
+      "Excel_Column": 1185,
+      "Sequence": 490.0,
+      "Time_s": 244.5,
+      "Wavelength_nm": 757.206,
+      "Original_Value": 65533.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.5208761122518822,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_D",
+      "Excel_Row": 450,
+      "Excel_Column": 756,
+      "Sequence": 449.0,
+      "Time_s": 224.0,
+      "Wavelength_nm": 611.87,
+      "Original_Value": 22492.0,
+      "Plateau_Points": 0,
+      "Repeated_Local_Peak_Fraction": 0.458590006844627,
+      "Left_Shoulder": null,
+      "Right_Shoulder": null,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_G",
+      "Excel_Row": 688,
+      "Excel_Column": 754,
+      "Sequence": 687.0,
+      "Time_s": 343.0,
+      "Wavelength_nm": 611.174,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.33744010951403147,
+      "Left_Shoulder": 65524.0,
+      "Right_Shoulder": 65415.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_E",
+      "Excel_Row": 688,
+      "Excel_Column": 1109,
+      "Sequence": 687.0,
+      "Time_s": 343.0,
+      "Wavelength_nm": 732.036,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 697,
+      "Repeated_Local_Peak_Fraction": 0.6433949349760438,
+      "Left_Shoulder": 65379.0,
+      "Right_Shoulder": 65341.0,
+      "Differences": []
+    },
+    {
+      "Case_ID": "6C02108_F",
+      "Excel_Row": 491,
+      "Excel_Column": 1054,
+      "Sequence": 490.0,
+      "Time_s": 244.5,
+      "Wavelength_nm": 713.661,
+      "Original_Value": 65535.0,
+      "Plateau_Points": 1,
+      "Repeated_Local_Peak_Fraction": 0.6331279945242985,
+      "Left_Shoulder": 65289.0,
+      "Right_Shoulder": 65029.0,
+      "Differences": []
+    }
+  ],
+  "Functional_Count": 61,
+  "Functional_Passed": 61,
+  "Functional_Reproduction_Exact": {
+    "checks": true,
+    "synthetic_metrics": true,
+    "folds": true,
+    "injection_records": true,
+    "mask_records": true
+  },
+  "Risk_Count": 12,
+  "Risk_Passed": 12,
+  "Risk_Exact": true,
+  "Risk_Reproduction": {
+    "checks": [
+      {
+        "Test": "MAD0_scale_D0",
+        "Check_Passed": true,
+        "Values": {
+          "original_flags": 0,
+          "fixed_floor_rescaled_flags": 1,
+          "co_scaled_floor_flags": 0
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "MAD0_scale_D1",
+        "Check_Passed": true,
+        "Values": {
+          "original_flags": 0,
+          "fixed_floor_rescaled_flags": 1,
+          "co_scaled_floor_flags": 0
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "MAD0_scale_D2",
+        "Check_Passed": true,
+        "Values": {
+          "original_flags": 0,
+          "fixed_floor_rescaled_flags": 1,
+          "co_scaled_floor_flags": 0
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "upper_neighbors_can_hide_positive_residual",
+        "Check_Passed": true,
+        "Values": {
+          "clean": 15.709336985418515,
+          "contaminated": -0.6736934538702661
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "persistent_narrow_peak_OR_AND",
+        "Check_Passed": true,
+        "Values": {
+          "D1_flags": 15,
+          "D2_flags": 0,
+          "peak_points": 15
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "transient_real_peak_still_triggers_consensus",
+        "Check_Passed": true,
+        "Values": {
+          "triggered": true,
+          "meaning": "真实瞬时峰与异常尖点可能观测相同，不能仅算法辨别"
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "block_interior_miss_D1",
+        "Check_Passed": true,
+        "Values": {
+          "interior_flag": false,
+          "flagged_block_points": 0,
+          "block_points": 651
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "block_interior_miss_D2",
+        "Check_Passed": true,
+        "Values": {
+          "interior_flag": false,
+          "flagged_block_points": 0,
+          "block_points": 651
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "R0_convex_bounds",
+        "Check_Passed": true,
+        "Values": {
+          "min": 10.012492192379762,
+          "max": 34.66494738866339
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "R0_unsupported_boundary_not_fabricated",
+        "Check_Passed": true,
+        "Values": {
+          "unsupported_points": 288
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "C2_lower_bound_not_identifiability",
+        "Check_Passed": true,
+        "Values": {
+          "violation_count": 0,
+          "true_peak": 34.66494738866339,
+          "estimated_peak": 30.0,
+          "iterations": 200
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      },
+      {
+        "Test": "same_observation_different_peak",
+        "Check_Passed": true,
+        "Values": {
+          "first_peak": 5,
+          "second_peak": 9,
+          "upper": 3
+        },
+        "Scope": "独立模拟，非真实数据性能"
+      }
+    ],
+    "all_pass": true,
+    "real_data_used": false
+  },
+  "Grid": {
+    "Delta_Min_nm": 1.1450000000000387,
+    "Delta_Max_nm": 4.711999999999989,
+    "MAE_nm": 3.5230659501709822,
+    "RMSE_nm": 3.6922820558128517,
+    "Overlap_nm": [
+      340.535,
+      1023.303
+    ]
+  },
+  "Heats": [
+    {
+      "Heat_ID": "6B03205",
+      "Attachment": 1,
+      "File": "附件1.炉号-6B03205.xlsb",
+      "SHA256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+      "Rows": 1479,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 739.0,
+      "Wavelength_Min_nm": 340.535,
+      "Wavelength_Max_nm": 1027.963,
+      "Maximum": 62398.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 237.0,
+        "Max": 62398.0,
+        "Mean": 4058.5608530830423,
+        "Median": 2504.0,
+        "Std": 4219.573848622263,
+        "MAD_raw": 1925.0,
+        "IQR": 5049.0,
+        "Q99": 17315.0
+      },
+      "Points": 0,
+      "Point_Denominator": 3027513,
+      "Point_Percent": 0.0,
+      "Affected_Rows": 0,
+      "Row_Denominator": 1479,
+      "Row_Percent": 0.0,
+      "Affected_Columns": 0,
+      "Column_Denominator": 2047,
+      "Column_Percent": 0.0,
+      "Components_4": 0,
+      "Components_8": 0,
+      "Largest_4": 0,
+      "Largest_8": 0,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "S05_Eligible": 3020465,
+      "S05_Counts": {
+        "12": 7371,
+        "20": 2212,
+        "30": 784
+      }
+    },
+    {
+      "Heat_ID": "6B03206",
+      "Attachment": 2,
+      "File": "Attachment 2. Heat No. 6B03206.xlsb",
+      "SHA256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+      "Rows": 1311,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 655.0,
+      "Wavelength_Min_nm": 340.535,
+      "Wavelength_Max_nm": 1027.963,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 233.0,
+        "Max": 65535.0,
+        "Mean": 7264.5866630744995,
+        "Median": 4917.0,
+        "Std": 7162.355725498303,
+        "MAD_raw": 4223.0,
+        "IQR": 9968.0,
+        "Q99": 28307.0
+      },
+      "Points": 13,
+      "Point_Denominator": 2683617,
+      "Point_Percent": 0.0004844208394864096,
+      "Affected_Rows": 1,
+      "Row_Denominator": 1311,
+      "Row_Percent": 0.07627765064836003,
+      "Affected_Columns": 13,
+      "Column_Denominator": 2047,
+      "Column_Percent": 0.6350757205666829,
+      "Components_4": 3,
+      "Components_8": 3,
+      "Largest_4": 6,
+      "Largest_8": 6,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "S05_Eligible": 2676892,
+      "S05_Counts": {
+        "12": 5763,
+        "20": 1737,
+        "30": 646
+      }
+    },
+    {
+      "Heat_ID": "6B03270",
+      "Attachment": 3,
+      "File": "Attachment 3. Heat No. 6B03270.xlsb",
+      "SHA256": "f8e48e3dfa90b6b4031746781913e85cfe07c7ad5c69c049f027163a141b9a54",
+      "Rows": 1413,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 706.0,
+      "Wavelength_Min_nm": 340.535,
+      "Wavelength_Max_nm": 1027.963,
+      "Maximum": 61485.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 197.0,
+        "Max": 61485.0,
+        "Mean": 5724.606599131313,
+        "Median": 4364.0,
+        "Std": 5386.834944621929,
+        "MAD_raw": 3588.0,
+        "IQR": 7525.0,
+        "Q99": 24445.0
+      },
+      "Points": 0,
+      "Point_Denominator": 2892411,
+      "Point_Percent": 0.0,
+      "Affected_Rows": 0,
+      "Row_Denominator": 1413,
+      "Row_Percent": 0.0,
+      "Affected_Columns": 0,
+      "Column_Denominator": 2047,
+      "Column_Percent": 0.0,
+      "Components_4": 0,
+      "Components_8": 0,
+      "Largest_4": 0,
+      "Largest_8": 0,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "S05_Eligible": 2885495,
+      "S05_Counts": {
+        "12": 6329,
+        "20": 1944,
+        "30": 722
+      }
+    },
+    {
+      "Heat_ID": "6B03271",
+      "Attachment": 4,
+      "File": "Attachment 4. Heat No. 6B03271.xlsb",
+      "SHA256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+      "Rows": 1420,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 709.5,
+      "Wavelength_Min_nm": 340.535,
+      "Wavelength_Max_nm": 1027.963,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 246.0,
+        "Max": 65535.0,
+        "Mean": 6186.097304540482,
+        "Median": 4705.0,
+        "Std": 5775.932799405311,
+        "MAD_raw": 3860.0,
+        "IQR": 8129.0,
+        "Q99": 23999.0
+      },
+      "Points": 10,
+      "Point_Denominator": 2906740,
+      "Point_Percent": 0.00034402801764175673,
+      "Affected_Rows": 1,
+      "Row_Denominator": 1420,
+      "Row_Percent": 0.07042253521126761,
+      "Affected_Columns": 10,
+      "Column_Denominator": 2047,
+      "Column_Percent": 0.48851978505129456,
+      "Components_4": 2,
+      "Components_8": 2,
+      "Largest_4": 5,
+      "Largest_8": 5,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "S05_Eligible": 2899800,
+      "S05_Counts": {
+        "12": 6529,
+        "20": 1989,
+        "30": 729
+      }
+    },
+    {
+      "Heat_ID": "6C02057",
+      "Attachment": 5,
+      "File": "Attachment 5. Heat No. 6C02057.xlsb",
+      "SHA256": "f8b4e18a408a61bf1fed4303f9554ae1d4aec0a643da076cc1ddffe89a1a5d59",
+      "Rows": 775,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 387.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 104.0,
+        "Max": 65535.0,
+        "Mean": 11373.070274359015,
+        "Median": 7724.0,
+        "Std": 11563.443076166812,
+        "MAD_raw": 6829.0,
+        "IQR": 16165.0,
+        "Q99": 50833.0
+      },
+      "Points": 4168,
+      "Point_Denominator": 1586425,
+      "Point_Percent": 0.26272909214113493,
+      "Affected_Rows": 12,
+      "Row_Denominator": 775,
+      "Row_Percent": 1.5483870967741935,
+      "Affected_Columns": 988,
+      "Column_Denominator": 2047,
+      "Column_Percent": 48.2657547630679,
+      "Components_4": 64,
+      "Components_8": 64,
+      "Largest_4": 1593,
+      "Largest_8": 1593,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 1576617,
+      "S05_Counts": {
+        "12": 2674,
+        "20": 809,
+        "30": 305
+      }
+    },
+    {
+      "Heat_ID": "6C02058",
+      "Attachment": 6,
+      "File": "Attachment 6. Heat No. 6C02058.xlsb",
+      "SHA256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+      "Rows": 1343,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 671.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 93.0,
+        "Max": 65535.0,
+        "Mean": 7264.426555615413,
+        "Median": 3112.0,
+        "Std": 10275.40987312778,
+        "MAD_raw": 2405.0,
+        "IQR": 8488.0,
+        "Q99": 53818.0
+      },
+      "Points": 5805,
+      "Point_Denominator": 2749121,
+      "Point_Percent": 0.21115840299499367,
+      "Affected_Rows": 40,
+      "Row_Denominator": 1343,
+      "Row_Percent": 2.9784065524944157,
+      "Affected_Columns": 710,
+      "Column_Denominator": 2047,
+      "Column_Percent": 34.68490473864191,
+      "Components_4": 131,
+      "Components_8": 131,
+      "Largest_4": 1031,
+      "Largest_8": 1031,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 2736540,
+      "S05_Counts": {
+        "12": 5222,
+        "20": 1568,
+        "30": 566
+      }
+    },
+    {
+      "Heat_ID": "6C02059",
+      "Attachment": 7,
+      "File": "Attachment 7. Heat No. 6C02059.xlsb",
+      "SHA256": "c86b2a668c62e3089249e4e1b9ffd284351919c2a244c11ef86ed89ed5febba5",
+      "Rows": 1555,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 777.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 122.0,
+        "Max": 65535.0,
+        "Mean": 10105.757818908385,
+        "Median": 6569.0,
+        "Std": 9941.696525416093,
+        "MAD_raw": 5771.0,
+        "IQR": 14894.0,
+        "Q99": 38498.0
+      },
+      "Points": 100,
+      "Point_Denominator": 3183085,
+      "Point_Percent": 0.0031416063347350135,
+      "Affected_Rows": 7,
+      "Row_Denominator": 1555,
+      "Row_Percent": 0.45016077170418006,
+      "Affected_Columns": 27,
+      "Column_Denominator": 2047,
+      "Column_Percent": 1.3190034196384954,
+      "Components_4": 9,
+      "Components_8": 9,
+      "Largest_4": 38,
+      "Largest_8": 38,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 3175785,
+      "S05_Counts": {
+        "12": 6158,
+        "20": 1830,
+        "30": 703
+      }
+    },
+    {
+      "Heat_ID": "6C02060",
+      "Attachment": 8,
+      "File": "Attachment 8. Heat No. 6C02060.xlsb",
+      "SHA256": "f135704ec92aa9418ae3d8c03b7c31ef4af27976b35fabf8430c5a8cdbfd0072",
+      "Rows": 1373,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 686.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 115.0,
+        "Max": 65535.0,
+        "Mean": 10478.323965471294,
+        "Median": 6938.0,
+        "Std": 10424.538197802862,
+        "MAD_raw": 6097.0,
+        "IQR": 15094.0,
+        "Q99": 42641.0
+      },
+      "Points": 326,
+      "Point_Denominator": 2810531,
+      "Point_Percent": 0.011599231604276915,
+      "Affected_Rows": 5,
+      "Row_Denominator": 1373,
+      "Row_Percent": 0.3641660597232338,
+      "Affected_Columns": 150,
+      "Column_Denominator": 2047,
+      "Column_Percent": 7.327796775769419,
+      "Components_4": 27,
+      "Components_8": 27,
+      "Largest_4": 93,
+      "Largest_8": 93,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 2803369,
+      "S05_Counts": {
+        "12": 5167,
+        "20": 1545,
+        "30": 588
+      }
+    },
+    {
+      "Heat_ID": "6C02107",
+      "Attachment": 9,
+      "File": "Attachment 9. Heat No. 6C02107.xlsb",
+      "SHA256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+      "Rows": 1459,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 729.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 149.0,
+        "Max": 65535.0,
+        "Mean": 10100.877994276383,
+        "Median": 7015.0,
+        "Std": 9998.480396092013,
+        "MAD_raw": 6113.0,
+        "IQR": 14228.0,
+        "Q99": 41072.0
+      },
+      "Points": 2110,
+      "Point_Denominator": 2986573,
+      "Point_Percent": 0.07064953711159914,
+      "Affected_Rows": 15,
+      "Row_Denominator": 1459,
+      "Row_Percent": 1.0281014393420151,
+      "Affected_Columns": 687,
+      "Column_Denominator": 2047,
+      "Column_Percent": 33.561309233023934,
+      "Components_4": 54,
+      "Components_8": 54,
+      "Largest_4": 650,
+      "Largest_8": 650,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 2977455,
+      "S05_Counts": {
+        "12": 5494,
+        "20": 1722,
+        "30": 631
+      }
+    },
+    {
+      "Heat_ID": "6C02108",
+      "Attachment": 10,
+      "File": "Attachment 10. Heat No. 6C02108.xlsb",
+      "SHA256": "06d915ba1c186da76b60a110bddf51b9a52944f623ad9e55eef02bc40cd4d90e",
+      "Rows": 1461,
+      "Spectral_Columns": 2047,
+      "Time_Last_s": 730.0,
+      "Wavelength_Min_nm": 339.39,
+      "Wavelength_Max_nm": 1023.303,
+      "Maximum": 65535.0,
+      "Duplicate_Spectral_Rows": 0,
+      "S03_Distribution": {
+        "Min": 183.0,
+        "Max": 65535.0,
+        "Mean": 10881.482780931477,
+        "Median": 7783.0,
+        "Std": 10307.2805875773,
+        "MAD_raw": 6807.0,
+        "IQR": 15577.0,
+        "Q99": 39757.0
+      },
+      "Points": 2273,
+      "Point_Denominator": 2990667,
+      "Point_Percent": 0.07600311234918498,
+      "Affected_Rows": 11,
+      "Row_Denominator": 1461,
+      "Row_Percent": 0.7529089664613279,
+      "Affected_Columns": 717,
+      "Column_Denominator": 2047,
+      "Column_Percent": 35.02686858817782,
+      "Components_4": 42,
+      "Components_8": 42,
+      "Largest_4": 864,
+      "Largest_8": 864,
+      "Repeated_Adjacent_Pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2047,
+          2048
+        ]
+      ],
+      "S05_Eligible": 2981382,
+      "S05_Counts": {
+        "12": 5562,
+        "20": 1718,
+        "30": 635
+      }
+    }
+  ]
+}

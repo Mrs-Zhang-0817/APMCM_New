@@ -1,0 +1,37 @@
+{
+  "task": "A-Q1-CR-002",
+  "review_commit": "7652b32ac0e0f474610d7beb278b9eb2af240354",
+  "baseline": "3172d088feb9da0fed3a784e5071fcb9905b6a9e",
+  "issues": 13,
+  "response_statuses": {
+    "Accepted": 10,
+    "Partially Accepted": 3
+  },
+  "references": 70,
+  "unique_ids": 70,
+  "reference_statuses": {
+    "Needs More Evidence": 45,
+    "Reject Candidate": 25
+  },
+  "ordinary_truth_approved": 0,
+  "radius_contaminated_regions": {
+    "1": 17,
+    "2": 17,
+    "4": 19
+  },
+  "legacy_functional_checks": 61,
+  "legacy_risk_checks": 12,
+  "new_synthetic_checks": 62,
+  "all_tests_pass": true,
+  "manifest_entries": 25,
+  "manifest_hashes_match": true,
+  "manifest_sha256": "f02503056ffa6989774c30543bebb8a127941829e730b36cb60fc44ac48e8c0a",
+  "historical_unchanged": true,
+  "R1_implemented": false,
+  "C2_convergence_certified": false,
+  "real_workbooks_read": false,
+  "real_cleaning": false,
+  "real_validation": false,
+  "joint_approval": "Pending",
+  "pushed": false
+}

@@ -1,0 +1,930 @@
+{
+  "task": "A-Q1-CR-002",
+  "synthetic_only": true,
+  "checks": [
+    {
+      "test": "one_each_D1",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Unassessable",
+        "time_count": 1,
+        "wave_count": 1,
+        "time_fraction": 0.25,
+        "wave_fraction": 0.25,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "one_each_D2",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Unassessable",
+        "time_count": 1,
+        "wave_count": 1,
+        "time_fraction": 0.25,
+        "wave_fraction": 0.25,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "two_each_D1",
+      "passed": true,
+      "values": {
+        "prediction": 1.0,
+        "state": "Evaluable Triggered",
+        "time_count": 2,
+        "wave_count": 2,
+        "time_fraction": 0.5,
+        "wave_fraction": 0.5,
+        "flags": 1,
+        "evaluated": 1,
+        "total": 49
+      }
+    },
+    {
+      "test": "two_each_D2",
+      "passed": true,
+      "values": {
+        "prediction": 1.0,
+        "state": "Evaluable Triggered",
+        "time_count": 2,
+        "wave_count": 2,
+        "time_fraction": 0.5,
+        "wave_fraction": 0.5,
+        "flags": 1,
+        "evaluated": 1,
+        "total": 49
+      }
+    },
+    {
+      "test": "time_insufficient_D1",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Fallback Required",
+        "time_count": 1,
+        "wave_count": 4,
+        "time_fraction": 0.25,
+        "wave_fraction": 1.0,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "time_insufficient_D2",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Fallback Required",
+        "time_count": 1,
+        "wave_count": 4,
+        "time_fraction": 0.25,
+        "wave_fraction": 1.0,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "wave_insufficient_D1",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Fallback Required",
+        "time_count": 4,
+        "wave_count": 1,
+        "time_fraction": 1.0,
+        "wave_fraction": 0.25,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "wave_insufficient_D2",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Fallback Required",
+        "time_count": 4,
+        "wave_count": 1,
+        "time_fraction": 1.0,
+        "wave_fraction": 0.25,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "both_insufficient_D1",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Unassessable",
+        "time_count": 0,
+        "wave_count": 0,
+        "time_fraction": 0.0,
+        "wave_fraction": 0.0,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "both_insufficient_D2",
+      "passed": true,
+      "values": {
+        "prediction": null,
+        "state": "Unassessable",
+        "time_count": 0,
+        "wave_count": 0,
+        "time_fraction": 0.0,
+        "wave_fraction": 0.0,
+        "flags": 0,
+        "evaluated": 0,
+        "total": 49
+      }
+    },
+    {
+      "test": "pollution_is_unknown_not_normal",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "persistent_peak_risk_visible",
+      "passed": true,
+      "values": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 15,
+          "evaluated": 375,
+          "total": 375
+        },
+        "D2": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 375,
+          "total": 375
+        }
+      }
+    },
+    {
+      "test": "transient_peak_risk_visible",
+      "passed": true,
+      "values": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 375,
+          "total": 375
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 375,
+          "total": 375
+        }
+      }
+    },
+    {
+      "test": "block_miss_still_visible",
+      "passed": true,
+      "values": {
+        "D1": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 2501,
+          "total": 2501
+        },
+        "D2": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 2501,
+          "total": 2501
+        }
+      }
+    },
+    {
+      "test": "boundary_not_blanket_excluded",
+      "passed": true,
+      "values": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        }
+      }
+    },
+    {
+      "test": "nominal_fraction_corner",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "strict_boundary_unknown",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "MAD0_finite",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "coscaled_floor_D1",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "coscaled_floor_D2",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "signed_spike_D1-1",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "signed_spike_D2-1",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "signed_spike_D11",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "signed_spike_D21",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "cap_center_unknown",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "floor_zero_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "fraction_invalid_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "mask_zero",
+      "passed": true,
+      "values": {
+        "kind": "points",
+        "seed": 3,
+        "fraction": 0,
+        "size": [
+          3,
+          5
+        ],
+        "requested_points": 0,
+        "actual_points": 0,
+        "denominator": 25
+      }
+    },
+    {
+      "test": "mask_one",
+      "passed": true,
+      "values": {
+        "kind": "points",
+        "seed": 3,
+        "fraction": 1,
+        "size": [
+          3,
+          5
+        ],
+        "requested_points": 25,
+        "actual_points": 25,
+        "denominator": 25
+      }
+    },
+    {
+      "test": "unknown_mask_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "negative_fraction_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "oversized_mask_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "undeclared_peak_reject",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "mask_seed_count_time",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "mask_seed_count_wavelength",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "mask_seed_count_block",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "mask_seed_count_peak",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "synthetic_gate_fixture_only",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_real_data_execution_allowed",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_status",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_frozen",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_approval_id",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_config_version",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_approvers",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_reference_manifest_sha256",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "gate_missing_config_sha256",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "disabled_even_signed",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "manifest_tamper",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "reference_tamper",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "R0_order_6_vs_5",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "R0_second_step_source_tag",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "R0_unsupported_edge",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "clip_equality_separate",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "C2_nonfinite",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "C2_repeated_coordinate",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "C2_negative_alpha",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "C2_bounds_not_convergence",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "clip_nonidentifiable",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "fixed_peak_ignores_unrelated_max",
+      "passed": true,
+      "values": {
+        "requested_points": 1,
+        "evaluated_points": 1,
+        "coverage": 1.0,
+        "MAE": 1.0,
+        "RMSE": 1.0,
+        "absolute_error": {
+          "count": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0
+        },
+        "peak_window": [
+          1,
+          3
+        ],
+        "background": 0,
+        "peak_requested_rows": 1,
+        "peak_rows": [
+          {
+            "row": 0,
+            "assessable": true,
+            "absolute_errors": [
+              0.0,
+              1.0,
+              0.25,
+              0.5
+            ]
+          }
+        ],
+        "peak_evaluated_rows": 1,
+        "peak_coverage": 1.0,
+        "position_nm": {
+          "count": 1,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "height": {
+          "count": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "p95": 1.0,
+          "max": 1.0
+        },
+        "FWHM_nm": {
+          "count": 1,
+          "mean": 0.25,
+          "median": 0.25,
+          "p95": 0.25,
+          "max": 0.25
+        },
+        "area": {
+          "count": 1,
+          "mean": 0.5,
+          "median": 0.5,
+          "p95": 0.5,
+          "max": 0.5
+        },
+        "shoulder_requested_points": 2,
+        "shoulder_evaluated_points": 2,
+        "shoulder_absolute_error": {
+          "count": 2,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "gradient_requested_edges": 2,
+        "gradient_evaluated_edges": 2,
+        "gradient_RMSE": 2.0
+      }
+    },
+    {
+      "test": "identity_peak_metrics",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "incomplete_peak_coverage",
+      "passed": true,
+      "values": null
+    },
+    {
+      "test": "missing_peak_window_reject",
+      "passed": true,
+      "values": null
+    }
+  ],
+  "detector_scenarios": [
+    {
+      "scenario": "one_each",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 1,
+          "wave_count": 1,
+          "time_fraction": 0.25,
+          "wave_fraction": 0.25,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 1,
+          "wave_count": 1,
+          "time_fraction": 0.25,
+          "wave_fraction": 0.25,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "two_each",
+      "results": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 1,
+          "total": 49
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 1,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "time_insufficient",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 1,
+          "wave_count": 4,
+          "time_fraction": 0.25,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 1,
+          "wave_count": 4,
+          "time_fraction": 0.25,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "wave_insufficient",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 4,
+          "wave_count": 1,
+          "time_fraction": 1.0,
+          "wave_fraction": 0.25,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 4,
+          "wave_count": 1,
+          "time_fraction": 1.0,
+          "wave_fraction": 0.25,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "both_insufficient",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 0,
+          "wave_count": 0,
+          "time_fraction": 0.0,
+          "wave_fraction": 0.0,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 0,
+          "wave_count": 0,
+          "time_fraction": 0.0,
+          "wave_fraction": 0.0,
+          "flags": 0,
+          "evaluated": 0,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "saturation_neighbor",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 3,
+          "wave_count": 4,
+          "time_fraction": 0.75,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 72,
+          "total": 81
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Fallback Required",
+          "time_count": 3,
+          "wave_count": 4,
+          "time_fraction": 0.75,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 72,
+          "total": 81
+        }
+      }
+    },
+    {
+      "scenario": "persistent_narrow_peak",
+      "results": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 15,
+          "evaluated": 375,
+          "total": 375
+        },
+        "D2": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 375,
+          "total": 375
+        }
+      }
+    },
+    {
+      "scenario": "transient_true_peak",
+      "results": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 375,
+          "total": 375
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 375,
+          "total": 375
+        }
+      }
+    },
+    {
+      "scenario": "continuous_block_interior",
+      "results": {
+        "D1": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 2501,
+          "total": 2501
+        },
+        "D2": {
+          "prediction": 0.0,
+          "state": "Evaluable Not Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 0,
+          "evaluated": 2501,
+          "total": 2501
+        }
+      }
+    },
+    {
+      "scenario": "corner_two_inward",
+      "results": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "corner_strict_fraction",
+      "results": {
+        "D1": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 0,
+          "evaluated": 25,
+          "total": 49
+        },
+        "D2": {
+          "prediction": null,
+          "state": "Unassessable",
+          "time_count": 2,
+          "wave_count": 2,
+          "time_fraction": 0.5,
+          "wave_fraction": 0.5,
+          "flags": 0,
+          "evaluated": 25,
+          "total": 49
+        }
+      }
+    },
+    {
+      "scenario": "MAD_zero",
+      "results": {
+        "D1": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        },
+        "D2": {
+          "prediction": 1.0,
+          "state": "Evaluable Triggered",
+          "time_count": 4,
+          "wave_count": 4,
+          "time_fraction": 1.0,
+          "wave_fraction": 1.0,
+          "flags": 1,
+          "evaluated": 49,
+          "total": 49
+        }
+      }
+    }
+  ],
+  "all_pass": true
+}
