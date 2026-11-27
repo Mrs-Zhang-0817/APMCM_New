@@ -1,0 +1,18 @@
+{
+  "task": "A-Q1-R0-REV-006",
+  "date": "2026-11-28",
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "contract": {
+    "config_sha256": "b1c54e5b2c36898e522a44838133efcba8e67de07940650b1dd7aaf49785e3a4",
+    "references_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_manifest_sha256": "608d7d2e28b5fffeed003b19380c7c331a47b4202a8d4ffe73bdb0dacb3ea5b9"
+  },
+  "test_code_sha256": "8e276b10499a0baee2614208a5c4a6d11de1ed4ba6e6ba34fba339255ed97c43",
+  "review_source_commit": "0c2eb3640f7512d0e0088737557302dfc3c1e1bb",
+  "real_masks_generated": false,
+  "raw_workbooks_read": false,
+  "real_reconstruction_executed": false,
+  "approval_status": "Pending"
+}

@@ -1,0 +1,5 @@
+原始问题ID,原始来源,原始要求,本次答复,证据,作者状态,Q2复验状态
+R0-01,0c2eb36的问题表与放行条件.md,冻结RNG及候选展开顺序和同掩码；失败分母；保存重复位置数,沿用v2的PCG64和SeedSequence及两序共享；v2.1新增分组唯一位置数和重复请求次数；补精确2请求1恢复1失败检查,code/r0_runner.py的sample_two/evaluate/summarize/run_arrays；synthetic_checks.txt第exact_reviewer测试,实现及合成支持,Pending
+R0-02,0c2eb36的问题表与放行条件.md,独立批准记录绑定冻结配置清单窗口代码及执行入口,approval_blank.json独立引用三摘要；参数不含签署；新代码与参数变化重算合同；真实入口批准/代码/输入绑定全通过后才采样,parameters.json/references.json/code_manifest.json/approval_blank.json及门控合成检查,实现及合成支持且无真实签署,Pending
+R0-03,0c2eb36的问题表与放行条件.md,ZIP不可见时可采用已验证固定Git来源,正式接受采用Git固定来源；无需为旧ZIP重复建立放行前置；v2.1新包交付须核验自己的摘要,审核来源.json引用原四文件Git字节SHA；本包交付清单,非阻塞项无须重做,无需据此阻塞
+R0-04,0c2eb36的问题表与放行条件.md,三态及峰肩R1C2不纳入首批R0,保持1背景候选和4动态困难对照；不新增检测峰肩或其他模型前置,references.json保持原规范摘要不变,维持范围不扩展,无需据此阻塞

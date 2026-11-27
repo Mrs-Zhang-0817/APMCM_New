@@ -1,0 +1,19 @@
+{
+  "task": "A-Q1-R0-REV-006",
+  "files": {
+    "approval_blank.json": "e07a773f9b2439cdd40ebcdc38bd3757fca4640a5b7570f903bd99fb749de3ea",
+    "checks_and_contract.json": "7f45536104c413db180f112ebc6586f179eca87894770e2153e450ed25dab2f4",
+    "code/r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+    "code/r0_runner.py": "550df047b945bc75dfb07076c9b1b16da2c12dfe74a9cb63a60764a7260b8226",
+    "code/test_runner.py": "8e276b10499a0baee2614208a5c4a6d11de1ed4ba6e6ba34fba339255ed97c43",
+    "code_manifest.json": "d1e49fc57ab3bbe19fac8cf20f4d7472481fc9d58e7a97e9a1a6dd9c867d8c35",
+    "parameters.json": "a96e25dc0a2822e1447d8eae7df2b4a6115380a1c0d20a1017694c705beba4c3",
+    "references.json": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+    "synthetic_checks.txt": "2a66208ce1aebbf9fc1994e01cd1cd75433216c57343c278ecf437abe8450ea9",
+    "原始审核接收与修正报告.txt": "8c8a0accc57a168ad0f10d00158348f83a7dc0fa05d6b3c5a8ed7e241584d0b6",
+    "原始审核逐条答复.csv": "c06409f1adca4f51f1235c6f489ece5196e9116fdf9ce38486f91d7401a0cbdb",
+    "审核来源.json": "a81861073cf66088b706e68edd51a3d353cbb3515c7a8f2de4cd7c39032f5d1c"
+  },
+  "excludes_self": true,
+  "approval_status": "Pending"
+}
