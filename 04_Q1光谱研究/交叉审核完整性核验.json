@@ -1,0 +1,23 @@
+{
+  "branch": "q1-spectral",
+  "scope": "完整S01–S07、V01–V04及最新前置审核；原目录发布，无重复ZIP",
+  "reference_count": 70,
+  "unique_reference_ids": 70,
+  "recommendations": {
+    "Needs More Evidence": 38,
+    "Accept Candidate": 7,
+    "Reject Candidate": 25
+  },
+  "joint_approval": "Pending",
+  "functional_test_records": 61,
+  "risk_test_records": 12,
+  "R1_implemented": false,
+  "algorithms": "validation_modules.py: D0/D1/D2/R0/C2",
+  "source_files_before_manifest": 243,
+  "static_links_and_python_syntax_ok": true,
+  "personal_absolute_paths_detected": false,
+  "raw_xlsb_pdf_matrix_included": false,
+  "research_experiments_rerun": false,
+  "legacy_v1": "历史简版CSV只有表头，README明确指向完整70区",
+  "hash_policy": "SHA256采用Git文本LF字节口径；PNG原字节；清单不包含其自身"
+}

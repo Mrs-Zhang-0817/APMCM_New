@@ -1,0 +1,190 @@
+{
+  "schema": "Q1-preclean-review-v1",
+  "status": "Pending",
+  "frozen": false,
+  "real_data_execution_allowed": false,
+  "reference_table": "Q1参考区域审核表.csv",
+  "reference_sha256": "816118c60920aaa250371de489fa28d45b5a12451da2cb300291aece219ccb4d",
+  "review_recommendations": {
+    "Needs More Evidence": 38,
+    "Accept Candidate": 7,
+    "Reject Candidate": 25
+  },
+  "approved_reference_ids": [],
+  "required_approvals": [
+    "队员A实际确认待填写",
+    "队员B实际确认待填写"
+  ],
+  "reference_rules": {
+    "recommendation_not_truth": true,
+    "Accept_Candidate_not_execution_approval": true,
+    "rejected_for_ordinary_truth_retained_as_stress": true,
+    "contamination_halo": "至少覆盖算法实际窗口；当前表只核查一节点环，半径2/4还需扩窗审核",
+    "normal_truth_certified": false
+  },
+  "scope": "独立模拟可运行；真实实验待共同批准",
+  "seed": 20261127,
+  "models": {
+    "detection": [
+      "D0",
+      "D1",
+      "D2"
+    ],
+    "R0": "已有模拟原型；真实执行禁用",
+    "R1": "disabled: implementation and acceptance pending",
+    "C2": "disabled for real: convergence/shoulder/uncertainty checks pending",
+    "C0": "保留上限标签，不估峰顶"
+  },
+  "search": {
+    "k": [
+      6,
+      12,
+      20
+    ],
+    "floor_original_intensity_units": [
+      1,
+      5
+    ],
+    "time_radius_nodes": [
+      2,
+      4
+    ],
+    "wave_radius_nodes": [
+      2,
+      4
+    ],
+    "physical_nm_window": "Pending; 两网格不可假定等列宽等nm",
+    "saturated_neighbor_policy": [
+      "独立标记保留作对照",
+      "剔除污染邻居且不足样本标不可评估，功能待实现"
+    ]
+  },
+  "injection": {
+    "types": [
+      "isolated_high",
+      "isolated_low",
+      "time_segment",
+      "wavelength_segment",
+      "block"
+    ],
+    "fractions": [
+      0.0001,
+      0.0005,
+      0.001
+    ],
+    "amplitude_local_scale": [
+      5,
+      10,
+      20
+    ],
+    "block_shapes_nodes": [
+      [
+        3,
+        3
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        21,
+        15
+      ]
+    ],
+    "no_overlap": true,
+    "report_actual_fraction_and_denominator": true
+  },
+  "masking": {
+    "types": [
+      "random_points",
+      "time_segments",
+      "wavelength_segments",
+      "2D_blocks",
+      "near_peaks"
+    ],
+    "preserve_hidden_values_only_for_evaluation": true,
+    "unsupported_boundary": "NaN and coverage; no silent extrapolation"
+  },
+  "clipping": {
+    "widths": [
+      "single_point",
+      "narrow",
+      "wide",
+      "long_platform"
+    ],
+    "thresholds": "训练参考区分位0.8/0.9/0.95，具体值与参考区审批后冻结",
+    "test_truth_not_used_to_choose_threshold": true,
+    "real_65535_truth_unknown": true
+  },
+  "metrics": {
+    "detection": [
+      "TP",
+      "FP",
+      "FN",
+      "TN",
+      "Precision",
+      "Recall",
+      "F1",
+      "FPR",
+      "approved_peak_flag_rate",
+      "eligible_coverage"
+    ],
+    "reconstruction": [
+      "MAE",
+      "RMSE",
+      "peak_position_nm",
+      "peak_height",
+      "peak_width_nm",
+      "peak_area",
+      "gradient_RMSE",
+      "coverage"
+    ],
+    "clipping": [
+      "masked_error",
+      "peak_height_error",
+      "shoulder_MAE",
+      "lower_bound_violation_count_and_rate",
+      "width_stratification"
+    ],
+    "peak_window": "预注册物理区间，跨网格以nm计",
+    "peak_baseline": "冻结端部基线定义，不按结果选择",
+    "peak_width": "半高两侧交点nm差；模拟可用已知连续函数，真实参考用明确节点线性测量规则；缺交点不可计算",
+    "near_zero_relative_error": "不默认MAPE；绝对误差主报"
+  },
+  "split": {
+    "candidate": "outer LOHO with inner held-out heat",
+    "all_heats": [
+      "6B03205",
+      "6B03206",
+      "6B03270",
+      "6B03271",
+      "6C02057",
+      "6C02058",
+      "6C02059",
+      "6C02060",
+      "6C02107",
+      "6C02108"
+    ],
+    "train_only": "拟合尺度/模型参数",
+    "validation_only": "参数和方法选择",
+    "test": "冻结后单次评价，不回传调参",
+    "group_coverage": [
+      "A",
+      "B"
+    ],
+    "existing_EDA_not_blind": true,
+    "Q1_offline_distinct_from_Q3_causal": true
+  },
+  "failure_policy": [
+    "不可评估和不收敛单列，不删失败样本抬分",
+    "R1尚未实现不得输出性能",
+    "C2只满足下界不视作恢复通过",
+    "测试条件不得看测试误差后反复改"
+  ],
+  "release_gate": [
+    "两人确认逐框用途/真实参考名单",
+    "邻域污染与MAD0策略实现并验证",
+    "峰宽与边界指标功能测试",
+    "冻结参数、样本、划分和代码SHA256"
+  ]
+}

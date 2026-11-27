@@ -1,0 +1,5 @@
+﻿heat,variable,kind,position,shape,excel_first,excel_last,sequence_first,sequence_last,start_s,end_s,points,point_fraction,observed_span_s,span_fraction,value,other_updates_at_entry,other_updates_at_exit,before,after
+6C02060,CO2,zero,middle,continuous,6,28,5.0,27.0,2.0,13.0,23,0.016751638747268753,11.0,0.016034985422740525,0.0,Oxygen;CO,Oxygen,"[4.0, 1.5, 3.02, 0.01, 0.01]","[28.0, 13.5, 31.74, 0.01, 0.0]"
+6C02060,CO2,zero,middle,continuous,40,42,39.0,41.0,19.0,20.0,3,0.0021849963583394027,1.0,0.0014577259475218659,0.0,Oxygen,Oxygen,"[38.0, 18.5, 40.83, 0.01, 0.0]","[42.0, 20.5, 45.47, 0.01, 0.0]"
+6C02060,CO,zero,middle,continuous,6,65,5.0,64.0,2.0,31.5,60,0.043699927166788055,29.5,0.043002915451895045,0.0,Oxygen;CO2,Oxygen;CO2,"[4.0, 1.5, 3.02, 0.01, 0.01]","[65.0, 32.0, 73.25, 0.07, 0.01]"
+6C02060,CO,zero,middle,continuous,68,91,67.0,90.0,33.0,44.5,24,0.01747997086671522,11.5,0.016763848396501458,0.0,Oxygen;CO2,Oxygen;CO2,"[66.0, 32.5, 73.25, 0.07, 0.01]","[91.0, 45.0, 104.45, 0.27, 0.01]"

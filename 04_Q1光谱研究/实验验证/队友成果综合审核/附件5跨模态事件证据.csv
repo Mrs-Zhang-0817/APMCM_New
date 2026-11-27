@@ -1,0 +1,2 @@
+﻿Heat_ID,Excel_Before,Excel_After,Time_Before,Time_After,Oxygen_Before,Oxygen_After,Oxygen_Delta,CO2_Before,CO2_After,CO_Before,CO_After,Spectrum_Mean_Before,Spectrum_Mean_After,Spectrum_L1_Mean,Spectral_Rising_Columns,Spectral_Falling_Columns,Spectral_Total_Columns,Saturation_Before,Saturation_After,Spectrum_Cosine
+6C02057,753,754,375.5,376.0,3393.75,3448.66,54.909999999999854,13.32,0.63,30.37,0.51,5219.668783585736,7214.125549584758,2073.655593551539,1653,390,2047,0,0,0.9870768307397001

@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "Test": "MAD0_scale_D0",
+      "Check_Passed": true,
+      "Values": {
+        "original_flags": 0,
+        "fixed_floor_rescaled_flags": 1,
+        "co_scaled_floor_flags": 0
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "MAD0_scale_D1",
+      "Check_Passed": true,
+      "Values": {
+        "original_flags": 0,
+        "fixed_floor_rescaled_flags": 1,
+        "co_scaled_floor_flags": 0
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "MAD0_scale_D2",
+      "Check_Passed": true,
+      "Values": {
+        "original_flags": 0,
+        "fixed_floor_rescaled_flags": 1,
+        "co_scaled_floor_flags": 0
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "upper_neighbors_can_hide_positive_residual",
+      "Check_Passed": true,
+      "Values": {
+        "clean": 15.709336985418515,
+        "contaminated": -0.6736934538702661
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "persistent_narrow_peak_OR_AND",
+      "Check_Passed": true,
+      "Values": {
+        "D1_flags": 15,
+        "D2_flags": 0,
+        "peak_points": 15
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "transient_real_peak_still_triggers_consensus",
+      "Check_Passed": true,
+      "Values": {
+        "triggered": true,
+        "meaning": "真实瞬时峰与异常尖点可能观测相同，不能仅算法辨别"
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "block_interior_miss_D1",
+      "Check_Passed": true,
+      "Values": {
+        "interior_flag": false,
+        "flagged_block_points": 0,
+        "block_points": 651
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "block_interior_miss_D2",
+      "Check_Passed": true,
+      "Values": {
+        "interior_flag": false,
+        "flagged_block_points": 0,
+        "block_points": 651
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "R0_convex_bounds",
+      "Check_Passed": true,
+      "Values": {
+        "min": 10.012492192379762,
+        "max": 34.66494738866339
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "R0_unsupported_boundary_not_fabricated",
+      "Check_Passed": true,
+      "Values": {
+        "unsupported_points": 288
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "C2_lower_bound_not_identifiability",
+      "Check_Passed": true,
+      "Values": {
+        "violation_count": 0,
+        "true_peak": 34.66494738866339,
+        "estimated_peak": 30.0,
+        "iterations": 200
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    },
+    {
+      "Test": "same_observation_different_peak",
+      "Check_Passed": true,
+      "Values": {
+        "first_peak": 5,
+        "second_peak": 9,
+        "upper": 3
+      },
+      "Scope": "独立模拟，非真实数据性能"
+    }
+  ],
+  "all_pass": true,
+  "real_data_used": false
+}

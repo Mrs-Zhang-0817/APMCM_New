@@ -1,0 +1,14 @@
+{
+  "reviewed_regions": 70,
+  "recommendations": {
+    "Needs More Evidence": 38,
+    "Accept Candidate": 7,
+    "Reject Candidate": 25
+  },
+  "simulation_checks": 12,
+  "historical_tracked_files_unchanged": true,
+  "real_preprocessing": false,
+  "real_validation": false,
+  "joint_approval": "Pending",
+  "raw_hashes_unchanged": true
+}
