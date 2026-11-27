@@ -1,0 +1,6 @@
+﻿reference_id,grid,core_points,loaded_points,core_cap,loaded_cap,core_nonfinite,core_min,core_max,max_frame_mean_absolute_change,max_adjacent_point_change,requested_fraction_1point,requested_fraction_2points,prior_S05_count,interpretation
+REF-6B03205-F,A,119,375,0,0,0,438.0,3123.0,2147.470588235294,2262.0,0.008403361344537815,0.01680672268907563,0,Pending local review; low pollution is not normality
+REF-6B03206-F,A,119,375,0,0,0,579.0,1512.0,666.4117647058823,823.0,0.008403361344537815,0.01680672268907563,0,Pending local review; low pollution is not normality
+REF-6B03271-F,A,119,375,0,0,0,780.0,3910.0,2179.8823529411766,2414.0,0.008403361344537815,0.01680672268907563,0,Pending local review; low pollution is not normality
+REF-6C02058-F,B,119,375,0,0,0,592.0,2807.0,1603.3529411764705,1779.0,0.008403361344537815,0.01680672268907563,0,Pending local review; low pollution is not normality
+REF-6C02107-A,B,119,375,0,0,0,658.0,859.0,46.8235294117647,124.0,0.008403361344537815,0.01680672268907563,0,Pending local review; low pollution is not normality

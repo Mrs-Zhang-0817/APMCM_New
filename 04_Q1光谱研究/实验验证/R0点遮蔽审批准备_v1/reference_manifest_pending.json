@@ -1,0 +1,212 @@
+[
+  {
+    "reference_id": "REF-6B03205-F",
+    "heat": "6B03205",
+    "grid": "A",
+    "source_sha256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+    "source_file": "附件1.炉号-6B03205.xlsb",
+    "core_sequence": [
+      843,
+      849
+    ],
+    "core_excel_columns": [
+      1017,
+      1033
+    ],
+    "loaded_sequence": [
+      839,
+      853
+    ],
+    "loaded_excel_columns": [
+      1013,
+      1037
+    ],
+    "core_time_s": [
+      421.0,
+      424.0
+    ],
+    "core_nm": [
+      705.044,
+      710.459
+    ],
+    "loaded_time_s": [
+      419.0,
+      426.0
+    ],
+    "loaded_nm": [
+      703.688,
+      711.812
+    ],
+    "window_sha256": "b47ea4a6ba679f6e12278a97d3978a9c4f34a810437679b4e6e3beaf96fdc68e",
+    "approved": false,
+    "proposed_use": "dynamic challenge conditional observed reference"
+  },
+  {
+    "reference_id": "REF-6B03206-F",
+    "heat": "6B03206",
+    "grid": "A",
+    "source_sha256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+    "source_file": "Attachment 2. Heat No. 6B03206.xlsb",
+    "core_sequence": [
+      145,
+      151
+    ],
+    "core_excel_columns": [
+      1017,
+      1033
+    ],
+    "loaded_sequence": [
+      141,
+      155
+    ],
+    "loaded_excel_columns": [
+      1013,
+      1037
+    ],
+    "core_time_s": [
+      72.0,
+      75.0
+    ],
+    "core_nm": [
+      705.044,
+      710.459
+    ],
+    "loaded_time_s": [
+      70.0,
+      77.0
+    ],
+    "loaded_nm": [
+      703.688,
+      711.812
+    ],
+    "window_sha256": "bf4434d6444b80ae741511af51a99469e4fecb11b422f43c442cbe73b94aa393",
+    "approved": false,
+    "proposed_use": "dynamic challenge conditional observed reference"
+  },
+  {
+    "reference_id": "REF-6B03271-F",
+    "heat": "6B03271",
+    "grid": "A",
+    "source_sha256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+    "source_file": "Attachment 4. Heat No. 6B03271.xlsb",
+    "core_sequence": [
+      1109,
+      1115
+    ],
+    "core_excel_columns": [
+      1017,
+      1033
+    ],
+    "loaded_sequence": [
+      1105,
+      1119
+    ],
+    "loaded_excel_columns": [
+      1013,
+      1037
+    ],
+    "core_time_s": [
+      554.0,
+      557.0
+    ],
+    "core_nm": [
+      705.044,
+      710.459
+    ],
+    "loaded_time_s": [
+      552.0,
+      559.0
+    ],
+    "loaded_nm": [
+      703.688,
+      711.812
+    ],
+    "window_sha256": "b833a323132bd2e4c9f6fe8ef4ca4ce569ee0ea1f567f0e5c60826b20e97c935",
+    "approved": false,
+    "proposed_use": "dynamic challenge conditional observed reference"
+  },
+  {
+    "reference_id": "REF-6C02058-F",
+    "heat": "6C02058",
+    "grid": "B",
+    "source_sha256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+    "source_file": "Attachment 6. Heat No. 6C02058.xlsb",
+    "core_sequence": [
+      994,
+      1000
+    ],
+    "core_excel_columns": [
+      1017,
+      1033
+    ],
+    "loaded_sequence": [
+      990,
+      1004
+    ],
+    "loaded_excel_columns": [
+      1013,
+      1037
+    ],
+    "core_time_s": [
+      496.5,
+      499.5
+    ],
+    "core_nm": [
+      701.225,
+      706.61
+    ],
+    "loaded_time_s": [
+      494.5,
+      501.5
+    ],
+    "loaded_nm": [
+      699.878,
+      707.955
+    ],
+    "window_sha256": "f89760aff9c2e5f379a092400a024360fd61013dcf58fc2fcc73075ee072e7cc",
+    "approved": false,
+    "proposed_use": "dynamic challenge conditional observed reference"
+  },
+  {
+    "reference_id": "REF-6C02107-A",
+    "heat": "6C02107",
+    "grid": "B",
+    "source_sha256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+    "source_file": "Attachment 9. Heat No. 6C02107.xlsb",
+    "core_sequence": [
+      362,
+      368
+    ],
+    "core_excel_columns": [
+      95,
+      111
+    ],
+    "loaded_sequence": [
+      358,
+      372
+    ],
+    "loaded_excel_columns": [
+      91,
+      115
+    ],
+    "core_time_s": [
+      180.5,
+      183.5
+    ],
+    "core_nm": [
+      374.027,
+      379.959
+    ],
+    "loaded_time_s": [
+      178.5,
+      185.5
+    ],
+    "loaded_nm": [
+      372.543,
+      381.441
+    ],
+    "window_sha256": "a8814804b8724bf545912bc593b3a5ecea8f5148e4ddba55da095cbe880830e9",
+    "approved": false,
+    "proposed_use": "background conditional observed reference"
+  }
+]

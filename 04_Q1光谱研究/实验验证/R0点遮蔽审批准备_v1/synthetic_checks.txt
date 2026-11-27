@@ -1,0 +1,20 @@
+test_binding_and_each_tamper (test_r0_preparation.R0PreparationTests.test_binding_and_each_tamper) ... ok
+test_invalid_parameters (test_r0_preparation.R0PreparationTests.test_invalid_parameters) ... ok
+test_order_and_estimated_support (test_r0_preparation.R0PreparationTests.test_order_and_estimated_support) ... ok
+test_physical_spans_and_no_extrapolation (test_r0_preparation.R0PreparationTests.test_physical_spans_and_no_extrapolation) ... ok
+test_second_axis_limit (test_r0_preparation.R0PreparationTests.test_second_axis_limit) ... ok
+test_actual_detector_pollution_and_unit_scaling (test_detection_metrics_v3.ThreeStateTests.test_actual_detector_pollution_and_unit_scaling) ... ok
+test_actual_detector_unknown_and_single_axis (test_detection_metrics_v3.ThreeStateTests.test_actual_detector_unknown_and_single_axis) ... ok
+test_all_unknown (test_detection_metrics_v3.ThreeStateTests.test_all_unknown) ... ok
+test_confusion_and_abstentions (test_detection_metrics_v3.ThreeStateTests.test_confusion_and_abstentions) ... ok
+test_empty (test_detection_metrics_v3.ThreeStateTests.test_empty) ... ok
+test_invalid_inputs (test_detection_metrics_v3.ThreeStateTests.test_invalid_inputs) ... ok
+test_no_positives (test_detection_metrics_v3.ThreeStateTests.test_no_positives) ... ok
+test_protected_peaks (test_detection_metrics_v3.ThreeStateTests.test_protected_peaks) ... ok
+test_qualification_is_not_population_filter (test_detection_metrics_v3.ThreeStateTests.test_qualification_is_not_population_filter) ... ok
+test_r0_existing_support_and_surface (test_detection_metrics_v3.ThreeStateTests.test_r0_existing_support_and_surface) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.749s
+
+OK

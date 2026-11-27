@@ -1,0 +1,77 @@
+[
+  {
+    "reference_id": "REF-6B03205-F",
+    "source_sha256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+    "window_sha256": "b47ea4a6ba679f6e12278a97d3978a9c4f34a810437679b4e6e3beaf96fdc68e",
+    "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+    "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_sha256": {
+      "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+    }
+  },
+  {
+    "reference_id": "REF-6B03206-F",
+    "source_sha256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+    "window_sha256": "bf4434d6444b80ae741511af51a99469e4fecb11b422f43c442cbe73b94aa393",
+    "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+    "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_sha256": {
+      "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+    }
+  },
+  {
+    "reference_id": "REF-6B03271-F",
+    "source_sha256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+    "window_sha256": "b833a323132bd2e4c9f6fe8ef4ca4ce569ee0ea1f567f0e5c60826b20e97c935",
+    "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+    "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_sha256": {
+      "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+    }
+  },
+  {
+    "reference_id": "REF-6C02058-F",
+    "source_sha256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+    "window_sha256": "f89760aff9c2e5f379a092400a024360fd61013dcf58fc2fcc73075ee072e7cc",
+    "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+    "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_sha256": {
+      "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+    }
+  },
+  {
+    "reference_id": "REF-6C02107-A",
+    "source_sha256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+    "window_sha256": "a8814804b8724bf545912bc593b3a5ecea8f5148e4ddba55da095cbe880830e9",
+    "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+    "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+    "code_sha256": {
+      "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+    }
+  }
+]

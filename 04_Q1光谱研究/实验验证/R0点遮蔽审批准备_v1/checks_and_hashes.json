@@ -1,0 +1,22 @@
+{
+  "task": "A-Q1-MVM-001b",
+  "python": "3.12.14",
+  "numpy": "2.5.5",
+  "checks_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "actual_window_bindings_verified": 5,
+  "real_masking_executed": false,
+  "formal_cleaning": false,
+  "training": false,
+  "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+  "reference_manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+  "code_sha256": {
+    "r0_preparation.py": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+    "prepare_r0_evidence.py": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+    "test_r0_preparation.py": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+    "detection_metrics_v3.py": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+    "test_detection_metrics_v3.py": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+    "finalize_r0_preparation.py": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99"
+  }
+}

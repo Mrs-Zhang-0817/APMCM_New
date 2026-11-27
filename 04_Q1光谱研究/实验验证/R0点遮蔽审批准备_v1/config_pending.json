@@ -1,0 +1,69 @@
+{
+  "task": "A-Q1-MVM-001b",
+  "status": "Pending",
+  "real_data_execution_allowed": false,
+  "experiment": "R0 interior point masking ONLY AFTER APPROVAL",
+  "reference_ids": [
+    "REF-6B03205-F",
+    "REF-6B03206-F",
+    "REF-6B03271-F",
+    "REF-6C02058-F",
+    "REF-6C02107-A"
+  ],
+  "seeds": [
+    20261127,
+    20261128,
+    20261129
+  ],
+  "masked_points_per_region": [
+    1,
+    2
+  ],
+  "mask_population": "core only; finite raw below 65535; uniform without replacement",
+  "same_masks_for_both_orders": true,
+  "orders": [
+    "time-wave",
+    "wave-time"
+  ],
+  "max_time_span_s": 1.0,
+  "max_wave_span_nm": 1.6,
+  "halo_nodes": 4,
+  "estimated_support": "allowed only with explicit provenance; report separately",
+  "extrapolation": false,
+  "real_validation_executed": false,
+  "metrics": [
+    "requested",
+    "resolved",
+    "unresolved",
+    "coverage",
+    "MAE",
+    "RMSE",
+    "p95",
+    "max",
+    "estimated_support_fraction",
+    "order_difference"
+  ],
+  "comparison_rule": "report both orders; no tuning or selecting best using held-out error",
+  "acceptance": "report requested denominator and every unresolved position; no accuracy claim from this pilot alone",
+  "approvers": [],
+  "approval_id": null,
+  "version": "R0-point-pilot-v1-review",
+  "reference_strata": {
+    "background_candidate": [
+      "REF-6C02107-A"
+    ],
+    "dynamic_challenge": [
+      "REF-6B03205-F",
+      "REF-6B03206-F",
+      "REF-6B03271-F",
+      "REF-6C02058-F"
+    ]
+  },
+  "claim_scope": "Conditional recovery of recorded observations only; not error-free truth or anomaly detection validation",
+  "minimum_pilot_coverage": 1.0,
+  "coverage_failure_action": "Any unresolved masked point fails coverage gate; retain it and do not widen support limits post hoc",
+  "accuracy_gate": "No scientifically justified physical error tolerance yet; report errors without calling accuracy accepted",
+  "mask_implementation": "For each seed and region, select 2 distinct core positions uniformly; k=1 uses first, k=2 uses both; do not construct masks until approved",
+  "support_roundoff": "8*float64_epsilon*max(1,abs(left_coordinate),abs(right_coordinate)); not a physical extension",
+  "separate_results": "Each reference, k, seed, order; background and dynamic strata separately; no inferential treatment of repeated seeds as independent heats"
+}
