@@ -1,0 +1,471 @@
+{
+  "task": "J-Q1-R0-GATE-002",
+  "commit": "025b3307f4fa6f98412ae2080a0c3bc883bc3900",
+  "transport_zip": {
+    "found": false,
+    "expected_sha256": "ca851d06cc6cac9931a3661dcd2fff2592172ad1c848685de7b8e0f9617ab9fb",
+    "actual_sha256": null,
+    "matching_git_files": null,
+    "content_matches_fixed_commit": null
+  },
+  "python": "3.14.2",
+  "numpy": "2.5.1",
+  "pyxlsb": "1.0.10",
+  "fixed_git_files": {
+    "04_Q1光谱研究/代码/detection_metrics_v3.py": {
+      "sha256": "5ccab4ed0839d16ab662c7ec8a6c38af285788ef5178635abb125e5114211c1d",
+      "bytes": 3256
+    },
+    "04_Q1光谱研究/代码/finalize_r0_preparation.py": {
+      "sha256": "7f11e3e3bb557b528f88038bd89a4dc1523d72bf52f85dd9fdf3b850d73fdb99",
+      "bytes": 3047
+    },
+    "04_Q1光谱研究/代码/prepare_r0_evidence.py": {
+      "sha256": "d880291ea8d079af1b7e4cc9480426a4e87f72e664249bc2dc2b55f5c888dab4",
+      "bytes": 7755
+    },
+    "04_Q1光谱研究/代码/r0_preparation.py": {
+      "sha256": "82d339f934958f4fb5422841c57935dd4c3ce834f3fae5df7e0a226717a96a17",
+      "bytes": 6014
+    },
+    "04_Q1光谱研究/代码/test_detection_metrics_v3.py": {
+      "sha256": "3490b901f2ba6107090d020b693a41b767552b629a2159074afe2b7154452189",
+      "bytes": 5385
+    },
+    "04_Q1光谱研究/代码/test_r0_preparation.py": {
+      "sha256": "0202d613bd6e2436b2e2fa35e21d2d9c7595b6e2849e495879307fc32c11abd7",
+      "bytes": 3465
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/candidate_summary.csv": {
+      "sha256": "4a7cd3cf9d578a285f01d8ca7394b3b51bba09d248f7b2bd6e325f78419ae75d",
+      "bytes": 1059
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/checks_and_hashes.json": {
+      "sha256": "84f89941ee96dcfaf245464192ae608987938b4b196f6667873f7b731b34a459",
+      "bytes": 1050
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/config_pending.json": {
+      "sha256": "0d55cedcb1d16908d0ee65ebbf83dc709cd0d970ae3fc1e6e2d3c256a5482062",
+      "bytes": 2354
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/frame_evidence.csv": {
+      "sha256": "f91e1b0c91ac450b5c8371273168bb9d7f0d2928d37319dd710e9f28b48cfae6",
+      "bytes": 5918
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/input_bindings.json": {
+      "sha256": "a9408cbcb3c576c6bb3e58470f858ab9f411a9a1437ccd0c4aa391c7b01fcdf5",
+      "bytes": 5232
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/R0首批点遮蔽审批报告.txt": {
+      "sha256": "2c6d8cd945e8f0a5bc8b414f7bb78c258460284ff31176bf7bd2e726cd431bff",
+      "bytes": 11578
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03205-F.png": {
+      "sha256": "35e5598bf65d688e3bdab61df80ba242bcc16433106762bbc56180f171f5d727",
+      "bytes": 114124
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03205-F_raw_support.csv": {
+      "sha256": "4146b604aff5ec2595914e00ff337d10941e0adddb2473ff2b865830658854c1",
+      "bytes": 11130
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03206-F.png": {
+      "sha256": "9beae0a5cd815e0cbcc79ab7f61463395021a546c46e06a44610fe38259c2415",
+      "bytes": 128658
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03206-F_raw_support.csv": {
+      "sha256": "7600c4e5d302930734224ee44287f5ba09aa6f90a140fb706a9e355ffb20d676",
+      "bytes": 10730
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03271-F.png": {
+      "sha256": "71eb538d93abbfdfe8c2c4e35e4ae919d98dd57aebd94fd3ecf1267482281927",
+      "bytes": 115734
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6B03271-F_raw_support.csv": {
+      "sha256": "b8342cf5b7f024137249eca739441759dafb62070ff601bb25bd5357e7ebc6c5",
+      "bytes": 11587
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02058-F.png": {
+      "sha256": "faf37c5a606f6e6e75d705d0c8c236400ab9f7d1a36845c57417397ad9df3d58",
+      "bytes": 116211
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02058-F_raw_support.csv": {
+      "sha256": "c0cbc52dfce8f3eedbf8cb4dec3cc9a93f45a4ba7c0284e95748e661aae8d06b",
+      "bytes": 11263
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02107-A.png": {
+      "sha256": "650d549150f87b368b1280ae78a237cb1009a2047f23eb12e6992268838679a9",
+      "bytes": 192974
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/REF-6C02107-A_raw_support.csv": {
+      "sha256": "65661dcf919e776c9b2f16bee59605f455ac8a6eb43dc8e401954cfd4ecd2007",
+      "bytes": 10365
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/reference_manifest_pending.json": {
+      "sha256": "2c596c3b50e4094446554456aa459d890b9dbb20503fd7c0a39c3e905f496f9c",
+      "bytes": 4252
+    },
+    "04_Q1光谱研究/实验验证/R0点遮蔽审批准备_v1/synthetic_checks.txt": {
+      "sha256": "2b4f2d9c5704d6451ec48e93e27fc3085208da66773f9aca4a6b8a66b59b3a26",
+      "bytes": 1733
+    }
+  },
+  "config_digest": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+  "reference_digest": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+  "actual_windows": [
+    {
+      "id": "REF-6B03205-F",
+      "attachment": 1,
+      "grid": "A",
+      "use": "dynamic challenge conditional observed reference",
+      "source_sha256": "8c73aaefadb9c8d8c3f83b193d9b4583dcfdfb239446c69b7eacd4120820783c",
+      "window_sha256": "b47ea4a6ba679f6e12278a97d3978a9c4f34a810437679b4e6e3beaf96fdc68e",
+      "core_points": 119,
+      "loaded_points": 375,
+      "loaded_at_or_above_cap": 0,
+      "frame_records_verified": 7,
+      "max_adjacent_frame_mean_abs": 2147.470588235294,
+      "min_five_wavelength_steps_nm": 1.6909999999999172,
+      "five_time_steps_s": 2.5,
+      "actual_load_and_binding": true
+    },
+    {
+      "id": "REF-6B03206-F",
+      "attachment": 2,
+      "grid": "A",
+      "use": "dynamic challenge conditional observed reference",
+      "source_sha256": "6a0558bcf4d02316e805fd566d441a21ff14f8c151d09dffc5a786608cf84c46",
+      "window_sha256": "bf4434d6444b80ae741511af51a99469e4fecb11b422f43c442cbe73b94aa393",
+      "core_points": 119,
+      "loaded_points": 375,
+      "loaded_at_or_above_cap": 0,
+      "frame_records_verified": 7,
+      "max_adjacent_frame_mean_abs": 666.4117647058823,
+      "min_five_wavelength_steps_nm": 1.6909999999999172,
+      "five_time_steps_s": 2.5,
+      "actual_load_and_binding": true
+    },
+    {
+      "id": "REF-6B03271-F",
+      "attachment": 4,
+      "grid": "A",
+      "use": "dynamic challenge conditional observed reference",
+      "source_sha256": "ecf62c1c46a0ef94a6151d86f66e7c44b2a6005337c7d84735debcffed7a619a",
+      "window_sha256": "b833a323132bd2e4c9f6fe8ef4ca4ce569ee0ea1f567f0e5c60826b20e97c935",
+      "core_points": 119,
+      "loaded_points": 375,
+      "loaded_at_or_above_cap": 0,
+      "frame_records_verified": 7,
+      "max_adjacent_frame_mean_abs": 2179.8823529411766,
+      "min_five_wavelength_steps_nm": 1.6909999999999172,
+      "five_time_steps_s": 2.5,
+      "actual_load_and_binding": true
+    },
+    {
+      "id": "REF-6C02058-F",
+      "attachment": 6,
+      "grid": "B",
+      "use": "dynamic challenge conditional observed reference",
+      "source_sha256": "06da7f31ab390489a3efecd0b9047c4851ebfee12a09e86a284ba59fb178940e",
+      "window_sha256": "f89760aff9c2e5f379a092400a024360fd61013dcf58fc2fcc73075ee072e7cc",
+      "core_points": 119,
+      "loaded_points": 375,
+      "loaded_at_or_above_cap": 0,
+      "frame_records_verified": 7,
+      "max_adjacent_frame_mean_abs": 1603.3529411764705,
+      "min_five_wavelength_steps_nm": 1.68100000000004,
+      "five_time_steps_s": 2.5,
+      "actual_load_and_binding": true
+    },
+    {
+      "id": "REF-6C02107-A",
+      "attachment": 9,
+      "grid": "B",
+      "use": "background conditional observed reference",
+      "source_sha256": "30e817ac542c4ca852730c9c39ea72eea39199c7750acdb24fd5d8e9305cfb56",
+      "window_sha256": "a8814804b8724bf545912bc593b3a5ecea8f5148e4ddba55da095cbe880830e9",
+      "core_points": 119,
+      "loaded_points": 375,
+      "loaded_at_or_above_cap": 0,
+      "frame_records_verified": 7,
+      "max_adjacent_frame_mean_abs": 46.8235294117647,
+      "min_five_wavelength_steps_nm": 1.8519999999999754,
+      "five_time_steps_s": 2.5,
+      "actual_load_and_binding": true
+    }
+  ],
+  "wrong_source_digest_at_load": "source SHA256 mismatch",
+  "tamper_rejections": {
+    "value": "actual values/coordinates binding",
+    "time": "actual values/coordinates binding",
+    "wavelength": "actual values/coordinates binding",
+    "config": "configuration binding",
+    "reference_manifest": "reference manifest binding",
+    "code": "code binding",
+    "source": "source binding"
+  },
+  "r0_synthetic": {
+    "axis_0": {
+      "allowed_points": [
+        0,
+        0.5,
+        1.0
+      ],
+      "too_wide_points": [
+        0,
+        0.5,
+        1.5
+      ],
+      "allowed_result": 2.0,
+      "allowed_trace": {
+        "target": [
+          1,
+          0
+        ],
+        "axis": 0,
+        "left": 0,
+        "right": 2,
+        "span": 1.0,
+        "used_estimated_support": false
+      },
+      "over_span": null,
+      "missing_side": null
+    },
+    "axis_1": {
+      "allowed_points": [
+        700,
+        700.4,
+        701.6
+      ],
+      "too_wide_points": [
+        700,
+        700.4,
+        701.601
+      ],
+      "allowed_result": 0.999999999999929,
+      "allowed_trace": {
+        "target": [
+          0,
+          1
+        ],
+        "axis": 1,
+        "left": 0,
+        "right": 2,
+        "span": 1.6000000000000227,
+        "used_estimated_support": false
+      },
+      "over_span": null,
+      "missing_side": null
+    },
+    "same_input_two_orders": {
+      "mask": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "outcomes": {
+        "time-wave": {
+          "center": 3.0,
+          "trace": {
+            "target": [
+              1,
+              1
+            ],
+            "axis": 1,
+            "left": 0,
+            "right": 2,
+            "span": 0.7999999999999545,
+            "used_estimated_support": true
+          },
+          "supports": [
+            {
+              "target": [
+                1,
+                0
+              ],
+              "axis": 0,
+              "left": 0,
+              "right": 2,
+              "span": 1.0,
+              "used_estimated_support": false
+            },
+            {
+              "target": [
+                1,
+                1
+              ],
+              "axis": 1,
+              "left": 0,
+              "right": 2,
+              "span": 0.7999999999999545,
+              "used_estimated_support": true
+            },
+            {
+              "target": [
+                2,
+                1
+              ],
+              "axis": 1,
+              "left": 0,
+              "right": 2,
+              "span": 0.7999999999999545,
+              "used_estimated_support": false
+            }
+          ]
+        },
+        "wave-time": {
+          "center": 4.0,
+          "trace": {
+            "target": [
+              1,
+              1
+            ],
+            "axis": 0,
+            "left": 0,
+            "right": 2,
+            "span": 1.0,
+            "used_estimated_support": true
+          },
+          "supports": [
+            {
+              "target": [
+                2,
+                1
+              ],
+              "axis": 1,
+              "left": 0,
+              "right": 2,
+              "span": 0.7999999999999545,
+              "used_estimated_support": false
+            },
+            {
+              "target": [
+                1,
+                0
+              ],
+              "axis": 0,
+              "left": 0,
+              "right": 2,
+              "span": 1.0,
+              "used_estimated_support": false
+            },
+            {
+              "target": [
+                1,
+                1
+              ],
+              "axis": 0,
+              "left": 0,
+              "right": 2,
+              "span": 1.0,
+              "used_estimated_support": true
+            }
+          ]
+        }
+      }
+    },
+    "coverage_oracle_q2_only": {
+      "requested": 2,
+      "resolved": 1,
+      "unresolved": 1,
+      "coverage": 0.5,
+      "mae_resolved_only": 0.5,
+      "raw_kernel_outputs": [
+        null,
+        2.0
+      ],
+      "nominal_gate_pass": false
+    }
+  },
+  "three_state": {
+    "example": {
+      "total": 4,
+      "evaluated": 3,
+      "unknown": 1,
+      "positives": 3,
+      "negatives": 1,
+      "TP": 1,
+      "FP": 0,
+      "FN": 1,
+      "TN": 1,
+      "unknown_positive": 1,
+      "unknown_negative": 0,
+      "coverage": 0.75,
+      "positive_coverage": 0.6666666666666666,
+      "negative_coverage": 1.0,
+      "Precision": 1.0,
+      "Recall_conditional": 0.5,
+      "F1_conditional": 0.6666666666666666,
+      "FPR_conditional": 0.0,
+      "positive_recovery_all": 0.3333333333333333,
+      "unknown_positive_fraction": 0.3333333333333333
+    },
+    "empty": {
+      "total": 0,
+      "evaluated": 0,
+      "unknown": 0,
+      "positives": 0,
+      "negatives": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "coverage": null,
+      "positive_coverage": null,
+      "negative_coverage": null,
+      "Precision": null,
+      "Recall_conditional": null,
+      "F1_conditional": null,
+      "FPR_conditional": null,
+      "positive_recovery_all": null,
+      "unknown_positive_fraction": null
+    },
+    "valid_but_unknown": {
+      "total": 1,
+      "evaluated": 0,
+      "unknown": 1,
+      "positives": 1,
+      "negatives": 0,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0,
+      "TN": 0,
+      "unknown_positive": 1,
+      "unknown_negative": 0,
+      "coverage": 0.0,
+      "positive_coverage": 0.0,
+      "negative_coverage": null,
+      "Precision": null,
+      "Recall_conditional": null,
+      "F1_conditional": null,
+      "FPR_conditional": null,
+      "positive_recovery_all": 0.0,
+      "unknown_positive_fraction": 1.0
+    },
+    "rejected": "finite prediction outside eligible mask"
+  },
+  "planned_protocol": {
+    "points_per_core": 119,
+    "fractions": {
+      "1": 0.008403361344537815,
+      "2": 0.01680672268907563
+    },
+    "sequences": 3,
+    "planned_runs": 60,
+    "planned_requests_per_order": 45,
+    "planned_requests_all": 90,
+    "real_mask_positions_generated": false
+  },
+  "real_masking_executed": false,
+  "real_reconstruction_executed": false
+}
