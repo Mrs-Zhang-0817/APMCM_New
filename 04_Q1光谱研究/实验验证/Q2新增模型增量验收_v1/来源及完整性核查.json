@@ -1,0 +1,106 @@
+{
+  "task": "A-Q1-CR-Q2-003",
+  "review_head": "4928f0263a8314fe3b863919c11330663cf4c87f",
+  "q2_old_baseline": "b35ac738d01642efe11b6e1a759572cace8b0885",
+  "old_q2_python_files": {
+    "05_Q2供氧与烟气研究/代码/q2_load.py": "5415c893061001c557f6a19388ce90cdf04f05c1ba6d868adb8e60464076b96d",
+    "05_Q2供氧与烟气研究/代码/q2_run.py": "0fc1787946129d708adda9a875e06c33490e85d14bae58282aee773915fab702"
+  },
+  "q2_new_model_received": false,
+  "q2_new_configs_received": false,
+  "q2_r0_review_received": false,
+  "scope": "Only existing saved Q1 window integrity; not independent Q2 model verification",
+  "config_sha256": "f29544f1bfa9d6922887e318590ba332234213443c9402eb7089255980a5ffa9",
+  "manifest_sha256": "cf9d16f7b8472bc7095d7038729d435f3819b0ddb325620c04c6d25b783aaf60",
+  "q1_integrity": [
+    {
+      "reference_id": "REF-6B03205-F",
+      "ids_match": true,
+      "actual_saved_window_hash_matches": true,
+      "config_matches": true,
+      "manifest_matches": true,
+      "code_matches": true,
+      "code_checks": {
+        "r0_preparation.py": true,
+        "prepare_r0_evidence.py": true,
+        "test_r0_preparation.py": true,
+        "detection_metrics_v3.py": true,
+        "test_detection_metrics_v3.py": true,
+        "finalize_r0_preparation.py": true
+      }
+    },
+    {
+      "reference_id": "REF-6B03206-F",
+      "ids_match": true,
+      "actual_saved_window_hash_matches": true,
+      "config_matches": true,
+      "manifest_matches": true,
+      "code_matches": true,
+      "code_checks": {
+        "r0_preparation.py": true,
+        "prepare_r0_evidence.py": true,
+        "test_r0_preparation.py": true,
+        "detection_metrics_v3.py": true,
+        "test_detection_metrics_v3.py": true,
+        "finalize_r0_preparation.py": true
+      }
+    },
+    {
+      "reference_id": "REF-6B03271-F",
+      "ids_match": true,
+      "actual_saved_window_hash_matches": true,
+      "config_matches": true,
+      "manifest_matches": true,
+      "code_matches": true,
+      "code_checks": {
+        "r0_preparation.py": true,
+        "prepare_r0_evidence.py": true,
+        "test_r0_preparation.py": true,
+        "detection_metrics_v3.py": true,
+        "test_detection_metrics_v3.py": true,
+        "finalize_r0_preparation.py": true
+      }
+    },
+    {
+      "reference_id": "REF-6C02058-F",
+      "ids_match": true,
+      "actual_saved_window_hash_matches": true,
+      "config_matches": true,
+      "manifest_matches": true,
+      "code_matches": true,
+      "code_checks": {
+        "r0_preparation.py": true,
+        "prepare_r0_evidence.py": true,
+        "test_r0_preparation.py": true,
+        "detection_metrics_v3.py": true,
+        "test_detection_metrics_v3.py": true,
+        "finalize_r0_preparation.py": true
+      }
+    },
+    {
+      "reference_id": "REF-6C02107-A",
+      "ids_match": true,
+      "actual_saved_window_hash_matches": true,
+      "config_matches": true,
+      "manifest_matches": true,
+      "code_matches": true,
+      "code_checks": {
+        "r0_preparation.py": true,
+        "prepare_r0_evidence.py": true,
+        "test_r0_preparation.py": true,
+        "detection_metrics_v3.py": true,
+        "test_detection_metrics_v3.py": true,
+        "finalize_r0_preparation.py": true
+      }
+    }
+  ],
+  "q1_status": "Pending",
+  "q1_execution_allowed": false,
+  "formal_experiment_executed": false,
+  "raw_workbooks_read": false,
+  "source_files": {
+    "config_pending.json": "fcc9d548471523fbfb1a6795bfe71e60b62f2802e6586acb285314d08c34684a",
+    "reference_manifest_pending.json": "d2c57235f95436d7da5d6469777b6b93a049fb6f4828871d126eab0146fdd2fe",
+    "input_bindings.json": "ddf3148ceb897f16c3ad5ebba00a101b37c64c18822923a579fcf226c7ef6255"
+  }
+}
